@@ -368,57 +368,57 @@ Sell | 总分 9
   </g>
   <g>
     <title>平台科技与互联网
-板块中心：6家公司
+板块中心： 6家
 平均优势强度 4.25 / 平均代价可控度 3.08 / 平均总分 18.00</title>
-    <line x1="1176.25" y1="475.83" x2="1269.86" y2="451.83" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <line x1="1176.25" y1="475.83" x2="1052.61" y2="451.83" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
     <circle cx="1176.25" cy="475.83" r="21.80" fill="#0f172a" stroke="#38bdf8" stroke-width="3.2"/>
     <circle cx="1176.25" cy="475.83" r="5.5" fill="#38bdf8" opacity="0.95"/>
-    <rect x="1218.25" y="433.83" width="103.22" height="36.00" rx="10" fill="#0b1220" stroke="#38bdf8" stroke-width="1.15" opacity="0.95"/>
-    <text x="1269.86" y="447.83" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">平台科技</text>
-    <text x="1269.86" y="460.83" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6家 / 18.0</text>
+    <rect x="970.97" y="433.83" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#38bdf8" stroke-width="1.15" opacity="0.95"/>
+    <text x="1052.61" y="447.83" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">平台科技</text>
+    <text x="1052.61" y="460.83" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6家公司 / 平均总分 18.0</text>
   </g>
   <g>
     <title>半导体与基础算力
-板块中心：11家公司
+板块中心： 11家
 平均优势强度 3.68 / 平均代价可控度 2.68 / 平均总分 15.55</title>
-    <line x1="991.59" y1="544.09" x2="893.69" y2="520.09" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <line x1="991.59" y1="544.09" x2="1119.52" y2="520.09" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
     <circle cx="991.59" cy="544.09" r="25.80" fill="#0f172a" stroke="#a78bfa" stroke-width="3.2"/>
     <circle cx="991.59" cy="544.09" r="5.5" fill="#a78bfa" opacity="0.95"/>
-    <rect x="837.79" y="502.09" width="111.80" height="36.00" rx="10" fill="#0b1220" stroke="#a78bfa" stroke-width="1.15" opacity="0.95"/>
-    <text x="893.69" y="516.09" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">半导体算力</text>
-    <text x="893.69" y="529.09" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">11家 / 15.5</text>
+    <rect x="1033.59" y="502.09" width="171.86" height="36.00" rx="10" fill="#0b1220" stroke="#a78bfa" stroke-width="1.15" opacity="0.95"/>
+    <text x="1119.52" y="516.09" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">半导体算力</text>
+    <text x="1119.52" y="529.09" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">11家公司 / 平均总分 15.5</text>
   </g>
   <g>
     <title>金融机构与资本市场
-板块中心：7家公司
+板块中心： 7家
 平均优势强度 3.71 / 平均代价可控度 3.21 / 平均总分 16.86</title>
-    <line x1="1002.14" y1="453.57" x2="1095.75" y2="429.57" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <line x1="1002.14" y1="453.57" x2="862.50" y2="453.57" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
     <circle cx="1002.14" cy="453.57" r="22.60" fill="#0f172a" stroke="#f59e0b" stroke-width="3.2"/>
     <circle cx="1002.14" cy="453.57" r="5.5" fill="#f59e0b" opacity="0.95"/>
-    <rect x="1044.14" y="411.57" width="103.22" height="36.00" rx="10" fill="#0b1220" stroke="#f59e0b" stroke-width="1.15" opacity="0.95"/>
-    <text x="1095.75" y="425.57" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融机构</text>
-    <text x="1095.75" y="438.57" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">7家 / 16.9</text>
+    <rect x="780.86" y="435.57" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#f59e0b" stroke-width="1.15" opacity="0.95"/>
+    <text x="862.50" y="449.57" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融机构</text>
+    <text x="862.50" y="462.57" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">7家公司 / 平均总分 16.9</text>
   </g>
   <g>
     <title>金融科技与消费信贷
-板块中心：6家公司
+板块中心： 6家
 平均优势强度 3.25 / 平均代价可控度 2.50 / 平均总分 14.67</title>
-    <line x1="851.25" y1="575.00" x2="944.86" y2="605.00" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <line x1="851.25" y1="575.00" x2="727.61" y2="551.00" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
     <circle cx="851.25" cy="575.00" r="21.80" fill="#0f172a" stroke="#f97316" stroke-width="3.2"/>
     <circle cx="851.25" cy="575.00" r="5.5" fill="#f97316" opacity="0.95"/>
-    <rect x="893.25" y="587.00" width="103.22" height="36.00" rx="10" fill="#0b1220" stroke="#f97316" stroke-width="1.15" opacity="0.95"/>
-    <text x="944.86" y="601.00" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融科技</text>
-    <text x="944.86" y="614.00" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6家 / 14.7</text>
+    <rect x="645.97" y="533.00" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#f97316" stroke-width="1.15" opacity="0.95"/>
+    <text x="727.61" y="547.00" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融科技</text>
+    <text x="727.61" y="560.00" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6家公司 / 平均总分 14.7</text>
   </g>
   <g>
     <title>医药与生物科技
-板块中心：5家公司
+板块中心： 5家
 平均优势强度 3.70 / 平均代价可控度 2.90 / 平均总分 15.80</title>
-    <line x1="1022.72" y1="502.00" x2="1116.33" y2="532.00" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <line x1="1022.72" y1="502.00" x2="899.08" y2="532.00" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
     <circle cx="1022.72" cy="502.00" r="21.00" fill="#0f172a" stroke="#22c55e" stroke-width="3.2"/>
     <circle cx="1022.72" cy="502.00" r="5.5" fill="#22c55e" opacity="0.95"/>
-    <rect x="1064.72" y="514.00" width="103.22" height="36.00" rx="10" fill="#0b1220" stroke="#22c55e" stroke-width="1.15" opacity="0.95"/>
-    <text x="1116.33" y="528.00" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">医药生技</text>
-    <text x="1116.33" y="541.00" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">5家 / 15.8</text>
+    <rect x="817.44" y="514.00" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#22c55e" stroke-width="1.15" opacity="0.95"/>
+    <text x="899.08" y="528.00" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">医药生技</text>
+    <text x="899.08" y="541.00" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">5家公司 / 平均总分 15.8</text>
   </g>
 </svg>
