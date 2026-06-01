@@ -73,7 +73,7 @@
     <title>SOFI — SoFi Technologies
 Buy | 总分 19
 优势强度 4 / 代价可控度 3.5
-在高风险 fintech 篮子里，平台广度、银行牌照与盈利路径的平衡最好。</title>
+平台广度、银行牌照与盈利路径仍是本组最优组合；但当前执行应按 credit-gated staged re-check，不是无条件追高。</title>
     <line x1="863.75" y1="353.75" x2="863.75" y2="325.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
     <circle cx="863.75" cy="353.75" r="12" fill="#34d399" stroke="#f97316" stroke-width="2.6"/>
     <rect x="833.63" y="311.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#f97316" stroke-width="1.2" opacity="0.97"/>
@@ -100,6 +100,16 @@ Hold | 总分 15
     <text x="863.75" y="630.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">HOOD</text>
   </g>
   <g>
+    <title>KLAR — Klarna Group
+Hold / Watch / no-chase | 总分 15
+优势强度 3.5 / 代价可控度 2.5
+Q1 增长与盈利转正改善旧 Sell 结论；但 credit loss 没改善，Q2 利润指引低于 Q1，财报后不追。</title>
+    <line x1="735.62" y1="504.25" x2="735.62" y2="476.25" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="735.62" cy="504.25" r="12" fill="#fbbf24" stroke="#f97316" stroke-width="2.6"/>
+    <rect x="705.50" y="462.25" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#f97316" stroke-width="1.2" opacity="0.97"/>
+    <text x="735.62" y="480.25" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">KLAR</text>
+  </g>
+  <g>
     <title>AFRM — Affirm Holdings
 Hold | 总分 14
 优势强度 3 / 代价可控度 2.5
@@ -118,15 +128,5 @@ Sell | 总分 13
     <circle cx="479.38" cy="504.25" r="12" fill="#fb7185" stroke="#f97316" stroke-width="2.6"/>
     <rect x="449.25" y="462.25" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#f97316" stroke-width="1.2" opacity="0.97"/>
     <text x="479.38" y="480.25" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">UPST</text>
-  </g>
-  <g>
-    <title>KLAR — Klarna Group
-Sell | 总分 11
-优势强度 3 / 代价可控度 1.5
-品牌心智不错，但盈利可见度与估值的匹配度仍偏弱。</title>
-    <line x1="607.50" y1="654.75" x2="607.50" y2="626.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
-    <circle cx="607.50" cy="654.75" r="12" fill="#fb7185" stroke="#f97316" stroke-width="2.6"/>
-    <rect x="577.38" y="612.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#f97316" stroke-width="1.2" opacity="0.97"/>
-    <text x="607.50" y="630.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">KLAR</text>
   </g>
 </svg>

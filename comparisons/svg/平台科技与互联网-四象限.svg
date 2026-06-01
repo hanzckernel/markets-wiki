@@ -80,34 +80,44 @@ Buy | 总分 21
     <text x="1120.00" y="329.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">MSFT</text>
   </g>
   <g>
+    <title>700 — Tencent Holdings
+Buy / accumulate | 总分 19
+优势强度 4.5 / 代价可控度 4
+仍在旧 add band 内；微信入口、游戏、广告、支付/云和回购质量最均衡，但无 Q1 fresh raw 前不抬区间。</title>
+    <line x1="991.88" y1="278.50" x2="991.88" y2="250.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="991.88" cy="278.50" r="12" fill="#34d399" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="967.03" y="236.50" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="991.88" y="254.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">700</text>
+  </g>
+  <g>
     <title>AMZN — Amazon
 Buy | 总分 19
 优势强度 4.5 / 代价可控度 4
 AWS + 广告 + 零售三飞轮仍在，按平台篮子看估值并不算最挤。</title>
-    <line x1="991.88" y1="278.50" x2="991.88" y2="250.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
-    <circle cx="991.88" cy="278.50" r="12" fill="#34d399" stroke="#38bdf8" stroke-width="2.6"/>
-    <rect x="961.75" y="236.50" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
-    <text x="991.88" y="254.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">AMZN</text>
+    <line x1="1001.88" y1="270.50" x2="1001.88" y2="300.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="1001.88" cy="270.50" r="12" fill="#34d399" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="971.75" y="286.50" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="1001.88" y="304.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">AMZN</text>
   </g>
   <g>
     <title>GOOG — Alphabet
 Buy | 总分 19
 优势强度 4.5 / 代价可控度 3.5
 搜索现金流给了足够缓冲，Cloud AI 继续改善增长结构，性价比较均衡。</title>
-    <line x1="991.88" y1="353.75" x2="991.88" y2="325.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <line x1="991.88" y1="353.75" x2="991.88" y2="383.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
     <circle cx="991.88" cy="353.75" r="12" fill="#34d399" stroke="#38bdf8" stroke-width="2.6"/>
-    <rect x="961.75" y="311.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
-    <text x="991.88" y="329.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">GOOG</text>
+    <rect x="961.75" y="369.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="991.88" y="387.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">GOOG</text>
   </g>
   <g>
     <title>META — Meta Platforms
-Buy | 总分 19
+Buy / core, weakness add | 总分 19
 优势强度 4.5 / 代价可控度 3.5
-广告机器与 AI 效率提升都在兑现，但高 CapEx 与监管让它略低于最稳的平台位。</title>
-    <line x1="1001.88" y1="345.75" x2="1001.88" y2="375.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+广告机器与 AI 效率继续兑现；但 2026 CapEx guide 上修后不再按 cheap-now 处理，只做 core / weakness add。</title>
+    <line x1="1001.88" y1="345.75" x2="943.75" y2="345.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
     <circle cx="1001.88" cy="345.75" r="12" fill="#34d399" stroke="#38bdf8" stroke-width="2.6"/>
-    <rect x="971.75" y="361.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
-    <text x="1001.88" y="379.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">META</text>
+    <rect x="913.63" y="331.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="943.75" y="349.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">META</text>
   </g>
   <g>
     <title>AAPL — Apple
@@ -118,6 +128,66 @@ Hold | 总分 18
     <circle cx="863.75" cy="429.00" r="12" fill="#fbbf24" stroke="#38bdf8" stroke-width="2.6"/>
     <rect x="833.63" y="387.00" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
     <text x="863.75" y="405.00" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">AAPL</text>
+  </g>
+  <g>
+    <title>ADBE — Adobe
+Hold / pullback-buy | 总分 18
+优势强度 4 / 代价可控度 4
+Creative / Acrobat / GenStudio-CX 的 AI workflow layer 与 FCF 很硬，但 AI ARR dollar proof 未闭合，5/29 已从 good-buy 走到 pullback-buy。</title>
+    <line x1="863.75" y1="278.50" x2="863.75" y2="250.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="863.75" cy="278.50" r="12" fill="#fbbf24" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="833.63" y="236.50" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="863.75" y="254.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">ADBE</text>
+  </g>
+  <g>
+    <title>PDD — PDD Holdings
+Buy / risk-tolerant accumulate | 总分 17
+优势强度 4 / 代价可控度 3.5
+已重新落回旧 add band；估值和现金最有吸引力，但 Temu、ADR/VIE 与监管风险尖。</title>
+    <line x1="863.75" y1="353.75" x2="863.75" y2="325.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="863.75" cy="353.75" r="12" fill="#34d399" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="838.91" y="311.75" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="863.75" y="329.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">PDD</text>
+  </g>
+  <g>
+    <title>9618 — JD.com
+Hold / wait pullback | 总分 16
+优势强度 3 / 代价可控度 4
+现价高于旧 add band；核心零售利润和净现金仍给支撑，但等 HKD108 以下或 FCF/新业务亏损修复。</title>
+    <line x1="607.50" y1="278.50" x2="607.50" y2="250.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="607.50" cy="278.50" r="12" fill="#fbbf24" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="577.38" y="236.50" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="607.50" y="254.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">9618</text>
+  </g>
+  <g>
+    <title>9988 — Alibaba
+Hold / wait pullback / proof | 总分 15
+优势强度 4 / 代价可控度 2.5
+AI/cloud 真实，但现价略高于旧 selective-buy band；quick commerce、技术投入与 FCF/EBITA 压力仍是 gate。</title>
+    <line x1="863.75" y1="504.25" x2="863.75" y2="476.25" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="863.75" cy="504.25" r="12" fill="#fbbf24" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="833.63" y="462.25" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="863.75" y="480.25" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">9988</text>
+  </g>
+  <g>
+    <title>1810 — Xiaomi
+Watch / wait | 总分 14
+优势强度 3.5 / 代价可控度 2
+EV 拐点和人车家生态真实，但现价仍高于旧 add shelf，需等更好安全边际。</title>
+    <line x1="735.62" y1="579.50" x2="735.62" y2="551.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="735.62" cy="579.50" r="12" fill="#fbbf24" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="705.50" y="537.50" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="735.62" y="555.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">1810</text>
+  </g>
+  <g>
+    <title>9888 — Baidu
+Watch / wait for lower or FCF proof | 总分 13
+优势强度 3 / 代价可控度 2.5
+AI Cloud / Apollo optionality 真实，但现价高于旧 add band；legacy ads 与 FCF 未修复前只观察。</title>
+    <line x1="607.50" y1="504.25" x2="607.50" y2="476.25" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="607.50" cy="504.25" r="12" fill="#fbbf24" stroke="#38bdf8" stroke-width="2.6"/>
+    <rect x="577.38" y="462.25" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.97"/>
+    <text x="607.50" y="480.25" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">9888</text>
   </g>
   <g>
     <title>TSLA — Tesla

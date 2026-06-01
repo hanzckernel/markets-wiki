@@ -129,10 +129,18 @@ Buy | 总分 19
   <g>
     <title>META — Meta Platforms
 平台科技与互联网
-Buy | 总分 19
+Buy / core, weakness add | 总分 19
 优势强度 4.5 / 代价可控度 3.5
-广告机器与 AI 效率提升都在兑现，但高 CapEx 与监管让它略低于最稳的平台位。</title>
+广告机器与 AI 效率继续兑现；但 2026 CapEx guide 上修后不再按 cheap-now 处理，只做 core / weakness add。</title>
     <circle cx="1263.50" cy="400.20" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>700 — Tencent Holdings
+平台科技与互联网
+Buy / accumulate | 总分 19
+优势强度 4.5 / 代价可控度 4
+仍在旧 add band 内；微信入口、游戏、广告、支付/云和回购质量最均衡，但无 Q1 fresh raw 前不抬区间。</title>
+    <circle cx="1263.50" cy="315.20" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>TSM — Taiwan Semiconductor Manufacturing
@@ -145,10 +153,10 @@ Buy | 总分 19
   <g>
     <title>AVGO — Broadcom
 半导体与基础算力
-Buy | 总分 19
+Hold / pullback-buy only | 总分 19
 优势强度 4.5 / 代价可控度 3
-定制 XPU + 网络双卡位让盈利兑现更直接，集中度高但仍值得排进第一梯队。</title>
-    <circle cx="1257.50" cy="490.00" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+custom TPU + AI networking duration 仍强；但当前在 `ADD 404` 与 `NO-CHASE 431` 之间，等 Q2 FY2026 print 或回撤。</title>
+    <circle cx="1257.50" cy="490.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>V — Visa
@@ -163,15 +171,15 @@ Buy | 总分 19
 金融科技与消费信贷
 Buy | 总分 19
 优势强度 4 / 代价可控度 3.5
-在高风险 fintech 篮子里，平台广度、银行牌照与盈利路径的平衡最好。</title>
+平台广度、银行牌照与盈利路径仍是本组最优组合；但当前执行应按 credit-gated staged re-check，不是无条件追高。</title>
     <circle cx="1101.00" cy="400.20" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>REGN — Regeneron
 医药与生物科技
-Buy | 总分 19
+Buy / staged defensive quality | 总分 19
 优势强度 4 / 代价可控度 3.5
-平台 biotech 质量高、估值不算离谱，风险回报比优于高预期大药。</title>
+平台 biotech 质量仍硬；fianlimab miss 削弱 pipeline optionality，但 Q1 cash-flow spine 没断。回撤到 USD 620-650 更像 staged defensive-quality re-check，不是满仓抄底。</title>
     <circle cx="1089.00" cy="409.80" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
@@ -183,12 +191,20 @@ Hold | 总分 18
     <circle cx="1095.00" cy="490.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
+    <title>ADBE — Adobe
+平台科技与互联网
+Hold / pullback-buy | 总分 18
+优势强度 4 / 代价可控度 4
+Creative / Acrobat / GenStudio-CX 的 AI workflow layer 与 FCF 很硬，但 AI ARR dollar proof 未闭合，5/29 已从 good-buy 走到 pullback-buy。</title>
+    <circle cx="1095.00" cy="320.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
     <title>MU — Micron Technology
 半导体与基础算力
 Hold | 总分 18
 优势强度 4 / 代价可控度 4
 HBM 顺风最明显，但内存的强周期属性决定它更像高质量周期仓而非长期最优解。</title>
-    <circle cx="1095.00" cy="320.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+    <circle cx="1101.00" cy="315.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>JPM — JPMorgan Chase
@@ -196,7 +212,7 @@ HBM 顺风最明显，但内存的强周期属性决定它更像高质量周期�
 Hold | 总分 18
 优势强度 4 / 代价可控度 4
 最稳的大行样本，但监管折价让它更像质量锚而不是最强弹性买点。</title>
-    <circle cx="1101.00" cy="315.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+    <circle cx="1089.00" cy="324.80" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>BAC — Bank of America
@@ -207,27 +223,59 @@ Hold | 总分 18
     <circle cx="932.50" cy="320.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
+    <title>PDD — PDD Holdings
+平台科技与互联网
+Buy / risk-tolerant accumulate | 总分 17
+优势强度 4 / 代价可控度 3.5
+已重新落回旧 add band；估值和现金最有吸引力，但 Temu、ADR/VIE 与监管风险尖。</title>
+    <circle cx="1101.00" cy="409.80" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
     <title>QCOM — Qualcomm
 半导体与基础算力
-Hold | 总分 17
-优势强度 3.5 / 代价可控度 3.5
-终端 AI 的赔率不差且估值不贵，但仍要接受它是条件式边缘算力而非中心主线。</title>
-    <circle cx="932.50" cy="405.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+Hold / no-chase | 总分 17
+优势强度 4 / 代价可控度 3
+Physical AI + Data Center inference 证据增强，但财务仍未证明；当前价格已在 no-chase 区。</title>
+    <circle cx="1101.00" cy="485.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>GSK — GSK
 医药与生物科技
 Hold | 总分 17
 优势强度 3.5 / 代价可控度 4
-价值重估与管线改善都在路上，但还需要继续兑现才能升级到 Buy。</title>
+Q1 Specialty Medicines / Oncology / HIV 支撑结构改善，全年指引重申；但疫苗波动与 Arexvy 回落说明它仍是低估值重估中的 Hold，不直接升档。</title>
     <circle cx="938.50" cy="315.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>JNJ — Johnson &amp; Johnson
+医药与生物科技
+Hold | 总分 17
+优势强度 4 / 代价可控度 3.5
+Innovative Medicine + MedTech 的底盘最稳，更像质量型 compounder，而不是激进重估票。</title>
+    <circle cx="1089.00" cy="400.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>NVO — Novo Nordisk
+医药与生物科技
+Hold | 总分 17
+优势强度 4 / 代价可控度 3.5
+obesity franchise 稀缺且估值不贵，但 2026 增速回落与竞争重定价限制它直接升档。</title>
+    <circle cx="1104.60" cy="405.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>9618 — JD.com
+平台科技与互联网
+Hold / wait pullback | 总分 16
+优势强度 3 / 代价可控度 4
+现价高于旧 add band；核心零售利润和净现金仍给支撑，但等 HKD108 以下或 FCF/新业务亏损修复。</title>
+    <circle cx="770.00" cy="320.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>AMD — Advanced Micro Devices
 半导体与基础算力
 Hold | 总分 16
 优势强度 4 / 代价可控度 2.5
-二号位故事成立，但软件生态与放量兑现还需要继续证明。</title>
+Data Center 已成增长主引擎，Q1 FY2026 明显强化 thesis；但生态、accelerator 可见度与估值仍不支持追高。</title>
     <circle cx="1095.00" cy="575.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
@@ -251,8 +299,16 @@ Hold | 总分 16
 医药与生物科技
 Hold | 总分 16
 优势强度 5 / 代价可控度 1.5
-成长性最强，但高预期与政策/供给敏感度让当前赔率没有看上去那么轻松。</title>
+成长性仍最强，但高预期与高估值让赔率并不轻松。</title>
     <circle cx="1420.00" cy="745.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>9988 — Alibaba
+平台科技与互联网
+Hold / wait pullback / proof | 总分 15
+优势强度 4 / 代价可控度 2.5
+AI/cloud 真实，但现价略高于旧 selective-buy band；quick commerce、技术投入与 FCF/EBITA 压力仍是 gate。</title>
+    <circle cx="1101.00" cy="570.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>TXN — Texas Instruments
@@ -279,12 +335,28 @@ Hold | 总分 15
     <circle cx="1095.00" cy="745.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
+    <title>KLAR — Klarna Group
+金融科技与消费信贷
+Hold / Watch / no-chase | 总分 15
+优势强度 3.5 / 代价可控度 2.5
+Q1 增长与盈利转正改善旧 Sell 结论；但 credit loss 没改善，Q2 利润指引低于 Q1，财报后不追。</title>
+    <circle cx="932.50" cy="575.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
     <title>MRK — Merck
 医药与生物科技
 Hold | 总分 15
 优势强度 3.5 / 代价可控度 2.5
-现金流仍硬，但专利悬崖之后的接棒速度让它只能维持中位排序。</title>
-    <circle cx="932.50" cy="575.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+现金流仍硬，但 Keytruda 之后的接棒速度继续压住上修空间。</title>
+    <circle cx="938.50" cy="570.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>UNH — UnitedHealth Group
+医药与生物科技
+Hold | 总分 15
+优势强度 4 / 代价可控度 2.5
+Q1 指引上修、MCR 改善，payer + Optum 双平台底盘仍强；但 elevated utilization、Optum 利润压力与监管框架仍让它维持 Hold。</title>
+    <circle cx="1089.00" cy="579.80" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>MRVL — Marvell Technology
@@ -303,11 +375,27 @@ BNPL 位置仍在，但资金成本与信用表现决定它很难进第一梯队
     <circle cx="770.00" cy="575.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
+    <title>PFE — Pfizer
+医药与生物科技
+Hold | 总分 14
+优势强度 3 / 代价可控度 3
+估值不高，修复逻辑存在；但真正的非 COVID 重建仍待证明。</title>
+    <circle cx="770.00" cy="490.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>1810 — Xiaomi
+平台科技与互联网
+Watch / wait | 总分 14
+优势强度 3.5 / 代价可控度 2
+EV 拐点和人车家生态真实，但现价仍高于旧 add shelf，需等更好安全边际。</title>
+    <circle cx="938.50" cy="655.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
     <title>ARM — Arm Holdings
 半导体与基础算力
 Sell | 总分 13
 优势强度 4 / 代价可控度 1.5
-稀缺性强，但当前估值把太多好消息提前计入，安全边际偏薄。</title>
+IP 底座地位没破，但 AMD 强 EPYC print 说明 AI 服务器 CPU 增量仍能明显流向 x86，当前高估值缓冲不够。</title>
     <circle cx="1101.00" cy="740.20" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
@@ -317,6 +405,30 @@ Sell | 总分 13
 优势强度 2.5 / 代价可控度 2.5
 短期情绪最热，但资金供给与信用风险仍然压过技术故事。</title>
     <circle cx="607.50" cy="575.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>HIMS — Hims &amp; Hers Health
+医药与生物科技
+Sell | 总分 13
+优势强度 3.5 / 代价可控度 2
+数字医疗平台化增长真，但监管、CAC 与产品 mix 风险让它更像高 beta 观察位。</title>
+    <circle cx="926.50" cy="664.80" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>9888 — Baidu
+平台科技与互联网
+Watch / wait for lower or FCF proof | 总分 13
+优势强度 3 / 代价可控度 2.5
+AI Cloud / Apollo optionality 真实，但现价高于旧 add band；legacy ads 与 FCF 未修复前只观察。</title>
+    <circle cx="776.00" cy="570.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>SNDK — Sandisk
+半导体与基础算力
+Hold / no-chase | 总分 13
+优势强度 3.5 / 代价可控度 2
+AI datacenter flash / NBM 证据已成立，但 vertical rerating 与 NAND 周期/合同质量风险使当前只适合回撤复核。</title>
+    <circle cx="938.50" cy="664.80" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
     <title>TSLA — Tesla
@@ -335,11 +447,19 @@ Sell | 总分 12
     <circle cx="613.50" cy="570.20" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
+    <title>TEM — Tempus AI
+医药与生物科技
+Sell | 总分 12
+优势强度 4 / 代价可控度 1
+AI + diagnostics 方向有意思，但盈利与商业化护城河都还在早期验证。</title>
+    <circle cx="1095.00" cy="830.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
     <title>CVS — CVS Health
 医药与生物科技
 Sell | 总分 12
 优势强度 2.5 / 代价可控度 3
-看起来不贵，但政策、赔付率与 PBM 风险把它压成这组最弱的 risk-adjusted setup。</title>
+低估值看起来便宜，但 MA / PBM / 赔付率压力仍把它压成这组最弱的成熟资产 setup。</title>
     <circle cx="607.50" cy="490.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
@@ -351,74 +471,58 @@ Sell | 总分 11
     <circle cx="607.50" cy="830.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
   </g>
   <g>
-    <title>KLAR — Klarna Group
-金融科技与消费信贷
-Sell | 总分 11
-优势强度 3 / 代价可控度 1.5
-品牌心智不错，但盈利可见度与估值的匹配度仍偏弱。</title>
-    <circle cx="770.00" cy="745.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
-  </g>
-  <g>
-    <title>SNDK — Sandisk
-半导体与基础算力
-Sell | 总分 9
-优势强度 2 / 代价可控度 2
-更像 NAND 周期票而非 AI 主线，独立样本期也还太短。</title>
-    <circle cx="445.00" cy="660.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
-  </g>
-  <g>
     <title>平台科技与互联网
-板块中心： 6家
-平均优势强度 4.25 / 平均代价可控度 3.08 / 平均总分 18.00</title>
-    <line x1="1176.25" y1="475.83" x2="1052.61" y2="451.83" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
-    <circle cx="1176.25" cy="475.83" r="21.80" fill="#0f172a" stroke="#38bdf8" stroke-width="3.2"/>
-    <circle cx="1176.25" cy="475.83" r="5.5" fill="#38bdf8" opacity="0.95"/>
-    <rect x="970.97" y="433.83" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#38bdf8" stroke-width="1.15" opacity="0.95"/>
-    <text x="1052.61" y="447.83" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">平台科技</text>
-    <text x="1052.61" y="460.83" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6家公司 / 平均总分 18.0</text>
+板块中心： 13家
+平均优势强度 3.96 / 平均代价可控度 3.15 / 平均总分 16.92</title>
+    <line x1="1082.50" y1="463.85" x2="1210.43" y2="439.85" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="1082.50" cy="463.85" r="27.40" fill="#0f172a" stroke="#38bdf8" stroke-width="3.2"/>
+    <circle cx="1082.50" cy="463.85" r="5.5" fill="#38bdf8" opacity="0.95"/>
+    <rect x="1124.50" y="421.85" width="171.86" height="36.00" rx="10" fill="#0b1220" stroke="#38bdf8" stroke-width="1.15" opacity="0.95"/>
+    <text x="1210.43" y="435.85" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">平台科技</text>
+    <text x="1210.43" y="448.85" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">13家公司 / 平均总分 16.9</text>
   </g>
   <g>
     <title>半导体与基础算力
 板块中心： 11家
-平均优势强度 3.68 / 平均代价可控度 2.68 / 平均总分 15.55</title>
-    <line x1="991.59" y1="544.09" x2="1119.52" y2="520.09" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
-    <circle cx="991.59" cy="544.09" r="25.80" fill="#0f172a" stroke="#a78bfa" stroke-width="3.2"/>
-    <circle cx="991.59" cy="544.09" r="5.5" fill="#a78bfa" opacity="0.95"/>
-    <rect x="1033.59" y="502.09" width="171.86" height="36.00" rx="10" fill="#0b1220" stroke="#a78bfa" stroke-width="1.15" opacity="0.95"/>
-    <text x="1119.52" y="516.09" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">半导体算力</text>
-    <text x="1119.52" y="529.09" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">11家公司 / 平均总分 15.5</text>
+平均优势强度 3.86 / 平均代价可控度 2.64 / 平均总分 15.91</title>
+    <line x1="1050.68" y1="551.82" x2="1178.61" y2="527.82" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="1050.68" cy="551.82" r="25.80" fill="#0f172a" stroke="#a78bfa" stroke-width="3.2"/>
+    <circle cx="1050.68" cy="551.82" r="5.5" fill="#a78bfa" opacity="0.95"/>
+    <rect x="1092.68" y="509.82" width="171.86" height="36.00" rx="10" fill="#0b1220" stroke="#a78bfa" stroke-width="1.15" opacity="0.95"/>
+    <text x="1178.61" y="523.82" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">半导体算力</text>
+    <text x="1178.61" y="536.82" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">11家公司 / 平均总分 15.9</text>
   </g>
   <g>
     <title>金融机构与资本市场
 板块中心： 7家
 平均优势强度 3.71 / 平均代价可控度 3.21 / 平均总分 16.86</title>
-    <line x1="1002.14" y1="453.57" x2="862.50" y2="453.57" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <line x1="1002.14" y1="453.57" x2="878.50" y2="429.57" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
     <circle cx="1002.14" cy="453.57" r="22.60" fill="#0f172a" stroke="#f59e0b" stroke-width="3.2"/>
     <circle cx="1002.14" cy="453.57" r="5.5" fill="#f59e0b" opacity="0.95"/>
-    <rect x="780.86" y="435.57" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#f59e0b" stroke-width="1.15" opacity="0.95"/>
-    <text x="862.50" y="449.57" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融机构</text>
-    <text x="862.50" y="462.57" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">7家公司 / 平均总分 16.9</text>
+    <rect x="796.86" y="411.57" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#f59e0b" stroke-width="1.15" opacity="0.95"/>
+    <text x="878.50" y="425.57" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融机构</text>
+    <text x="878.50" y="438.57" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">7家公司 / 平均总分 16.9</text>
   </g>
   <g>
     <title>金融科技与消费信贷
 板块中心： 6家
-平均优势强度 3.25 / 平均代价可控度 2.50 / 平均总分 14.67</title>
-    <line x1="851.25" y1="575.00" x2="727.61" y2="551.00" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
-    <circle cx="851.25" cy="575.00" r="21.80" fill="#0f172a" stroke="#f97316" stroke-width="3.2"/>
-    <circle cx="851.25" cy="575.00" r="5.5" fill="#f97316" opacity="0.95"/>
-    <rect x="645.97" y="533.00" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#f97316" stroke-width="1.15" opacity="0.95"/>
-    <text x="727.61" y="547.00" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融科技</text>
-    <text x="727.61" y="560.00" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6家公司 / 平均总分 14.7</text>
+平均优势强度 3.33 / 平均代价可控度 2.67 / 平均总分 15.33</title>
+    <line x1="878.33" y1="546.67" x2="754.69" y2="522.67" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="878.33" cy="546.67" r="21.80" fill="#0f172a" stroke="#f97316" stroke-width="3.2"/>
+    <circle cx="878.33" cy="546.67" r="5.5" fill="#f97316" opacity="0.95"/>
+    <rect x="673.05" y="504.67" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#f97316" stroke-width="1.15" opacity="0.95"/>
+    <text x="754.69" y="518.67" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">金融科技</text>
+    <text x="754.69" y="531.67" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6家公司 / 平均总分 15.3</text>
   </g>
   <g>
     <title>医药与生物科技
-板块中心： 5家
-平均优势强度 3.70 / 平均代价可控度 2.90 / 平均总分 15.80</title>
-    <line x1="1022.72" y1="502.00" x2="899.08" y2="532.00" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
-    <circle cx="1022.72" cy="502.00" r="21.00" fill="#0f172a" stroke="#22c55e" stroke-width="3.2"/>
-    <circle cx="1022.72" cy="502.00" r="5.5" fill="#22c55e" opacity="0.95"/>
-    <rect x="817.44" y="514.00" width="163.28" height="36.00" rx="10" fill="#0b1220" stroke="#22c55e" stroke-width="1.15" opacity="0.95"/>
-    <text x="899.08" y="528.00" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">医药生技</text>
-    <text x="899.08" y="541.00" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">5家公司 / 平均总分 15.8</text>
+板块中心： 11家
+平均优势强度 3.73 / 平均代价可控度 2.73 / 平均总分 15.18</title>
+    <line x1="990.94" y1="530.99" x2="863.01" y2="560.99" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="990.94" cy="530.99" r="25.80" fill="#0f172a" stroke="#22c55e" stroke-width="3.2"/>
+    <circle cx="990.94" cy="530.99" r="5.5" fill="#22c55e" opacity="0.95"/>
+    <rect x="777.08" y="542.99" width="171.86" height="36.00" rx="10" fill="#0b1220" stroke="#22c55e" stroke-width="1.15" opacity="0.95"/>
+    <text x="863.01" y="556.99" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">医药生技</text>
+    <text x="863.01" y="569.99" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">11家公司 / 平均总分 15.2</text>
   </g>
 </svg>

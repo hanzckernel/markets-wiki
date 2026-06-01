@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr"><head><title>近期研究主线与多维图表</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans SC:wght@400;700&amp;family=Noto Sans SC:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Han Market Wiki"/><meta property="og:title" content="近期研究主线与多维图表"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="近期研究主线与多维图表"/><meta name="twitter:description" content="近期研究主线与多维图表 Language / 语言: 中文 | English 更新时间：2026-05-30 CEST（图表输入已吸收 2026-05-22 QCOM refresh、2026-05-29 DELL / AEIS / CLS / AT&amp;S overlay、以及 Phase 9 platform current-live price/action refresh） 关联导航：股票研究首页 · 数据中心上下游首页 · 跨行业股票观察首页 · 互连、光器件与电源器件 · 半导体与基础算力 · 制造、封装与系统集成 · 机房基础设施与配电散热 · 平台科技与互联网 · 方法与..."/><meta property="og:description" content="近期研究主线与多维图表 Language / 语言: 中文 | English 更新时间：2026-05-30 CEST（图表输入已吸收 2026-05-22 QCOM refresh、2026-05-29 DELL / AEIS / CLS / AT&amp;S overlay、以及 Phase 9 platform current-live price/action refresh） 关联导航：股票研究首页 · 数据中心上下游首页 · 跨行业股票观察首页 · 互连、光器件与电源器件 · 半导体与基础算力 · 制造、封装与系统集成 · 机房基础设施与配电散热 · 平台科技与互联网 · 方法与..."/><meta property="og:image:alt" content="近期研究主线与多维图表 Language / 语言: 中文 | English 更新时间：2026-05-30 CEST（图表输入已吸收 2026-05-22 QCOM refresh、2026-05-29 DELL / AEIS / CLS / AT&amp;S overlay、以及 Phase 9 platform current-live price/action refresh） 关联导航：股票研究首页 · 数据中心上下游首页 · 跨行业股票观察首页 · 互连、光器件与电源器件 · 半导体与基础算力 · 制造、封装与系统集成 · 机房基础设施与配电散热 · 平台科技与互联网 · 方法与..."/><meta property="og:image" content="https://hanzckernel.github.io/markets-wiki/static/og-image.png"/><meta property="og:image:url" content="https://hanzckernel.github.io/markets-wiki/static/og-image.png"/><meta name="twitter:image" content="https://hanzckernel.github.io/markets-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="hanzckernel.github.io/markets-wiki"/><meta property="og:url" content="https://hanzckernel.github.io/markets-wiki/comparisons/近期研究主线与多维图表"/><meta property="twitter:url" content="https://hanzckernel.github.io/markets-wiki/comparisons/近期研究主线与多维图表"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="近期研究主线与多维图表 Language / 语言: 中文 | English 更新时间：2026-05-30 CEST（图表输入已吸收 2026-05-22 QCOM refresh、2026-05-29 DELL / AEIS / CLS / AT&amp;S overlay、以及 Phase 9 platform current-live price/action refresh） 关联导航：股票研究首页 · 数据中心上下游首页 · 跨行业股票观察首页 · 互连、光器件与电源器件 · 半导体与基础算力 · 制造、封装与系统集成 · 机房基础设施与配电散热 · 平台科技与互联网 · 方法与..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://hanzckernel.github.io/markets-wiki/index.xml"/></head><body data-slug="comparisons/近期研究主线与多维图表"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Han Market Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-16"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-16" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../comparisons/">comparisons</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>近期研究主线与多维图表</a></div></nav><h1 class="article-title">近期研究主线与多维图表</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-14T00:00:00.000Z">2026年5月14日</time><span>11分钟阅读</span></p><ul class="tags"><li><a href="../tags/comparison" class="internal tag-link">comparison</a></li><li><a href="../tags/scorecard" class="internal tag-link">scorecard</a></li><li><a href="../tags/interconnect" class="internal tag-link">interconnect</a></li><li><a href="../tags/optics" class="internal tag-link">optics</a></li><li><a href="../tags/storage" class="internal tag-link">storage</a></li><li><a href="../tags/semiconductor" class="internal tag-link">semiconductor</a></li><li><a href="../tags/packaging" class="internal tag-link">packaging</a></li><li><a href="../tags/manufacturing" class="internal tag-link">manufacturing</a></li><li><a href="../tags/infrastructure" class="internal tag-link">infrastructure</a></li><li><a href="../tags/power-generation" class="internal tag-link">power-generation</a></li><li><a href="../tags/onsite-power" class="internal tag-link">onsite-power</a></li><li><a href="../tags/platform-tech" class="internal tag-link">platform-tech</a></li><li><a href="../tags/valuation" class="internal tag-link">valuation</a></li><li><a href="../tags/migration" class="internal tag-link">migration</a></li><li><a href="../tags/watchlist" class="internal tag-link">watchlist</a></li></ul></div></div><article class="popover-hint"><h1 id="近期研究主线与多维图表">近期研究主线与多维图表<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#近期研究主线与多维图表" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote>
+<p>Language / 语言: 中文 | <a href="../en/comparisons/Recent-Research-Threads-and-Multi-Dimensional-Charts" class="internal alias" data-slug="en/comparisons/Recent-Research-Threads-and-Multi-Dimensional-Charts">English</a></p>
+</blockquote>
+<p>更新时间：2026-05-30 CEST（图表输入已吸收 2026-05-22 QCOM refresh、2026-05-29 DELL / AEIS / CLS / AT&amp;S overlay、以及 Phase 9 platform current-live price/action refresh）
+关联导航：<a href="../concepts/股票研究首页" class="internal alias" data-slug="concepts/股票研究首页">股票研究首页</a> · <a href="../concepts/数据中心上下游首页" class="internal alias" data-slug="concepts/数据中心上下游首页">数据中心上下游首页</a> · <a href="../concepts/跨行业股票观察首页" class="internal alias" data-slug="concepts/跨行业股票观察首页">跨行业股票观察首页</a> · <a href="../concepts/互连、光器件与电源器件" class="internal alias" data-slug="concepts/互连、光器件与电源器件">互连、光器件与电源器件</a> · <a href="../concepts/半导体与基础算力" class="internal alias" data-slug="concepts/半导体与基础算力">半导体与基础算力</a> · <a href="../concepts/制造、封装与系统集成" class="internal alias" data-slug="concepts/制造、封装与系统集成">制造、封装与系统集成</a> · <a href="../concepts/机房基础设施与配电散热" class="internal alias" data-slug="concepts/机房基础设施与配电散热">机房基础设施与配电散热</a> · <a href="../concepts/平台科技与互联网" class="internal alias" data-slug="concepts/平台科技与互联网">平台科技与互联网</a> · <a href="../concepts/方法与来源" class="internal alias" data-slug="concepts/方法与来源">方法与来源</a></p>
+<blockquote>
+<p>状态：Phase 4 图表输入已刷新；Phase 9 又同步了平台 lane 的 5/29 price/action layer。下方 SVG 与 <code>generate_recent_research_mainline_svgs.py</code> 机械一致，并已把 QCOM 从旧 watch 语义改为 hold / no-chase，把 DELL / AEIS / CLS 加入代表 ticker 矩阵，把 AT&amp;S 的 post-result / wait-for-06-11 packet 语义写入输入层；平台 lane 里 SHOP/IBM/JD 已从旧 starter/buy 语义降为 reset/wait，Tencent/PDD 保持分批。图表仍是 browse-layer 总览；current action 以 当前主攻桶高信号深挖优先级（内部维护页，未公开）、SHOP与IBM 当前live深挖结论（内部维护页，未公开）、<a href="../queries/中国科技巨头六家公司深挖结论" class="internal alias" data-slug="queries/中国科技巨头六家公司深挖结论">中国科技巨头六家公司深挖结论</a>、<a href="../queries/ANET与Nokia-当前live执行区间" class="internal alias" data-slug="queries/ANET与Nokia-当前live执行区间">ANET与Nokia 当前live执行区间</a> 和相关实体页为准。</p>
+</blockquote>
+<h2 id="这页回答什么">这页回答什么<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#这页回答什么" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>最近新增研究覆盖面很宽，若把全部 ticker 放进一张散点图会变成低可读性的“点云”。本页把近期研究压成几条主线，并用不同图表分别回答不同问题：</p>
+<ul>
+<li>哪些链条近端动能最强，哪些更像硬瓶颈，哪些还有 hidden alpha。</li>
+<li>哪些 ticker 已经有硬证据但不可追，哪些只是 proof-first watchlist。</li>
+<li>光互连 / DCI hidden treasure 里，每家公司证据停在哪一层。</li>
+<li>这轮研究从需求锚、网络、算力、存储、封装制造、电力到平台现金流，分别解决什么问题。</li>
+</ul>
+<p>边界：本页是 browse-layer 总览，不新增 TradingView mutation，不新增 broker/account 动作，不把已有 <code>hold / watch / no-chase / pullback-only / staged add</code> 纪律升级成 fresh buy。</p>
+<h2 id="主线压缩">主线压缩<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#主线压缩" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>主线</th><th>代表页面</th><th>核心判断</th><th>当前动作纪律</th></tr></thead><tbody><tr><td>光互连 / DCI / signal-chain</td><td>AI光互连与DCI hidden treasure第二轮深挖结论（内部维护页，未公开） · <a href="../concepts/互连、光器件与电源器件" class="internal alias" data-slug="concepts/互连、光器件与电源器件">互连、光器件与电源器件</a></td><td>AI 网络复杂度扩散到 DCI、coherent、DSP、copper/optical signal chain、复杂制造与电源连接；但热门 optics 已被发现。</td><td>ADTN / SMTC / MXL / SANM / BELFB 只做 proof-first；CIEN/FN/LITE/COHR 更偏 comparator 或 pullback-only。</td></tr><tr><td>AI networking / custom ASIC</td><td><a href="../queries/CSCO-Q3-FY2026-AI网络read-through与执行区间影响" class="internal alias" data-slug="queries/CSCO-Q3-FY2026-AI网络read-through与执行区间影响">CSCO Q3 FY2026 AI网络read-through与执行区间影响</a> · AI定制ASIC相对估值与行动结论（内部维护页，未公开）</td><td>CSCO print 是强 demand-anchor / TAM-upside proxy，但不是 peer share proof；AVGO 质量最清楚，MRVL/CRDO/ALAB 多已 rerate。</td><td>不机械上调 peer zones；AVGO 回撤买优先于高 beta 追涨，CRDO/MRVL 等 no-chase / reset-only。</td></tr><tr><td>存储 vs substrate / ABF / FC-BGA</td><td><a href="./光通信、存储与substrate瓶颈对比" class="internal alias" data-slug="comparisons/光通信、存储与substrate瓶颈对比">光通信、存储与substrate瓶颈对比</a> · 当前主攻桶高信号深挖优先级（内部维护页，未公开）</td><td>存储近端报表动能最强；substrate/ABF 更像 package-level hard bottleneck；二者不能混成同一买点。</td><td>SNDK/WDC/LITE/FN 多为 no-chase / pullback-only；AT&amp;S / Nan Ya / Unimicron 等等客户、ramp、margin proof。</td></tr><tr><td>电力 / time-to-power / 机房基础设施</td><td>VST、CEG与TLN 当前live研究结论（内部维护页，未公开） · <a href="../queries/HUBB、ETN、NVT与PWR-电气基础设施对照" class="internal alias" data-slug="queries/HUBB、ETN、NVT与PWR-电气基础设施对照">HUBB、ETN、NVT与PWR 电气基础设施对照</a></td><td>AI data center 约束从 GPU 扩到发电、接网、配电、rack/cooling 和 EPC 交付；但大多已被市场发现。</td><td>VST 旧买区失效后先 reset；CEG/HUBB/ETN/PWR/TLN 多为 premium/pullback-only，不因 thesis 真就追。</td></tr><tr><td>平台科技 / 企业与商业基础设施</td><td>SHOP与IBM 当前live深挖结论（内部维护页，未公开） · <a href="../queries/中国科技巨头六家公司深挖结论" class="internal alias" data-slug="queries/中国科技巨头六家公司深挖结论">中国科技巨头六家公司深挖结论</a> · <a href="../concepts/平台科技与互联网" class="internal alias" data-slug="concepts/平台科技与互联网">平台科技与互联网</a></td><td>平台控制力必须落到 FCF、margin、资本回报和 AI/cloud proof；SHOP/IBM 是企业/商业基础设施补充。</td><td>Tencent/PDD 更主动；SHOP/IBM 当前都不是 fresh buy、只等 reset；JD/BABA/Baidu/Xiaomi 等价格或 FCF gate。</td></tr></tbody></table></div>
+<p>2026-05-30 overlay：本页 SVG 输入已同步 QCOM <code>Hold / no-chase</code>、DELL <code>post-print validated / hold / no-chase</code>、AEIS <code>hold / re-underwrite watch</code>、CLS <code>staged add while in zone</code>、AT&amp;S <code>wait-for-06-11 annual-report packet / wait-for-weakness</code>。这些是动作纪律和可买性校正，不是 fresh-buy 升级。</p>
+<h2 id="图-1动能--硬瓶颈--hidden-alpha">图 1：动能 / 硬瓶颈 / hidden alpha<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#图-1动能--硬瓶颈--hidden-alpha" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./svg/近期研究主线-动能硬瓶颈气泡图.svg" alt/></p>
+<p>读法：</p>
+<ul>
+<li><code>存储</code> 在近端动能上最强，但 hidden alpha 和可买性已经被 vertical rerating 压低。</li>
+<li><code>substrate / ABF / FC-BGA</code> 近端财报兑现慢，但硬瓶颈强度和认知差空间更高。</li>
+<li><code>电力 / time-to-power</code> 逻辑很硬，问题在大多数名字已经从 hidden 变成 premium / reset discipline。</li>
+</ul>
+<h2 id="图-2代表-ticker-的证据硬度-vs-当前可买性">图 2：代表 ticker 的证据硬度 vs 当前可买性<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#图-2代表-ticker-的证据硬度-vs-当前可买性" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./svg/近期研究主线-证据可买性矩阵.svg" alt/></p>
+<p>读法：</p>
+<ul>
+<li>右下角是“证据强但现在不能追”的拥挤区，例如 DELL、SNDK、LITE、CRDO、CIEN；DELL 已验证到 AI server revenue / FY27 guide，但 post-print 不追。</li>
+<li>右中是“主线真但需要回撤或重置”的区域，例如 AVGO、FN、WDC、VST、CEG、HUBB；AT&amp;S 证据更硬但仍等 6/11 annual-report packet / weakness。</li>
+<li>中部是 proof-first 或 re-underwrite 研究区，例如 ADTN、SANM、BELFB、AEIS、AT&amp;S、Nan Ya、Unimicron、NVT；AEIS 的 DCC monetization 已真，但跌破后只做 hold / re-underwrite watch。</li>
+<li>CLS 是制造/系统交付层的例外：证据已到 wrong-frame AI delivery，但只在 <code>340-380</code> 区间内 staged add / recheck，不是无条件 buy。</li>
+<li>QCOM 已从旧 <code>watch</code> 改为 <code>hold / no-chase</code>：Physical AI / data-center optionality 更真，但财务 attribution 仍未闭合。</li>
+<li>平台科技的 Tencent / PDD / JD 之所以更靠上，不是 AI 纯度更高，而是价格/估值/现金流纪律更可执行。</li>
+</ul>
+<h2 id="图-3动作纪律热力图">图 3：动作纪律热力图<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#图-3动作纪律热力图" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./svg/近期研究主线-动作纪律热力图.svg" alt/></p>
+<p>这个热力图把“主线强度”和“现在能不能买”拆开：</p>
+<ul>
+<li><code>近端动能</code>、<code>硬瓶颈</code>、<code>证据硬度</code> 高，只说明研究主线真实。</li>
+<li><code>可买性</code> 低时，动作应是 watch / pullback-only / no-chase，而不是因为图上绿色多就加仓。</li>
+<li><code>追高风险</code> 列反向着色：风险高的主线即使 thesis 真，也要靠区间纪律处理。</li>
+</ul>
+<h2 id="图-4ai-optical--dci-hidden-treasure-证据阶梯">图 4：AI optical / DCI hidden treasure 证据阶梯<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#图-4ai-optical--dci-hidden-treasure-证据阶梯" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./svg/近期研究主线-光互连证据阶梯.svg" alt/></p>
+<p>这张图专门防止把不同等级的证据混写：</p>
+<ul>
+<li>SMTC / MXL 的 signal-chain 证据更直接，但客户归因、量化 AI/DCI revenue 和法律/披露风险仍未闭合。</li>
+<li>SANM / BELFB 的 data-center / AI-cloud manufacturing 或 power/connectivity 证据更真了，但 attribution 仍弱。</li>
+<li>CIEN 证据最硬，所以只作为 optical/DCI comparator，不应被写成 hidden treasure。</li>
+</ul>
+<h2 id="图-5链条分层图">图 5：链条分层图<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#图-5链条分层图" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./svg/近期研究主线-链条分层图.svg" alt/></p>
+<p>这张图对应近期研究的“从需求到兑现”的路径：</p>
+<ol>
+<li>需求锚：CSCO / ORCL / AMD / hyperscaler prints 证明 AI capex 与 networking demand 真实，但不能直接证明每个 peer 的份额。</li>
+<li>网络与互连：光通信、DCI、coherent、DSP、AEC、制造良率是 scale-out / scale-across 的压力释放点。</li>
+<li>算力 / 定制硅：AVGO、MRVL、QCOM、TSM、NVDA、AMD 要分清平台质量、直接性和估值舒适度。</li>
+<li>存储与数据：SNDK / WDC 证明 AI data persistence 进入报表，但这不是 HBM/substrate 式硬短缺。</li>
+<li>封装 / 制造 / 系统交付：HBM stack、CoWoS/SoIC、substrate/ABF、TCB/hybrid bonding、inspection/probe/test 与 EMS/rack-scale delivery 是一条链；AT&amp;S 属于 proof-closure substrate，CLS/DELL 属于系统交付兑现层，不应写成一级 physics bottleneck。</li>
+<li>电力 / time-to-power：VST、CEG、TLN、HUBB、ETN、AEIS、NVT、PWR 等解决不同层的投产瓶颈；site power、rack power、cooling、EPC 不应混成一个电力篮子。</li>
+<li>平台与现金流：SHOP、IBM、中国平台股要用 FCF、margin、AI/cloud proof 和价格区间来约束。</li>
+</ol>
+<h2 id="操作结论">操作结论<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#操作结论" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>最强动能：SNDK / WDC / LITE / FN；但多数是 <code>no-chase / pullback-only</code>。</li>
+<li>最硬瓶颈：advanced packaging / HBM stack（含 substrate / ABF / FC-BGA）与 optical / scale-across；AT&amp;S 的 proof 更强，但 current action 仍是 <code>wait-for-weakness / wait-for-06-11 packet</code>。</li>
+<li>最清楚的 post-print 验证：DELL 已把 AI server / rack-scale system delivery 推到 revenue / guide，但动作是 <code>hold / no-chase / wait-for-digestion</code>。</li>
+<li>当前最可执行的系统交付名字：CLS，但只在 <code>340-380</code> 纪律内 staged add / recheck，超区间不追。</li>
+<li>最容易误判：把 CSCO/DELL 的 demand 或 delivery proof 当成 peer supplier share proof；把 storage 动能当成 HBM 级短缺；把 site power、rack power 与所有电力股混成一个可买篮子；把 QCOM optionality 写成 clean ASIC proxy。</li>
+<li>当前最好的研究动作：继续跟踪证据缺口，而不是扩大名单数量。优先看 customer / order / revenue / margin / FCF gate 是否让 ticker 从 watch / hold 进入可执行区。</li>
+</ul>
+<h2 id="相关页面">相关页面<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#相关页面" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>AI光互连与DCI hidden treasure第二轮深挖结论（内部维护页，未公开）</li>
+<li><a href="../queries/CSCO-Q3-FY2026-AI网络read-through与执行区间影响" class="internal alias" data-slug="queries/CSCO-Q3-FY2026-AI网络read-through与执行区间影响">CSCO Q3 FY2026 AI网络read-through与执行区间影响</a></li>
+<li>AI定制ASIC相对估值与行动结论（内部维护页，未公开）</li>
+<li><a href="./光通信、存储与substrate瓶颈对比" class="internal alias" data-slug="comparisons/光通信、存储与substrate瓶颈对比">光通信、存储与substrate瓶颈对比</a></li>
+<li>VST、CEG与TLN 当前live研究结论（内部维护页，未公开）</li>
+<li><a href="../queries/HUBB、ETN、NVT与PWR-电气基础设施对照" class="internal alias" data-slug="queries/HUBB、ETN、NVT与PWR-电气基础设施对照">HUBB、ETN、NVT与PWR 电气基础设施对照</a></li>
+<li>SHOP与IBM 当前live深挖结论（内部维护页，未公开）</li>
+<li><a href="../queries/中国科技巨头六家公司深挖结论" class="internal alias" data-slug="queries/中国科技巨头六家公司深挖结论">中国科技巨头六家公司深挖结论</a></li>
+<li>科技主线研究ticker统一台账（内部维护页，未公开）</li>
+<li>当前主攻桶高信号深挖优先级（内部维护页，未公开）</li>
+<li><a href="../concepts/方法与来源" class="internal alias" data-slug="concepts/方法与来源">方法与来源</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-5" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#近期研究主线与多维图表" data-for="近期研究主线与多维图表">近期研究主线与多维图表</a></li><li class="depth-1"><a href="#这页回答什么" data-for="这页回答什么">这页回答什么</a></li><li class="depth-1"><a href="#主线压缩" data-for="主线压缩">主线压缩</a></li><li class="depth-1"><a href="#图-1动能--硬瓶颈--hidden-alpha" data-for="图-1动能--硬瓶颈--hidden-alpha">图 1：动能 / 硬瓶颈 / hidden alpha</a></li><li class="depth-1"><a href="#图-2代表-ticker-的证据硬度-vs-当前可买性" data-for="图-2代表-ticker-的证据硬度-vs-当前可买性">图 2：代表 ticker 的证据硬度 vs 当前可买性</a></li><li class="depth-1"><a href="#图-3动作纪律热力图" data-for="图-3动作纪律热力图">图 3：动作纪律热力图</a></li><li class="depth-1"><a href="#图-4ai-optical--dci-hidden-treasure-证据阶梯" data-for="图-4ai-optical--dci-hidden-treasure-证据阶梯">图 4：AI optical / DCI hidden treasure 证据阶梯</a></li><li class="depth-1"><a href="#图-5链条分层图" data-for="图-5链条分层图">图 5：链条分层图</a></li><li class="depth-1"><a href="#操作结论" data-for="操作结论">操作结论</a></li><li class="depth-1"><a href="#相关页面" data-for="相关页面">相关页面</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../comparisons/光通信、存储与substrate瓶颈对比" class="internal">光通信、存储与substrate瓶颈对比</a></li><li><a href="../en/comparisons/Recent-Research-Threads-and-Multi-Dimensional-Charts" class="internal">Recent Research Threads and Multi-Dimensional Charts</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}container;content;isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

@@ -111,13 +111,13 @@ HBM tailwind is clearest, but the strong cyclical nature of memory makes it more
   </g>
   <g>
     <title>QCOM — Qualcomm
-Hold | Total score 17
-Advantage strength 3.5 / Cost control 3.5
-Terminal AI odds are decent and valuation is not expensive, but it remains a conditional edge compute name rather than a core thesis.</title>
-    <line x1="735.62" y1="353.75" x2="735.62" y2="325.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
-    <circle cx="735.62" cy="353.75" r="12" fill="#fbbf24" stroke="#a78bfa" stroke-width="2.6"/>
-    <rect x="705.50" y="311.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#a78bfa" stroke-width="1.2" opacity="0.97"/>
-    <text x="735.62" y="329.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">QCOM</text>
+Hold / no-chase | Total score 17
+Advantage strength 4 / Cost control 3
+Physical AI + data-center inference evidence has improved, but financial proof is still missing and the current price is already in the no-chase zone.</title>
+    <line x1="863.75" y1="429.00" x2="863.75" y2="401.00" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="863.75" cy="429.00" r="12" fill="#fbbf24" stroke="#a78bfa" stroke-width="2.6"/>
+    <rect x="833.63" y="387.00" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#a78bfa" stroke-width="1.2" opacity="0.97"/>
+    <text x="863.75" y="405.00" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">QCOM</text>
   </g>
   <g>
     <title>AMD — Advanced Micro Devices
