@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="940" viewBox="0 0 1380 940" role="img" aria-labelledby="title desc">
+  <title id="title">近期研究代表 ticker · 证据硬度 vs 可买性</title>
+  <desc id="desc">X=issuer-primary/收入/客户/现金流证据硬度；Y=当前可买性；大小=AI/主线纯度；颜色=所属链条。</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M 42 0 L 0 0 0 42" fill="none" stroke="#1e293b" stroke-width="0.7" opacity="0.55"/></pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#020617"/>
+  <rect x="24" y="24" width="1332" height="892" rx="24" fill="#0f172a" stroke="#1e293b" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="58.0" y="70.0" fill="#e2e8f0" font-size="30" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="750" >近期研究代表 ticker · 证据硬度 vs 可买性</text>
+<text x="58.0" y="100.0" fill="#94a3b8" font-size="14" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >X=issuer-primary/收入/客户/现金流证据硬度；Y=当前可买性；大小=AI/主线纯度；颜色=所属链条。</text>
+  <rect x="100" y="145" width="980" height="625" rx="18" fill="url(#grid)" stroke="#334155" stroke-width="1.1"/>
+  <line x1="100.0" y1="145" x2="100.0" y2="770" stroke="#334155" opacity="0.45"/>
+  <line x1="100" y1="770.0" x2="1080" y2="770.0" stroke="#334155" opacity="0.45"/>
+<text x="100.0" y="798.0" fill="#94a3b8" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" >1</text>
+<text x="82.0" y="775.0" fill="#94a3b8" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace" font-weight="400" >1</text>
+  <line x1="345.0" y1="145" x2="345.0" y2="770" stroke="#334155" opacity="0.45"/>
+  <line x1="100" y1="613.8" x2="1080" y2="613.8" stroke="#334155" opacity="0.45"/>
+<text x="345.0" y="798.0" fill="#94a3b8" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" >2</text>
+<text x="82.0" y="618.8" fill="#94a3b8" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace" font-weight="400" >2</text>
+  <line x1="590.0" y1="145" x2="590.0" y2="770" stroke="#334155" opacity="0.45"/>
+  <line x1="100" y1="457.5" x2="1080" y2="457.5" stroke="#334155" opacity="0.45"/>
+<text x="590.0" y="798.0" fill="#94a3b8" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" >3</text>
+<text x="82.0" y="462.5" fill="#94a3b8" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace" font-weight="400" >3</text>
+  <line x1="835.0" y1="145" x2="835.0" y2="770" stroke="#334155" opacity="0.45"/>
+  <line x1="100" y1="301.2" x2="1080" y2="301.2" stroke="#334155" opacity="0.45"/>
+<text x="835.0" y="798.0" fill="#94a3b8" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" >4</text>
+<text x="82.0" y="306.2" fill="#94a3b8" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace" font-weight="400" >4</text>
+  <line x1="1080.0" y1="145" x2="1080.0" y2="770" stroke="#334155" opacity="0.45"/>
+  <line x1="100" y1="145.0" x2="1080" y2="145.0" stroke="#334155" opacity="0.45"/>
+<text x="1080.0" y="798.0" fill="#94a3b8" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" >5</text>
+<text x="82.0" y="150.0" fill="#94a3b8" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace" font-weight="400" >5</text>
+<text x="590.0" y="866.0" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="650" >证据硬度：product mention → segment/order → named customer/revenue/margin</text>
+<text x="44.0" y="457.5" fill="#e2e8f0" font-size="17" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="650" transform="rotate(-90 44 457.5)">当前可买性</text>
+  <circle cx="590.0" cy="504.4" r="13.1" fill="#38bdf8" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>ADTN · 光互连
+证据 3.0/5 · 可买性 2.7/5 · 纯度 2.7/5 · watch
+hidden optical/DCI recovery</title>
+  </circle>
+<text x="614.0" y="486.4" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >ADTN</text>
+  <circle cx="737.0" cy="645.0" r="15.5" fill="#38bdf8" fill-opacity="0.28" stroke="#fb7185" stroke-width="2.3">
+    <title>SMTC · 光互连
+证据 3.6/5 · 可买性 1.8/5 · 纯度 3.5/5 · no-chase
+signal integrity 变硬</title>
+  </circle>
+<text x="757.0" y="627.0" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >SMTC</text>
+  <circle cx="761.5" cy="660.6" r="16.1" fill="#38bdf8" fill-opacity="0.28" stroke="#fb7185" stroke-width="2.3">
+    <title>MXL · 光互连
+证据 3.7/5 · 可买性 1.7/5 · 纯度 3.7/5 · no-chase
+DSP roadmap + legal cap</title>
+  </circle>
+<text x="779.5" y="688.6" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >MXL</text>
+  <circle cx="614.5" cy="551.2" r="12.5" fill="#38bdf8" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>SANM · 制造
+证据 3.1/5 · 可买性 2.4/5 · 纯度 2.5/5 · watch
+AI/cloud EMS toll-taker</title>
+  </circle>
+<text x="636.5" y="567.2" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >SANM</text>
+  <circle cx="859.5" cy="488.8" r="14.6" fill="#ec4899" fill-opacity="0.28" stroke="#84cc16" stroke-width="2.3">
+    <title>CLS · 系统交付
+证据 4.1/5 · 可买性 2.8/5 · 纯度 3.2/5 · starter
+wrong-frame AI delivery；340-380 only</title>
+  </circle>
+<text x="881.5" y="468.8" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >CLS</text>
+  <circle cx="492.0" cy="488.8" r="11.6" fill="#34d399" fill-opacity="0.28" stroke="#f59e0b" stroke-width="2.3">
+    <title>BELFB · 电源器件
+证据 2.6/5 · 可买性 2.8/5 · 纯度 2.2/5 · pullback
+二阶 power/connectivity</title>
+  </circle>
+<text x="512.0" y="474.8" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >BELFB</text>
+  <circle cx="761.5" cy="660.6" r="16.7" fill="#34d399" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>AEIS · 机柜电源
+证据 3.7/5 · 可买性 1.7/5 · 纯度 3.9/5 · watch
+formal reset；等300/315 reclaim或270-285</title>
+  </circle>
+<text x="737.5" y="690.6" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >AEIS</text>
+  <circle cx="933.0" cy="676.2" r="16.7" fill="#64748b" fill-opacity="0.28" stroke="#94a3b8" stroke-width="2.3">
+    <title>CIEN · 光互连
+证据 4.4/5 · 可买性 1.6/5 · 纯度 3.9/5 · anchor
+core comparator</title>
+  </circle>
+<text x="909.0" y="658.2" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >CIEN</text>
+  <circle cx="957.5" cy="707.5" r="17.0" fill="#60a5fa" fill-opacity="0.28" stroke="#fb7185" stroke-width="2.3">
+    <title>SNDK · 存储
+证据 4.5/5 · 可买性 1.4/5 · 纯度 4.0/5 · no-chase
+datacenter flash 已爆发</title>
+  </circle>
+<text x="939.5" y="735.5" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >SNDK</text>
+  <circle cx="884.0" cy="598.1" r="14.6" fill="#60a5fa" fill-opacity="0.28" stroke="#f59e0b" stroke-width="2.3">
+    <title>WDC · 存储
+证据 4.2/5 · 可买性 2.1/5 · 纯度 3.2/5 · pullback
+AI storage serious watch</title>
+  </circle>
+<text x="904.0" y="616.1" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >WDC</text>
+  <circle cx="933.0" cy="660.6" r="17.0" fill="#38bdf8" fill-opacity="0.28" stroke="#fb7185" stroke-width="2.3">
+    <title>LITE · 光器件
+证据 4.4/5 · 可买性 1.7/5 · 纯度 4.0/5 · no-chase
+Q3/Q4 guide 很硬</title>
+  </circle>
+<text x="913.0" y="642.6" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >LITE</text>
+  <circle cx="908.5" cy="582.5" r="15.5" fill="#38bdf8" fill-opacity="0.28" stroke="#f59e0b" stroke-width="2.3">
+    <title>FN · 制造
+证据 4.3/5 · 可买性 2.2/5 · 纯度 3.5/5 · pullback
+datacom 已进报表</title>
+  </circle>
+<text x="928.5" y="564.5" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >FN</text>
+  <circle cx="712.5" cy="504.4" r="17.3" fill="#a78bfa" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>AT&amp;S · substrate
+证据 3.5/5 · 可买性 2.7/5 · 纯度 4.1/5 · watch
+5/20-21强化；等6/11 packet/weakness</title>
+  </circle>
+<text x="692.5" y="532.4" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >AT&amp;S</text>
+  <circle cx="590.0" cy="504.4" r="16.1" fill="#a78bfa" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>Nan Ya · substrate
+证据 3.0/5 · 可买性 2.7/5 · 纯度 3.7/5 · watch
+ABF/AI server proof</title>
+  </circle>
+<text x="612.0" y="486.4" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >Nan Ya</text>
+  <circle cx="590.0" cy="488.8" r="15.8" fill="#a78bfa" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>Unimicron · substrate
+证据 3.0/5 · 可买性 2.8/5 · 纯度 3.6/5 · watch
+FCBGA business case</title>
+  </circle>
+<text x="612.0" y="506.8" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >Unimicron</text>
+  <circle cx="957.5" cy="551.2" r="18.5" fill="#f59e0b" fill-opacity="0.28" stroke="#f59e0b" stroke-width="2.3">
+    <title>AVGO · ASIC
+证据 4.5/5 · 可买性 2.4/5 · 纯度 4.5/5 · pullback
+quality direct proxy</title>
+  </circle>
+<text x="977.5" y="533.2" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >AVGO</text>
+  <circle cx="1031.0" cy="676.2" r="14.6" fill="#ec4899" fill-opacity="0.28" stroke="#38bdf8" stroke-width="2.3">
+    <title>DELL · 系统交付
+证据 4.8/5 · 可买性 1.6/5 · 纯度 3.2/5 · hold
+AI server revenue/guide已验证；post-print不追</title>
+  </circle>
+<text x="1007.0" y="708.2" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >DELL</text>
+  <circle cx="786.0" cy="613.8" r="17.0" fill="#f59e0b" fill-opacity="0.28" stroke="#fb7185" stroke-width="2.3">
+    <title>MRVL · ASIC
+证据 3.8/5 · 可买性 2.0/5 · 纯度 4.0/5 · no-chase
+share proof 未够</title>
+  </circle>
+<text x="762.0" y="595.8" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >MRVL</text>
+  <circle cx="835.0" cy="707.5" r="17.6" fill="#f59e0b" fill-opacity="0.28" stroke="#ef4444" stroke-width="2.3">
+    <title>CRDO · 互连半导体
+证据 4.0/5 · 可买性 1.4/5 · 纯度 4.2/5 · reduce
+已被发现</title>
+  </circle>
+<text x="813.0" y="735.5" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >CRDO</text>
+  <circle cx="688.0" cy="598.1" r="11.6" fill="#f59e0b" fill-opacity="0.28" stroke="#38bdf8" stroke-width="2.3">
+    <title>QCOM · 条件ASIC
+证据 3.4/5 · 可买性 2.1/5 · 纯度 2.2/5 · hold
+Physical AI+DC期权；财务未证，不追</title>
+  </circle>
+<text x="710.0" y="586.1" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >QCOM</text>
+  <circle cx="908.5" cy="488.8" r="17.9" fill="#34d399" fill-opacity="0.28" stroke="#84cc16" stroke-width="2.3">
+    <title>VST · 电力
+证据 4.3/5 · 可买性 2.8/5 · 纯度 4.3/5 · starter
+旧区失效后 reset</title>
+  </circle>
+<text x="930.5" y="470.8" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >VST</text>
+  <circle cx="957.5" cy="582.5" r="17.6" fill="#34d399" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>CEG · 电力
+证据 4.5/5 · 可买性 2.2/5 · 纯度 4.2/5 · watch
+secondary overhang；等pricing/absorption</title>
+  </circle>
+<text x="935.5" y="606.5" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >CEG</text>
+  <circle cx="884.0" cy="629.4" r="18.2" fill="#34d399" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>TLN · 电力
+证据 4.2/5 · 可买性 1.9/5 · 纯度 4.4/5 · watch
+纯度高但结构集中</title>
+  </circle>
+<text x="906.0" y="651.4" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >TLN</text>
+  <circle cx="835.0" cy="613.8" r="15.8" fill="#34d399" fill-opacity="0.28" stroke="#f59e0b" stroke-width="2.3">
+    <title>HUBB · 电气
+证据 4.0/5 · 可买性 2.0/5 · 纯度 3.6/5 · pullback
+deep-dive but premium</title>
+  </circle>
+<text x="815.0" y="595.8" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >HUBB</text>
+  <circle cx="590.0" cy="535.6" r="13.4" fill="#34d399" fill-opacity="0.28" stroke="#fbbf24" stroke-width="2.3">
+    <title>NVT · 机房
+证据 3.0/5 · 可买性 2.5/5 · 纯度 2.8/5 · watch
+rack/enclosure proof 中等</title>
+  </circle>
+<text x="610.0" y="523.6" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >NVT</text>
+  <circle cx="835.0" cy="598.1" r="16.4" fill="#f97316" fill-opacity="0.28" stroke="#38bdf8" stroke-width="2.3">
+    <title>SHOP · 平台
+证据 4.0/5 · 可买性 2.1/5 · 纯度 3.8/5 · hold
+5/29 squeeze后不追；等92-96/82-86</title>
+  </circle>
+<text x="857.0" y="580.1" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >SHOP</text>
+  <circle cx="835.0" cy="645.0" r="14.6" fill="#f97316" fill-opacity="0.28" stroke="#38bdf8" stroke-width="2.3">
+    <title>IBM · 平台
+证据 4.0/5 · 可买性 1.8/5 · 纯度 3.2/5 · hold
+高位trim-watch；旧区仅reset</title>
+  </circle>
+<text x="857.0" y="663.0" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >IBM</text>
+  <circle cx="933.0" cy="332.5" r="17.0" fill="#f97316" fill-opacity="0.28" stroke="#22c55e" stroke-width="2.3">
+    <title>Tencent · 平台
+证据 4.4/5 · 可买性 3.8/5 · 纯度 4.0/5 · buy
+427仍在add band；不抬区间</title>
+  </circle>
+<text x="955.0" y="314.5" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >Tencent</text>
+  <circle cx="761.5" cy="332.5" r="14.9" fill="#f97316" fill-opacity="0.28" stroke="#22c55e" stroke-width="2.3">
+    <title>PDD · 平台
+证据 3.7/5 · 可买性 3.8/5 · 纯度 3.3/5 · buy
+84回到add band；风险尖</title>
+  </circle>
+<text x="779.5" y="354.5" fill="#f8fafc" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="650" >PDD</text>
+  <circle cx="712.5" cy="488.8" r="14.0" fill="#f97316" fill-opacity="0.28" stroke="#38bdf8" stroke-width="2.3">
+    <title>JD · 平台
+证据 3.5/5 · 可买性 2.8/5 · 纯度 3.0/5 · hold
+高于99-108 add；等回撤</title>
+  </circle>
+<text x="694.5" y="510.8" fill="#f8fafc" font-size="12" text-anchor="end" font-family="Inter, system-ui, sans-serif" font-weight="650" >JD</text>
+  <rect x="1115" y="150" width="210" height="548" rx="16" fill="#111827" stroke="#1e293b"/>
+<text x="1133.0" y="180.0" fill="#e2e8f0" font-size="17" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="750" >颜色=链条</text>
+  <rect x="1133" y="199" width="18" height="18" rx="5" fill="#38bdf8"/>
+<text x="1161.0" y="213.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >光互连/DCI</text>
+  <rect x="1133" y="229" width="18" height="18" rx="5" fill="#f59e0b"/>
+<text x="1161.0" y="243.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >ASIC/网络硅</text>
+  <rect x="1133" y="259" width="18" height="18" rx="5" fill="#60a5fa"/>
+<text x="1161.0" y="273.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >存储</text>
+  <rect x="1133" y="289" width="18" height="18" rx="5" fill="#a78bfa"/>
+<text x="1161.0" y="303.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >substrate</text>
+  <rect x="1133" y="319" width="18" height="18" rx="5" fill="#34d399"/>
+<text x="1161.0" y="333.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >电力/机房</text>
+  <rect x="1133" y="349" width="18" height="18" rx="5" fill="#ec4899"/>
+<text x="1161.0" y="363.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >制造/系统交付</text>
+  <rect x="1133" y="379" width="18" height="18" rx="5" fill="#f97316"/>
+<text x="1161.0" y="393.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >平台</text>
+  <rect x="1133" y="409" width="18" height="18" rx="5" fill="#64748b"/>
+<text x="1161.0" y="423.0" fill="#cbd5e1" font-size="13" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >anchor</text>
+<text x="1133.0" y="456.0" fill="#e2e8f0" font-size="17" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="750" >描边=动作</text>
+  <circle cx="1142" cy="483" r="8" fill="none" stroke="#22c55e" stroke-width="3"/>
+<text x="1161.0" y="488.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >buy/accumulate</text>
+  <circle cx="1142" cy="511" r="8" fill="none" stroke="#84cc16" stroke-width="3"/>
+<text x="1161.0" y="516.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >starter</text>
+  <circle cx="1142" cy="539" r="8" fill="none" stroke="#38bdf8" stroke-width="3"/>
+<text x="1161.0" y="544.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >hold/no-chase</text>
+  <circle cx="1142" cy="567" r="8" fill="none" stroke="#fbbf24" stroke-width="3"/>
+<text x="1161.0" y="572.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >watch/proof-first</text>
+  <circle cx="1142" cy="595" r="8" fill="none" stroke="#f59e0b" stroke-width="3"/>
+<text x="1161.0" y="600.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >pullback-only</text>
+  <circle cx="1142" cy="623" r="8" fill="none" stroke="#fb7185" stroke-width="3"/>
+<text x="1161.0" y="628.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >no-chase</text>
+  <circle cx="1142" cy="651" r="8" fill="none" stroke="#ef4444" stroke-width="3"/>
+<text x="1161.0" y="656.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >reduce</text>
+  <circle cx="1142" cy="679" r="8" fill="none" stroke="#94a3b8" stroke-width="3"/>
+<text x="1161.0" y="684.0" fill="#cbd5e1" font-size="12" text-anchor="start" font-family="Inter, system-ui, sans-serif" font-weight="400" >comparator</text>
+</svg>

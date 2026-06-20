@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/market-wiki.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -65,7 +67,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -123,13 +125,21 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
     
   
 </form>
@@ -765,6 +775,15 @@
   <a href="#related-pages" class="md-nav__link">
     <span class="md-ellipsis">
       Related pages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Related Topics
     </span>
   </a>
   
@@ -4815,6 +4834,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#related-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Related Topics
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -4851,24 +4879,24 @@ Status: Home page for the unified Equity data-center chain / buildout lens.</p>
 </ul>
 <h2 id="concept-hierarchy-and-main-flow-chart">Concept hierarchy and main flow chart<a class="headerlink" href="#concept-hierarchy-and-main-flow-chart" title="Permanent link">&para;</a></h2>
 <p>Note: From now on, newly added Mermaid charts default to vertical <code>flowchart TB</code> / <code>flowchart TD</code>, with top-down reading preferred.</p>
-<div class="highlight"><pre><span></span><code>flowchart TB
-    H[&quot;Data Center Buildout / Master Navigation&quot;]
-    A[&quot;Cloud and Compute Demand
-ORCL&quot;]
-    B[&quot;Power Generation and Fuel Supply
-LEU · OKLO · TLN&quot;]
-    C[&quot;On-site Supplement and Resilience
-BE · FLNC · STEM · PSIX · GNRC · CAT · BLDP · PLUG&quot;]
-    D[&quot;Interconnect, Optics, and Power Components
-CRDO · AAOI · LITE · NVTS · MTSI · AEIS · VICR · COHR · GLW&quot;]
-    E[&quot;Manufacturing, Packaging, and Systems Integration
-FN · CLS · ASX · AMKR&quot;]
-    F[&quot;Data Center Infrastructure, Power Distribution, and Cooling
-VRT · ASTK · HPS.A&quot;]
-    G[&quot;AI / Cloud Data Center Capacity Deployment
-Cabinets · Servers · Campus · Cooling&quot;]
-    M[&quot;Methods and Sources
-Judgment framework support page&quot;]
+<pre class="mermaid"><code>flowchart TB
+    H["Data Center Buildout / Master Navigation"]
+    A["Cloud and Compute Demand
+ORCL"]
+    B["Power Generation and Fuel Supply
+LEU · OKLO · TLN"]
+    C["On-site Supplement and Resilience
+BE · FLNC · STEM · PSIX · GNRC · CAT · BLDP · PLUG"]
+    D["Interconnect, Optics, and Power Components
+CRDO · AAOI · LITE · NVTS · MTSI · AEIS · VICR · COHR · GLW"]
+    E["Manufacturing, Packaging, and Systems Integration
+FN · CLS · ASX · AMKR"]
+    F["Data Center Infrastructure, Power Distribution, and Cooling
+VRT · ASTK · HPS.A"]
+    G["AI / Cloud Data Center Capacity Deployment
+Cabinets · Servers · Campus · Cooling"]
+    M["Methods and Sources
+Judgment framework support page"]
 
     H --&gt; A
     H --&gt; M
@@ -4879,8 +4907,7 @@ Judgment framework support page&quot;]
     C --&gt; F
     D --&gt; F
     E --&gt; F
-    F --&gt; G
-</code></pre></div>
+    F --&gt; G</code></pre>
 <ul>
 <li><code>Data Center Buildout Home</code> is a top-level navigation concept, not parallel to <a href="../Cloud%20and%20Compute%20Demand/">Cloud and Compute Demand</a>; the latter is the first layer in the chain.</li>
 <li>Power chain: <a href="../Power%20Generation%20and%20Fuel%20Supply/">Power Generation and Fuel Supply</a> → <a href="../Onsite%20Power%2C%20Storage%2C%20and%20Backup%20Power/">Onsite Power, Storage, and Backup Power</a> → <a href="../Data%20Center%20Infrastructure%2C%20Power%20Distribution%2C%20and%20Cooling/">Data Center Infrastructure, Power Distribution, and Cooling</a>.</li>
@@ -4930,6 +4957,59 @@ Judgment framework support page&quot;]
 <li><a href="../Interconnect%2C%20Optics%2C%20and%20Power%20Components/">Interconnect, Optics, and Power Components</a></li>
 <li><a href="../Manufacturing%2C%20Packaging%2C%20and%20Systems%20Integration/">Manufacturing, Packaging, and Systems Integration</a></li>
 <li><a href="../Data%20Center%20Infrastructure%2C%20Power%20Distribution%2C%20and%20Cooling/">Data Center Infrastructure, Power Distribution, and Cooling</a></li>
+</ul>
+<h2 id="related-topics">Related Topics<a class="headerlink" href="#related-topics" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph LR
+  P0["Data Center Buildout Home"]
+  P1["Power Generation and Fuel Supply"]
+  P0 --&gt; P1
+  click P1 "../Power Generation and Fuel Supply/" "Power Generation and Fuel Supply"
+  P2["BE — Bloom Energy"]
+  P0 --&gt; P2
+  click P2 "../../entities/BE Bloom Energy/" "BE — Bloom Energy"
+  P3["FLNC — Fluence Energy"]
+  P0 --&gt; P3
+  click P3 "../../entities/FLNC Fluence Energy/" "FLNC — Fluence Energy"
+  P4["CRDO — Credo Technology"]
+  P0 --&gt; P4
+  click P4 "../../entities/CRDO Credo Technology/" "CRDO — Credo Technology"
+  P5["Methods and Sources"]
+  P0 --&gt; P5
+  click P5 "../Methods and Sources/" "Methods and Sources"
+  P6["GNRC — Generac"]
+  P0 --&gt; P6
+  click P6 "../../entities/GNRC Generac/" "GNRC — Generac"
+  P7["Onsite Power, Storage, and Backup Power"]
+  P0 --&gt; P7
+  click P7 "../Onsite Power, Storage, and Backup Power/" "Onsite Power, Storage, and Backup Power"
+  P8["COHR — Coherent"]
+  P0 --&gt; P8
+  click P8 "../../entities/COHR Coherent/" "COHR — Coherent"
+  P9["CAT — Caterpillar"]
+  P0 --&gt; P9
+  click P9 "../../entities/CAT Caterpillar/" "CAT — Caterpillar"
+  P10["NVTS — Navitas"]
+  P0 --&gt; P10
+  click P10 "../../entities/NVTS Navitas/" "NVTS — Navitas"
+  P11["Market Research Home"]
+  P0 --&gt; P11
+  click P11 "../Market Research Home/" "Market Research Home"
+  P12["AAOI — Applied Optoelectronics"]
+  P0 --&gt; P12
+  click P12 "../../entities/AAOI Applied Optoelectronics/" "AAOI — Applied Optoelectronics"</code></pre>
+<ul class="market-related-list">
+  <li><a href="../Power Generation and Fuel Supply/">Power Generation and Fuel Supply</a></li>
+  <li><a href="../../entities/BE Bloom Energy/">BE — Bloom Energy</a></li>
+  <li><a href="../../entities/FLNC Fluence Energy/">FLNC — Fluence Energy</a></li>
+  <li><a href="../../entities/CRDO Credo Technology/">CRDO — Credo Technology</a></li>
+  <li><a href="../Methods and Sources/">Methods and Sources</a></li>
+  <li><a href="../../entities/GNRC Generac/">GNRC — Generac</a></li>
+  <li><a href="../Onsite Power, Storage, and Backup Power/">Onsite Power, Storage, and Backup Power</a></li>
+  <li><a href="../../entities/COHR Coherent/">COHR — Coherent</a></li>
+  <li><a href="../../entities/CAT Caterpillar/">CAT — Caterpillar</a></li>
+  <li><a href="../../entities/NVTS Navitas/">NVTS — Navitas</a></li>
+  <li><a href="../Market Research Home/">Market Research Home</a></li>
+  <li><a href="../../entities/AAOI Applied Optoelectronics/">AAOI — Applied Optoelectronics</a></li>
 </ul>
 
 
@@ -4992,6 +5072,8 @@ Judgment framework support page&quot;]
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/language-switcher.js"></script>
       
     
   </body>

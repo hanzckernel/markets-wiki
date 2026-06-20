@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="860" viewBox="0 0 1180 860" role="img" aria-labelledby="title desc">
+  <title id="title">医药与生物科技 · 四象限</title>
+  <desc id="desc">X 轴为优势强度 = (quality_moat + growth_driver) / 2；Y 轴为代价可控度 = (valuation_setup + risk_control) / 2。 板块图使用同一坐标定义，便于在本板块内直接比较。</desc>
+  <rect width="100%" height="100%" fill="#020617"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.6"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="calc(100% - 48px)" height="calc(100% - 48px)" rx="22" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" filter="url(#softShadow)"/>
+  <text x="95" y="64" fill="#e2e8f0" font-size="30" font-family="Inter, system-ui, sans-serif" font-weight="700">医药与生物科技 · 四象限</text>
+  <text x="95" y="92" fill="#94a3b8" font-size="16" font-family="Inter, system-ui, sans-serif">X = 优势强度 = (质量 + 增长) / 2    ·    Y = 代价可控度 = (估值 + 风险) / 2</text>
+  <rect x="95" y="128" width="1025" height="602" fill="url(#grid)" stroke="#334155" stroke-width="1.2" rx="18"/>
+  <rect x="95" y="128" width="512.5" height="301.0" fill="rgba(51, 65, 85, 0.28)" rx="18"/>
+  <rect x="607.5" y="128" width="512.5" height="301.0" fill="rgba(6, 78, 59, 0.28)" rx="18"/>
+  <rect x="95" y="429.0" width="512.5" height="301.0" fill="rgba(127, 29, 29, 0.24)" rx="18"/>
+  <rect x="607.5" y="429.0" width="512.5" height="301.0" fill="rgba(120, 53, 15, 0.24)" rx="18"/>
+  <line x1="95.00" y1="128" x2="95.00" y2="730" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="95" y1="730.00" x2="1120" y2="730.00" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="223.12" y1="128" x2="223.12" y2="730" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="95" y1="654.75" x2="1120" y2="654.75" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="351.25" y1="128" x2="351.25" y2="730" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="95" y1="579.50" x2="1120" y2="579.50" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="479.38" y1="128" x2="479.38" y2="730" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="95" y1="504.25" x2="1120" y2="504.25" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="607.50" y1="128" x2="607.50" y2="730" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="95" y1="429.00" x2="1120" y2="429.00" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="735.62" y1="128" x2="735.62" y2="730" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="95" y1="353.75" x2="1120" y2="353.75" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="863.75" y1="128" x2="863.75" y2="730" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="95" y1="278.50" x2="1120" y2="278.50" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="991.88" y1="128" x2="991.88" y2="730" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="95" y1="203.25" x2="1120" y2="203.25" stroke="#334155" stroke-width="0.8" opacity="0.45"/>
+  <line x1="1120.00" y1="128" x2="1120.00" y2="730" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="95" y1="128.00" x2="1120" y2="128.00" stroke="#475569" stroke-width="1.4" opacity="0.9"/>
+  <line x1="607.50" y1="128" x2="607.50" y2="730" stroke="#e2e8f0" stroke-width="1.8" opacity="0.9"/>
+  <line x1="95" y1="429.00" x2="1120" y2="429.00" stroke="#e2e8f0" stroke-width="1.8" opacity="0.9"/>
+  <text x="95.00" y="758" fill="#cbd5e1" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">1</text>
+  <text x="77" y="735.00" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">1</text>
+  <text x="351.25" y="758" fill="#cbd5e1" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">2</text>
+  <text x="77" y="584.50" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">2</text>
+  <text x="607.50" y="758" fill="#cbd5e1" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">3</text>
+  <text x="77" y="434.00" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">3</text>
+  <text x="863.75" y="758" fill="#cbd5e1" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">4</text>
+  <text x="77" y="283.50" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">4</text>
+  <text x="1120.00" y="758" fill="#cbd5e1" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">5</text>
+  <text x="77" y="133.00" fill="#cbd5e1" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">5</text>
+  <text x="607.50" y="802" fill="#e2e8f0" font-size="18" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">优势强度（质量 + 增长）/ 2</text>
+  <text x="48" y="429.00" fill="#e2e8f0" font-size="18" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" transform="rotate(-90 48 429.00)">代价可控度（估值 + 风险）/ 2</text>
+  <text x="863.75" y="156.00" fill="#bbf7d0" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">强逻辑</text>
+  <text x="863.75" y="174.00" fill="#bbf7d0" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">代价可控</text>
+  <text x="351.25" y="156.00" fill="#cbd5e1" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">逻辑一般</text>
+  <text x="351.25" y="174.00" fill="#cbd5e1" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">代价可控</text>
+  <text x="863.75" y="690.00" fill="#fed7aa" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">强逻辑</text>
+  <text x="863.75" y="708.00" fill="#fed7aa" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">代价仍大</text>
+  <text x="351.25" y="690.00" fill="#fecaca" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">弱逻辑</text>
+  <text x="351.25" y="708.00" fill="#fecaca" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">代价仍大</text>
+  <g transform="translate(932,56)">
+    <rect x="0" y="0" width="172" height="86" rx="14" fill="#111827" stroke="#334155" stroke-width="1.2" opacity="0.95"/>
+    <text x="16" y="24" fill="#e2e8f0" font-size="14" font-family="Inter, system-ui, sans-serif" font-weight="700">动作图例</text>
+    <circle cx="22" cy="46" r="6" fill="#34d399" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="38" y="50" fill="#cbd5e1" font-size="13" font-family="Inter, system-ui, sans-serif">Buy</text>
+    <circle cx="22" cy="62" r="6" fill="#fbbf24" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="38" y="66" fill="#cbd5e1" font-size="13" font-family="Inter, system-ui, sans-serif">Hold</text>
+    <circle cx="22" cy="78" r="6" fill="#fb7185" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="38" y="82" fill="#cbd5e1" font-size="13" font-family="Inter, system-ui, sans-serif">Sell</text>
+  </g>
+  <g>
+    <title>REGN — Regeneron
+Buy / staged defensive quality | 总分 19
+优势强度 4 / 代价可控度 3.5
+平台 biotech 质量仍硬；fianlimab miss 削弱 pipeline optionality，但 Q1 cash-flow spine 没断。回撤到 USD 620-650 更像 staged defensive-quality re-check，不是满仓抄底。</title>
+    <line x1="863.75" y1="353.75" x2="863.75" y2="325.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="863.75" cy="353.75" r="12" fill="#34d399" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="833.63" y="311.75" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="863.75" y="329.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">REGN</text>
+  </g>
+  <g>
+    <title>GSK — GSK
+Hold | 总分 17
+优势强度 3.5 / 代价可控度 4
+Q1 Specialty Medicines / Oncology / HIV 支撑结构改善，全年指引重申；但疫苗波动与 Arexvy 回落说明它仍是低估值重估中的 Hold，不直接升档。</title>
+    <line x1="735.62" y1="278.50" x2="735.62" y2="250.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="735.62" cy="278.50" r="12" fill="#fbbf24" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="710.78" y="236.50" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="735.62" y="254.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">GSK</text>
+  </g>
+  <g>
+    <title>JNJ — Johnson &amp; Johnson
+Hold | 总分 17
+优势强度 4 / 代价可控度 3.5
+Innovative Medicine + MedTech 的底盘最稳，更像质量型 compounder，而不是激进重估票。</title>
+    <line x1="873.75" y1="345.75" x2="873.75" y2="375.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="873.75" cy="345.75" r="12" fill="#fbbf24" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="848.91" y="361.75" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="873.75" y="379.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">JNJ</text>
+  </g>
+  <g>
+    <title>NVO — Novo Nordisk
+Hold | 总分 17
+优势强度 4 / 代价可控度 3.5
+obesity franchise 稀缺且估值不贵，但 2026 增速回落与竞争重定价限制它直接升档。</title>
+    <line x1="853.75" y1="361.75" x2="810.91" y2="383.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="853.75" cy="361.75" r="12" fill="#fbbf24" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="786.07" y="369.75" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="810.91" y="387.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">NVO</text>
+  </g>
+  <g>
+    <title>LLY — Eli Lilly
+Hold | 总分 16
+优势强度 5 / 代价可控度 1.5
+成长性仍最强，但高预期与高估值让赔率并不轻松。</title>
+    <line x1="1120.00" y1="654.75" x2="1120.00" y2="626.75" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="1120.00" cy="654.75" r="12" fill="#fbbf24" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="1095.16" y="612.75" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="1120.00" y="630.75" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">LLY</text>
+  </g>
+  <g>
+    <title>MRK — Merck
+Hold | 总分 15
+优势强度 3.5 / 代价可控度 2.5
+现金流仍硬，但 Keytruda 之后的接棒速度继续压住上修空间。</title>
+    <line x1="735.62" y1="504.25" x2="735.62" y2="476.25" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="735.62" cy="504.25" r="12" fill="#fbbf24" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="710.78" y="462.25" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="735.62" y="480.25" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">MRK</text>
+  </g>
+  <g>
+    <title>UNH — UnitedHealth Group
+Hold | 总分 15
+优势强度 4 / 代价可控度 2.5
+Q1 指引上修、MCR 改善，payer + Optum 双平台底盘仍强；但 elevated utilization、Optum 利润压力与监管框架仍让它维持 Hold。</title>
+    <line x1="863.75" y1="504.25" x2="863.75" y2="476.25" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="863.75" cy="504.25" r="12" fill="#fbbf24" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="838.91" y="462.25" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="863.75" y="480.25" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">UNH</text>
+  </g>
+  <g>
+    <title>PFE — Pfizer
+Hold | 总分 14
+优势强度 3 / 代价可控度 3
+估值不高，修复逻辑存在；但真正的非 COVID 重建仍待证明。</title>
+    <line x1="607.50" y1="429.00" x2="607.50" y2="401.00" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="607.50" cy="429.00" r="12" fill="#fbbf24" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="582.66" y="387.00" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="607.50" y="405.00" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">PFE</text>
+  </g>
+  <g>
+    <title>HIMS — Hims &amp; Hers Health
+Sell | 总分 13
+优势强度 3.5 / 代价可控度 2
+数字医疗平台化增长真，但监管、CAC 与产品 mix 风险让它更像高 beta 观察位。</title>
+    <line x1="735.62" y1="579.50" x2="735.62" y2="551.50" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="735.62" cy="579.50" r="12" fill="#fb7185" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="705.50" y="537.50" width="60.24" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="735.62" y="555.50" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">HIMS</text>
+  </g>
+  <g>
+    <title>TEM — Tempus AI
+Sell | 总分 12
+优势强度 4 / 代价可控度 1
+AI + diagnostics 方向有意思，但盈利与商业化护城河都还在早期验证。</title>
+    <line x1="863.75" y1="730.00" x2="863.75" y2="702.00" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="863.75" cy="730.00" r="12" fill="#fb7185" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="838.91" y="688.00" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="863.75" y="706.00" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">TEM</text>
+  </g>
+  <g>
+    <title>CVS — CVS Health
+Sell | 总分 12
+优势强度 2.5 / 代价可控度 3
+低估值看起来便宜，但 MA / PBM / 赔付率压力仍把它压成这组最弱的成熟资产 setup。</title>
+    <line x1="479.38" y1="429.00" x2="479.38" y2="401.00" stroke="#64748b" stroke-width="1.25" opacity="0.78"/>
+    <circle cx="479.38" cy="429.00" r="12" fill="#fb7185" stroke="#22c55e" stroke-width="2.6"/>
+    <rect x="454.54" y="387.00" width="49.68" height="28.00" rx="9" fill="#0f172a" stroke="#22c55e" stroke-width="1.2" opacity="0.97"/>
+    <text x="479.38" y="405.00" fill="#f8fafc" font-size="16" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700">CVS</text>
+  </g>
+</svg>
