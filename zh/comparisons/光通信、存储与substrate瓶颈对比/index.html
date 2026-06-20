@@ -1,0 +1,5160 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://hanzckernel.github.io/markets-wiki/zh/comparisons/%E5%85%89%E9%80%9A%E4%BF%A1%E3%80%81%E5%AD%98%E5%82%A8%E4%B8%8Esubstrate%E7%93%B6%E9%A2%88%E5%AF%B9%E6%AF%94/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../%E5%8C%BB%E8%8D%AF%E4%B8%8E%E7%94%9F%E7%89%A9%E7%A7%91%E6%8A%80-%E5%AF%B9%E6%AF%94%E4%B8%8E%E8%AF%84%E5%88%86/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>光通信、存储与substrate瓶颈对比 - Han Market Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#substrate" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Han Market Wiki" class="md-header__button md-logo" aria-label="Han Market Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Han Market Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              光通信、存储与substrate瓶颈对比
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Han Market Wiki" class="md-nav__button md-logo" aria-label="Han Market Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Han Market Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Comparisons
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Comparisons
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    光通信、存储与substrate瓶颈对比
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    光通信、存储与substrate瓶颈对比
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      这页回答什么
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      三链评分热力图
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      三条线的第一性原理对比
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      公司对应关系
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      单名横向对应与当前动作
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      近端动能排序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      硬瓶颈强度排序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-alpha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hidden alpha 排序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      深入判断
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="深入判断">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-storage-substrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 为什么 storage 近端最强，但不应压过 substrate 的瓶颈地位
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 为什么光通信动能很高，但高位更容易犯错
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-substrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 为什么 substrate 是更适合继续找认知差的地方
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      当前可执行结论
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gates" class="md-nav__link">
+    <span class="md-ellipsis">
+      后续验证 gates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      相关页面
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%8C%BB%E8%8D%AF%E4%B8%8E%E7%94%9F%E7%89%A9%E7%A7%91%E6%8A%80-%E5%AF%B9%E6%AF%94%E4%B8%8E%E8%AF%84%E5%88%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    医药与生物科技-对比与评分
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%8E%E5%9F%BA%E7%A1%80%E7%AE%97%E5%8A%9B-%E5%AF%B9%E6%AF%94%E4%B8%8E%E8%AF%84%E5%88%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    半导体与基础算力-对比与评分
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%B9%B3%E5%8F%B0%E7%A7%91%E6%8A%80%E4%B8%8E%E4%BA%92%E8%81%94%E7%BD%91-%E5%AF%B9%E6%AF%94%E4%B8%8E%E8%AF%84%E5%88%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    平台科技与互联网-对比与评分
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%B7%A8%E8%A1%8C%E4%B8%9A%E8%82%A1%E7%A5%A8%E8%A7%82%E5%AF%9F%E6%80%BB%E8%AF%84%E5%88%86%E5%8D%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    跨行业股票观察总评分卡
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%BF%91%E6%9C%9F%E7%A0%94%E7%A9%B6%E4%B8%BB%E7%BA%BF%E4%B8%8E%E5%A4%9A%E7%BB%B4%E5%9B%BE%E8%A1%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    近期研究主线与多维图表
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%87%91%E8%9E%8D%E6%9C%BA%E6%9E%84%E4%B8%8E%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA-%E5%AF%B9%E6%AF%94%E4%B8%8E%E8%AF%84%E5%88%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    金融机构与资本市场-对比与评分
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E4%B8%8E%E6%B6%88%E8%B4%B9%E4%BF%A1%E8%B4%B7-%E5%AF%B9%E6%AF%94%E4%B8%8E%E8%AF%84%E5%88%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    金融科技与消费信贷-对比与评分
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../concepts/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Concepts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E4%BA%91%E4%B8%8E%E7%AE%97%E5%8A%9B%E9%9C%80%E6%B1%82%E6%96%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    云与算力需求方
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E4%BA%92%E8%BF%9E%E3%80%81%E5%85%89%E5%99%A8%E4%BB%B6%E4%B8%8E%E7%94%B5%E6%BA%90%E5%99%A8%E4%BB%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    互连、光器件与电源器件
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E5%88%B6%E9%80%A0%E3%80%81%E5%B0%81%E8%A3%85%E4%B8%8E%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    制造、封装与系统集成
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E5%8C%BB%E8%8D%AF%E4%B8%8E%E7%94%9F%E7%89%A9%E7%A7%91%E6%8A%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    医药与生物科技
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%8E%E5%9F%BA%E7%A1%80%E7%AE%97%E5%8A%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    半导体与基础算力
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E5%8F%91%E7%94%B5%E4%B8%8E%E7%87%83%E6%96%99%E4%BE%9B%E7%BB%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    发电与燃料供给
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E5%B9%B3%E5%8F%B0%E7%A7%91%E6%8A%80%E4%B8%8E%E4%BA%92%E8%81%94%E7%BD%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    平台科技与互联网
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E4%B8%8A%E4%B8%8B%E6%B8%B8%E9%A6%96%E9%A1%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    数据中心上下游首页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E6%96%B9%E6%B3%95%E4%B8%8E%E6%9D%A5%E6%BA%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    方法与来源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E6%9C%BA%E6%88%BF%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E4%B8%8E%E9%85%8D%E7%94%B5%E6%95%A3%E7%83%AD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    机房基础设施与配电散热
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E7%8E%B0%E5%9C%BA%E7%94%B5%E6%BA%90%E3%80%81%E5%82%A8%E8%83%BD%E4%B8%8E%E5%A4%87%E7%94%A8%E7%94%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    现场电源、储能与备用电
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E8%82%A1%E7%A5%A8%E7%A0%94%E7%A9%B6%E9%A6%96%E9%A1%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    股票研究首页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E8%B7%A8%E8%A1%8C%E4%B8%9A%E8%82%A1%E7%A5%A8%E8%A7%82%E5%AF%9F%E9%A6%96%E9%A1%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    跨行业股票观察首页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E9%87%91%E8%9E%8D%E6%9C%BA%E6%9E%84%E4%B8%8E%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    金融机构与资本市场
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E4%B8%8E%E6%B6%88%E8%B4%B9%E4%BF%A1%E8%B4%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    金融科技与消费信贷
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../entities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Entities
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Entities
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/1810%20Xiaomi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1810 — Xiaomi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/700%20Tencent%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    700 — Tencent Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/9618%20JD.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9618 — JD.com
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/9888%20Baidu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9888 — Baidu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/9988%20Alibaba/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9988 — Alibaba Group
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AAOI%20Applied%20Optoelectronics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AAOI — Applied Optoelectronics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AAPL%20Apple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AAPL — Apple
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ADBE%20Adobe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ADBE — Adobe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ADTN%20ADTRAN%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ADTN — ADTRAN Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AEIS%20Advanced%20Energy%20Industries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AEIS — Advanced Energy Industries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AFRM%20Affirm%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AFRM — Affirm Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AMD%20Advanced%20Micro%20Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AMD — Advanced Micro Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AMKR%20Amkor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AMKR — Amkor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AMZN%20Amazon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AMZN — Amazon
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/APO%20Apollo%20Global%20Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    APO — Apollo Global Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ARM%20Arm%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ARM — Arm Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ASTK%20Asetek/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ASTK — Asetek
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ASX%20ASE%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ASX — ASE Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/AVGO%20Broadcom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AVGO — Broadcom
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/BAC%20Bank%20of%20America/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BAC — Bank of America
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/BE%20Bloom%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BE — Bloom Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/BELFB%20Bel%20Fuse%20Class%20B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BELFB Bel Fuse Class B
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/BLDP%20Ballard%20Power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BLDP — Ballard Power
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/BLZE%20Backblaze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BLZE — Backblaze
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/BOX%20Box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BOX — Box
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/BX%20Blackstone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BX — Blackstone
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CAMT%20Camtek/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CAMT — Camtek
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CAT%20Caterpillar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CAT — Caterpillar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CBRS%20Cerebras%20Systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CBRS — Cerebras Systems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CEG%20Constellation%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CEG — Constellation Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CLS%20Celestica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CLS — Celestica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/COHR%20Coherent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    COHR — Coherent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CRDO%20Credo%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CRDO — Credo Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CVLT%20Commvault/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CVLT — Commvault
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/CVS%20CVS%20Health/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CVS — CVS Health
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/DELL%20Dell%20Technologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DELL — Dell Technologies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/DOCN%20DigitalOcean/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DOCN — DigitalOcean
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/EME%20EMCOR%20Group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EME — EMCOR Group
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ENTG%20Entegris/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ENTG — Entegris
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ETN%20Eaton/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ETN — Eaton
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/EXLS%20EXLService/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EXLS — EXLService
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/FLNC%20Fluence%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FLNC — Fluence Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/FN%20Fabrinet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FN — Fabrinet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/FORM%20FormFactor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FORM — FormFactor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/G%20Genpact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    G — Genpact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/GDYN%20Grid%20Dynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GDYN — Grid Dynamics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/GEV%20GE%20Vernova/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GEV — GE Vernova
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/GLW%20Corning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GLW — Corning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/GNRC%20Generac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GNRC — Generac
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/GOOG%20Alphabet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GOOG — Alphabet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/GS%20Goldman%20Sachs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GS — Goldman Sachs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/GSK%20GSK/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GSK — GSK
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/HIMS%20Hims%20%26%20Hers%20Health/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HIMS — Hims & Hers Health
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/HOOD%20Robinhood%20Markets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HOOD — Robinhood Markets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/HPS.A%20Hammond%20Power%20Solutions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HPS.A — Hammond Power Solutions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/HSBC%20HSBC%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HSBC — HSBC Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/HUBB%20Hubbell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HUBB — Hubbell
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/IBM%20International%20Business%20Machines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    IBM — International Business Machines
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/INOD%20Innodata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    INOD — Innodata
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/INTC%20Intel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    INTC — Intel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/JCI%20Johnson%20Controls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JCI — Johnson Controls
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/JNJ%20Johnson%20%26%20Johnson/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JNJ — Johnson & Johnson
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/JPM%20JPMorgan%20Chase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JPM — JPMorgan Chase
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/KLAR%20Klarna%20Group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    KLAR — Klarna Group
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/LEU%20Centrus%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LEU — Centrus Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/LITE%20Lumentum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LITE — Lumentum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/LLY%20Eli%20Lilly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LLY — Eli Lilly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/META%20Meta%20Platforms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    META — Meta Platforms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/MRK%20Merck/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MRK — Merck
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/MRVL%20Marvell%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MRVL — Marvell Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/MSFT%20Microsoft/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MSFT — Microsoft
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/MTSI%20MACOM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MTSI — MACOM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/MU%20Micron%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MU — Micron Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/MXL%20MaxLinear/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MXL MaxLinear
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/NOK%20Nokia%20Oyj/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NOK — Nokia Oyj
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/NVDA%20NVIDIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVDA — NVIDIA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/NVO%20Novo%20Nordisk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVO — Novo Nordisk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/NVT%20nVent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVT — nVent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/NVTS%20Navitas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVTS — Navitas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/OKLO%20Oklo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OKLO — Oklo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ONTO%20Onto%20Innovation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ONTO — Onto Innovation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/ORCL%20Oracle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ORCL — Oracle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/PDD%20PDD%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PDD — PDD Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/PEGA%20Pegasystems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PEGA — Pegasystems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/PFE%20Pfizer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PFE — Pfizer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/PGY%20Pagaya%20Technologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PGY — Pagaya Technologies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/PLUG%20Plug%20Power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PLUG — Plug Power
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/POWL%20Powell%20Industries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    POWL — Powell Industries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/PSIX%20Power%20Solutions%20International/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PSIX — Power Solutions International
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/PWR%20Quanta%20Services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PWR — Quanta Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/QCOM%20Qualcomm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QCOM — Qualcomm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/REGN%20Regeneron/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    REGN — Regeneron
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/RMBS%20Rambus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    RMBS — Rambus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/SANM%20Sanmina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SANM Sanmina
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/SHOP%20Shopify/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SHOP — Shopify
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/SMTC%20Semtech/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SMTC Semtech
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/SNDK%20Sandisk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SNDK — Sandisk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/SNOW%20Snowflake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SNOW — Snowflake
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/SOFI%20SoFi%20Technologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SOFI — SoFi Technologies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/STEM%20Stem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    STEM — Stem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/TASK%20TaskUs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TASK — TaskUs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/TEM%20Tempus%20AI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TEM — Tempus AI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/TER%20Teradyne/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TER — Teradyne
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/TLN%20Talen%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TLN — Talen Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/TSLA%20Tesla/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TSLA — Tesla
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/TSM%20Taiwan%20Semiconductor%20Manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TSM — Taiwan Semiconductor Manufacturing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/TXN%20Texas%20Instruments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TXN — Texas Instruments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/UNH%20UnitedHealth%20Group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UNH — UnitedHealth Group
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/UPST%20Upstart%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UPST — Upstart Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/V%20Visa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    V — Visa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/VICR%20Vicor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VICR — Vicor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/VRNS%20Varonis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VRNS — Varonis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/VRT%20Vertiv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VRT — Vertiv
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/VST%20Vistra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VST — Vistra
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/WDC%20Western%20Digital/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    WDC — Western Digital
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../queries/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Queries
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Queries
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/AI%E7%A1%AC%E4%BB%B6%E7%93%B6%E9%A2%88-CPU%E6%98%AF%E5%90%A6%E5%83%8F%E5%86%85%E5%AD%98%E4%B8%80%E6%A0%B7%E8%BF%AB%E5%88%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI硬件瓶颈-CPU是否像内存一样迫切
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/ANET%E4%B8%8ENokia%20%E5%BD%93%E5%89%8Dlive%E6%89%A7%E8%A1%8C%E5%8C%BA%E9%97%B4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ANET与Nokia 当前live执行区间
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/CSCO%20Q3%20FY2026%20AI%E7%BD%91%E7%BB%9Cread-through%E4%B8%8E%E6%89%A7%E8%A1%8C%E5%8C%BA%E9%97%B4%E5%BD%B1%E5%93%8D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CSCO Q3 FY2026 AI网络read-through与执行区间影响
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/FLNC%E4%B8%8ENokia%20%E5%BD%93%E5%89%8Dlive%E6%B7%B1%E6%8C%96%E7%BB%93%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FLNC与Nokia 当前live深挖结论
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/HUBB%E3%80%81ETN%E3%80%81NVT%E4%B8%8EPWR%20%E7%94%B5%E6%B0%94%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E5%AF%B9%E7%85%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HUBB、ETN、NVT与PWR 电气基础设施对照
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/Phase%203%20AI%E5%BA%94%E7%94%A8%E7%94%9F%E4%BA%A7%E5%8C%96%E4%B8%8EAgentic%E7%94%9F%E6%80%81P0%E6%B7%B1%E7%A0%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Phase 3 AI应用生产化与Agentic生态P0深研
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/TradingView%20Universe%20Coverage%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TradingView Universe Coverage Report
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/%E4%B8%AD%E5%9B%BD%E5%AE%8F%E8%A7%82%E6%8A%98%E4%BB%B7%E4%B8%8E%E5%B9%B3%E5%8F%B0%E8%82%A1accumulation%E7%BA%AA%E5%BE%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    中国宏观折价与平台股accumulation纪律
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E5%85%AD%E5%AE%B6%E5%85%AC%E5%8F%B8%E6%B7%B1%E6%8C%96%E7%BB%93%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    中国科技巨头六家公司深挖结论
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/%E5%85%A8wiki%20ticker%20earnings%E5%90%8E%E4%B9%B0%E6%8C%81%E5%8D%96%E5%A4%8D%E6%A0%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    全wiki ticker earnings后买持卖复核
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E7%A0%94%E7%A9%B6%E6%96%B9%E6%A1%88%E4%B8%8ETrade%20Tracker%E5%AF%B9%E9%BD%90-%E5%BD%93%E5%89%8D%E8%8C%83%E5%9B%B4%E4%B8%8E%E4%B8%89%E5%B1%82scheme/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    科技主线研究方案与Trade Tracker对齐-当前范围与三层scheme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E7%A0%94%E7%A9%B6%E6%96%B9%E6%A1%88%E4%B8%8ETrade%20Tracker%E5%AF%B9%E9%BD%90-%E8%A7%92%E8%89%B2%E5%8C%BA%E5%88%86%E4%B8%8E%E5%8F%8D%E9%A6%88%E5%9B%9E%E8%B7%AF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    科技主线研究方案与Trade Tracker对齐-角色区分与反馈回路
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../queries/%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E7%A0%94%E7%A9%B6%E6%96%B9%E6%A1%88%E4%B8%8ETrade%20Tracker%E5%AF%B9%E9%BD%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    科技主线研究方案与Trade Tracker对齐
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      这页回答什么
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      三链评分热力图
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      三条线的第一性原理对比
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      公司对应关系
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      单名横向对应与当前动作
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      近端动能排序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      硬瓶颈强度排序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-alpha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hidden alpha 排序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      深入判断
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="深入判断">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-storage-substrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 为什么 storage 近端最强，但不应压过 substrate 的瓶颈地位
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 为什么光通信动能很高，但高位更容易犯错
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-substrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 为什么 substrate 是更适合继续找认知差的地方
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      当前可执行结论
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gates" class="md-nav__link">
+    <span class="md-ellipsis">
+      后续验证 gates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      相关页面
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="substrate">光通信、存储与substrate瓶颈对比<a class="headerlink" href="#substrate" title="Permanent link">&para;</a></h1>
+<p>更新时间：2026-05-24 23:55 CEST
+关联导航：<a href="../../concepts/%E4%BA%92%E8%BF%9E%E3%80%81%E5%85%89%E5%99%A8%E4%BB%B6%E4%B8%8E%E7%94%B5%E6%BA%90%E5%99%A8%E4%BB%B6/">互连、光器件与电源器件</a> · <a href="../../concepts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%8E%E5%9F%BA%E7%A1%80%E7%AE%97%E5%8A%9B/">半导体与基础算力</a> · <a href="../../concepts/%E5%88%B6%E9%80%A0%E3%80%81%E5%B0%81%E8%A3%85%E4%B8%8E%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90/">制造、封装与系统集成</a> · Agentic AI硬瓶颈与二级放大瓶颈-hidden treasure候选（内部维护页，未公开） · 什么值得买（内部维护页，未公开） · <a href="../../concepts/%E6%96%B9%E6%B3%95%E4%B8%8E%E6%9D%A5%E6%BA%90/">方法与来源</a></p>
+<h2 id="_1">这页回答什么<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>这页把三条容易混在一起的 AI infrastructure 链条拆开：</p>
+<ol>
+<li><code>光通信 / 互连</code>：解决 AI cluster 怎么连、怎么 scale-out / scale-across。</li>
+<li><code>存储</code>：解决训练、推理、agentic workflow 产生的数据怎么落盘、保留、检索。</li>
+<li><code>advanced packaging / HBM stack（含 substrate / ABF / FC-BGA）</code>：解决 HBM、CoWoS/SoIC、ABF、TCB/hybrid bonding、inspection/probe/test 这条 package chain 能不能可靠制造、封装、出货。</li>
+</ol>
+<p>核心结论：
+- 近端财报动能：<code>存储 &gt; 光通信 &gt; substrate</code>。
+- 硬瓶颈强度：<code>advanced packaging / HBM stack（含 substrate）≈ 光通信 / scale-across &gt; 存储</code>。
+- hidden alpha 不再用单一排名压平：<code>AP/HBM stack</code> 的认知差最高；<code>光通信 signal-chain</code> 新增 SMTC / MXL / ADTN 等 proof-first 机会；<code>存储</code> 财务兑现最硬但 hiddenness 已被 rerating 压低。
+- 当前买点纪律：高动能票大多已经进入 <code>no-chase / pullback-only</code>；substrate/AP stack 的机会更多在证据闭合和执行折价收敛，而不是已经爆出来的 revenue momentum。</p>
+<p>2026-05-24 NVIDIA primary read-through 后，对“光通信 / 互连”的证据强度要再上调一档，但动作纪律不变。NVIDIA Q1 FY2027 Data Center networking revenue <code>USD 14.8B</code>、同比 <code>+199%</code>、环比 <code>+35%</code>，并在 primary materials 中命名 MRVL / COHR / LITE / GLW。区别是：<code>MRVL / COHR / LITE / GLW</code> 可写成 NVIDIA named direct；<code>FN / MTSI / AAOI / CRDO / SMTC / MXL / ADTN / SANM</code> 只能写 sector / technology read-through，除非另有各自 primary named agreement。</p>
+<h2 id="_2">三链评分热力图<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><img alt="1200" src="../svg/%E5%85%89%E9%80%9A%E4%BF%A1%E5%AD%98%E5%82%A8substrate-%E4%B8%89%E9%93%BE%E8%AF%84%E5%88%86%E7%83%AD%E5%8A%9B%E5%9B%BE.svg" width="1200" /></p>
+<p>读法：绿色说明该维度更强，不等于 fresh buy；<code>当前可买性</code> 与 <code>追高/周期风险</code> 必须单独看。</p>
+<h2 id="_3">三条线的第一性原理对比<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>光通信 / 互连</th>
+<th>存储</th>
+<th>substrate / ABF / FC-BGA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心问题</td>
+<td>AI 节点、机柜、cluster、region 之间怎么连</td>
+<td>AI 产生的数据、RAG、logs、checkpoint、warm/cold data 怎么存</td>
+<td>高端 AI package 能不能制造、良率爬坡、通过客户认证</td>
+</tr>
+<tr>
+<td>瓶颈类型</td>
+<td>scale-out / scale-across throughput bottleneck</td>
+<td>utilization / data-persistence 放大瓶颈</td>
+<td>package-level hard bottleneck</td>
+</tr>
+<tr>
+<td>缺了会怎样</td>
+<td>GPU/accelerator utilization、跨集群调度和推理吞吐受限</td>
+<td>workflow 变慢、数据成本上升、检索/日志/训练数据链条变重</td>
+<td>AI GPU / ASIC / server CPU package 出货、良率或成本直接受限</td>
+</tr>
+<tr>
+<td>扩容摩擦</td>
+<td>客户认证、模块/器件产能、光源/DSP/良率、客户 capex 节奏</td>
+<td>NAND/HDD 周期、nearline qualification、客户消化、价格机制</td>
+<td>新厂、ABF材料、层数/大尺寸/线宽线距、良率、客户认证、capex</td>
+</tr>
+<tr>
+<td>财务兑现速度</td>
+<td>快，订单转收入周期相对短</td>
+<td>快，本轮 SNDK/WDC 已经进报表</td>
+<td>慢，需要看 ramp、客户、利用率、margin</td>
+</tr>
+<tr>
+<td>周期/价格战风险</td>
+<td>高，模块和器件容易拥挤</td>
+<td>高，NAND/HDD pricing 和 capex digestion 明显周期</td>
+<td>中高，资本开支和良率风险高，但高端客户认证带来粘性</td>
+</tr>
+<tr>
+<td>当前最容易犯错</td>
+<td>把 800G/1.6T 景气直接外推成所有光票都能追</td>
+<td>把 datacenter storage 财报爆发当成 HBM 级硬短缺</td>
+<td>因为财务兑现慢而低估底层瓶颈，或反过来把所有 ABF 名字都当便宜</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">公司对应关系<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>股票表达</th>
+<th>光通信 / 互连</th>
+<th>存储</th>
+<th>substrate / ABF / FC-BGA</th>
+<th>对应关系解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>高 beta 直接受益</td>
+<td><a href="../../entities/CRDO%20Credo%20Technology/">CRDO</a>、<a href="../../entities/AAOI%20Applied%20Optoelectronics/">AAOI</a></td>
+<td><a href="../../entities/SNDK%20Sandisk/">SNDK</a></td>
+<td>Nan Ya PCB、Unimicron、AT&amp;S</td>
+<td>都是被 AI infra 重估的中间瓶颈；区别是 CRDO/SNDK 已经爆发，substrate 还在证据闭合。</td>
+</tr>
+<tr>
+<td>高质量平台 / 龙头参照</td>
+<td><a href="../../entities/LITE%20Lumentum/">LITE</a>、<a href="../../entities/COHR%20Coherent/">COHR</a>、<a href="../../entities/NOK%20Nokia%20Oyj/">NOK</a>、<a href="../../entities/MRVL%20Marvell%20Technology/">MRVL</a></td>
+<td><a href="../../entities/WDC%20Western%20Digital/">WDC</a></td>
+<td>SEMCO、Ibiden</td>
+<td>LITE/COHR/MRVL 已有 NVIDIA named evidence；强公司不等于 fresh alpha。</td>
+</tr>
+<tr>
+<td>复杂制造 / 良率交付</td>
+<td><a href="../../entities/FN%20Fabrinet/">FN</a></td>
+<td>WDC/SNDK 的自有制造和供应链</td>
+<td>AT&amp;S、Ibiden、Nan Ya PCB、Unimicron</td>
+<td>FN 已经用 datacom 财报兑现；AT&amp;S/Nan Ya/Unimicron 更像后续 ramp 与客户验证。</td>
+</tr>
+<tr>
+<td>底层材料 / 器件</td>
+<td><a href="../../entities/MTSI%20MACOM/">MTSI</a>、<a href="../../entities/GLW%20Corning/">GLW</a>、COHR 部分能力</td>
+<td>无很纯的可比项</td>
+<td>Ajinomoto</td>
+<td>GLW 已有 NVIDIA named optical-connectivity evidence，但仍是 lower-beta；MTSI 仍是条件型 read-through。</td>
+</tr>
+<tr>
+<td>broad group / 不够纯</td>
+<td>NOK、COHR 部分业务</td>
+<td>WDC 的周期和 broader storage 属性</td>
+<td>Toppan、LG Innotek</td>
+<td>方向真，但股票不会完全跟着单一细分逻辑走。</td>
+</tr>
+<tr>
+<td>期权 / 观察票</td>
+<td>AAOI、部分 MTSI</td>
+<td>SNDK 曾是，但现已重估</td>
+<td>Kinsus、Daeduck、LG Innotek</td>
+<td>可能有弹性，但证明链还没到核心仓位标准。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">单名横向对应与当前动作<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>光通信 / 存储名字</th>
+<th>最接近的 substrate 对应</th>
+<th>谁的近端动能更高</th>
+<th>谁的 hidden alpha 更高</th>
+<th>当前动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../entities/CRDO%20Credo%20Technology/">CRDO</a></td>
+<td>AT&amp;S / Nan Ya PCB / Unimicron</td>
+<td>CRDO</td>
+<td>AT&amp;S / Unimicron</td>
+<td>CRDO 已是已发现互连主线，当前偏 <code>reduce / no-chase</code>；substrate 端更适合继续找认知差。</td>
+</tr>
+<tr>
+<td><a href="../../entities/LITE%20Lumentum/">LITE</a></td>
+<td>SEMCO / Ibiden / Nan Ya PCB</td>
+<td>LITE</td>
+<td>Nan Ya PCB</td>
+<td>LITE Q3 与 Q4 guide 很硬，但高位不追；Nan Ya 的 ABF 证据 serious，但也需回调。</td>
+</tr>
+<tr>
+<td><a href="../../entities/FN%20Fabrinet/">FN</a></td>
+<td>AT&amp;S / Ibiden / Nan Ya PCB / Unimicron</td>
+<td>FN</td>
+<td>AT&amp;S</td>
+<td>FN datacom 已进报表；AT&amp;S 是执行折价是否收敛的 substrate 赌注。</td>
+</tr>
+<tr>
+<td><a href="../../entities/COHR%20Coherent/">COHR</a></td>
+<td>Ajinomoto / Toppan / SEMCO broad group 部分</td>
+<td>COHR</td>
+<td>Ajinomoto 作为护城河 reference，不是买点</td>
+<td>NVIDIA named advanced-optics agreement 显著加厚 COHR proof，但债务/整合包袱仍在；Ajinomoto ABF moat 强但股票表达不纯。</td>
+</tr>
+<tr>
+<td><a href="../../entities/AAOI%20Applied%20Optoelectronics/">AAOI</a></td>
+<td>Kinsus / Daeduck / LG Innotek</td>
+<td>AAOI</td>
+<td>Kinsus/Daeduck 仅在后续 proof 补齐时</td>
+<td>AAOI 订单弹性更直接；substrate 小候选更早期，proof-first。</td>
+</tr>
+<tr>
+<td><a href="../../entities/MTSI%20MACOM/">MTSI</a></td>
+<td>Kinsus / Toppan / Ajinomoto 部分属性</td>
+<td>MTSI 或持平</td>
+<td>Kinsus 若 AI proof 补齐</td>
+<td>都是“位置真、叙事不最性感、证据还需补”的条件型名字。</td>
+</tr>
+<tr>
+<td><a href="../../entities/SNDK%20Sandisk/">SNDK</a></td>
+<td>Nan Ya PCB / SEMCO / Unimicron</td>
+<td>SNDK</td>
+<td>Nan Ya / Unimicron</td>
+<td>SNDK datacenter revenue 爆发最强，但 vertical rerating 后只 deep-dive / no-chase。</td>
+</tr>
+<tr>
+<td><a href="../../entities/WDC%20Western%20Digital/">WDC</a></td>
+<td>Ibiden / SEMCO / Toppan broad benchmark</td>
+<td>WDC</td>
+<td>AT&amp;S / Nan Ya / Unimicron</td>
+<td>WDC 已把 AI storage 推到财务兑现；但仍是二级放大瓶颈，不是 package hard bottleneck。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">近端动能排序<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Rank</th>
+<th>名字 / 组合</th>
+<th>动能证据</th>
+<th>风险折扣</th>
+<th>动作含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td><a href="../../entities/SNDK%20Sandisk/">SNDK</a></td>
+<td>Q3 revenue <code>USD 5.95B</code>；Datacenter revenue <code>USD 1.467B</code>，<code>+233% QoQ / +645% YoY</code>；Q4 guide <code>USD 7.75B-8.25B</code>；多年 NBM customer commitments</td>
+<td>NAND pricing、客户集中、合同价格机制、暴力重估后估值风险</td>
+<td>最高动能，但 <code>deep-dive / no fresh chase</code>。</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td><a href="../../entities/LITE%20Lumentum/">LITE</a></td>
+<td>Q3 revenue <code>USD 808.4M</code>，non-GAAP EPS <code>USD 2.37</code>，Q4 guide <code>USD 960M-1.01B</code></td>
+<td>高位 price-discovery，云客户节奏和导入周期</td>
+<td>光器件动能硬，但 <code>no-chase</code>。</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td><a href="../../entities/FN%20Fabrinet/">FN</a></td>
+<td>Q3 revenue <code>USD 1.2143B</code>，non-GAAP EPS <code>USD 3.72</code>，Q4 guide <code>USD 1.25B-1.29B</code>；datacom programs 持续</td>
+<td>客户集中、二阶 read-through、估值已认识</td>
+<td>回调后更值得看，非 fresh chase。</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td><a href="../../entities/WDC%20Western%20Digital/">WDC</a></td>
+<td>Q3 revenue <code>USD 3.34B</code>，<code>+45% YoY</code>；non-GAAP gross margin <code>50.5%</code>；FCF <code>USD 978M</code>；AI 数据存储进入管理层核心口径</td>
+<td>HDD/nearline 周期、hyperscaler digestion、pricing durability</td>
+<td>serious storage-infrastructure watch；pullback-only。</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>SEMCO / Nan Ya PCB</td>
+<td>SEMCO package-solution revenue <code>+45% YoY</code>；Nan Ya 2025 revenue <code>+24.4% YoY</code> 且 ABF roadmap 直指 AI server / ASIC / switch</td>
+<td>近期都已 rerate；需要下一季订单/毛利/客户证明</td>
+<td>serious substrate proof；等回调或确认。</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td><a href="../../entities/CRDO%20Credo%20Technology/">CRDO</a> / <a href="../../entities/AAOI%20Applied%20Optoelectronics/">AAOI</a></td>
+<td>AEC/retimer/DSP 与 800G/1.6T hyperscaler 订单弹性</td>
+<td>客户集中、价格战、市场已发现</td>
+<td>高 beta，但纪律偏 reduce/no-chase 或 proof-first。</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>AT&amp;S / Unimicron</td>
+<td>AI server substrate / FCBGA 位置真实；AT&amp;S 有 Kulim/Leoben ramp 变量；Unimicron FCBGA 应用直指 AI Server/Switch/ASIC</td>
+<td>财务兑现和客户证明慢；ramp / execution risk</td>
+<td>hidden-alpha research，不是近端 momentum。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_7">硬瓶颈强度排序<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<ol>
+<li><code>substrate / ABF / FC-BGA</code>：最接近 package-level hard bottleneck。高端 AI GPU / ASIC / server CPU 少了高端 substrate，封装、良率、出货和成本都会直接受限。真正要验证的是客户/产能/ramp/margin，而不是行业方向。</li>
+<li><code>光通信 / scale-out / scale-across</code>：同样接近硬瓶颈。推理和 agentic workloads 会持续推高网络流量，800G/1.6T/3.2T、DCI、CPO/NPO、OCS 都有持续性。股票风险在于模块价格战、客户集中和拥挤估值。</li>
+<li><code>存储</code>：本轮财务动能非常强，但更像二级放大瓶颈。AI 会制造大量数据，但 storage 的扩容与替代路径比 package substrate 更多，也更受 NAND/HDD pricing cycle 影响。</li>
+</ol>
+<h2 id="hidden-alpha">Hidden alpha 排序<a class="headerlink" href="#hidden-alpha" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Rank</th>
+<th>名字</th>
+<th>所属链条</th>
+<th>为什么可能还有认知差</th>
+<th>为什么不能直接追</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>AT&amp;S</td>
+<td>substrate</td>
+<td>产品链位置真，市场可能仍按欧洲执行 / capex / ramp 风险折价；Kulim/Leoben 如果顺，会重写估值</td>
+<td>折价也可能是合理执行风险；需要 utilization、客户、margin 证据。</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Nan Ya PCB</td>
+<td>substrate</td>
+<td>ABF roadmap 与 AI server / ASIC / switch 直接相关，2025 业绩修复也明确</td>
+<td>已明显 rerate；下一季订单和毛利才决定能否升档。</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Unimicron</td>
+<td>substrate</td>
+<td>FCBGA / AI Server / Switch / ASIC 业务位置直接，旧 residue 里 business case 最强</td>
+<td>当前估值不便宜，客户/产能证明仍需补。</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Kinsus / Daeduck</td>
+<td>substrate</td>
+<td>Kinsus substrate 纯度高；Daeduck FCBGA turnaround 有期权</td>
+<td>AI customer proof 和连续季度盈利质量不足。</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td><a href="../../entities/SMTC%20Semtech/">SMTC</a> / <a href="../../entities/MXL%20MaxLinear/">MXL</a> / <a href="../../entities/ADTN%20ADTRAN%20Holdings/">ADTN</a></td>
+<td>光通信 signal-chain</td>
+<td>2026-05-14 新证据让 DSP / Signal Integrity / DCI recovery optionality 更直接</td>
+<td>客户归因、量化 AI/DCI revenue、披露/法律风险仍未闭合；只能 proof-first。</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>ASMPT / FORM / Technoprobe / COHU</td>
+<td>AP/HBM tooling/test</td>
+<td>HBM + CoWoS/SoIC + TCB/hybrid bonding + inspection/probe/test 让 bottleneck 从 substrate 扩成制造/测试链条</td>
+<td>多数仍缺本 wiki 内完整 entity 与当前-live buyability；先做证据闭合。</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td><a href="../../entities/SNDK%20Sandisk/">SNDK</a> / <a href="../../entities/WDC%20Western%20Digital/">WDC</a></td>
+<td>存储</td>
+<td>AI storage 从 roadmap 进入报表，旧 NAND/HDD 周期框架需要修正</td>
+<td>市场已开始暴力重估；要验证合同质量和周期顶风险。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_8">深入判断<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<h3 id="1-storage-substrate">1. 为什么 storage 近端最强，但不应压过 substrate 的瓶颈地位<a class="headerlink" href="#1-storage-substrate" title="Permanent link">&para;</a></h3>
+<p>SNDK / WDC 的变化是真实的。SNDK 的 datacenter revenue 和多年 NBM commitment 已经把它从普通 NAND 周期票推成 datacenter-flash contracting story；WDC 的高毛利、FCF 和 nearline roadmap 也证明 AI storage 不是空故事。</p>
+<p>但 storage 的瓶颈性质不同。数据可以分层、压缩、cache、冷热分级、换介质、延后保留；pricing 也会被 NAND/HDD 供给周期影响。它可以赚钱，甚至短期动能最猛，但不等于 HBM/substrate 那种“少了就做不出高端 AI package”的硬短缺。</p>
+<p>所以 storage 当前最好的问题不是“它是不是 AI 受益”，而是：
+- datacenter / NBM commitment 的毛利质量是否可持续；
+- 客户集中和 financial guarantee 是否会反噬；
+- NAND/HDD pricing 是否在下一轮供给释放后正常化；
+- 暴涨后的估值是否已经把新范式打满。</p>
+<h3 id="2">2. 为什么光通信动能很高，但高位更容易犯错<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<p>LITE / FN 已经给出足够硬的财报，CRDO / AAOI 也有很高弹性。agentic AI 会让网络压力从训练 cluster 扩到推理、企业 AI、多 agent、RAG、跨集群调度和跨 region 协同；因此光通信不是一轮 800G 景气就结束。</p>
+<p>但这条线的股票层面很容易过热：
+- 客户集中导致订单节奏被放大；
+- 光模块 / 器件价格战会侵蚀毛利；
+- 市场喜欢提前交易下一代速率；
+- 一旦从 <code>800G</code> 讲到 <code>1.6T / 3.2T / CPO</code>，估值可能先于利润透支。</p>
+<p>因此光通信里我更愿意区分：
+- <code>LITE / FN</code>：财报已证明，但等回撤或下一季确认；
+- <code>CRDO</code>：主线很真，但已被发现，纪律偏 reduce / no-chase；
+- <code>SMTC / MXL / ADTN</code>：signal-chain / DCI optionality 更直接，但客户归因、量化 AI/DCI revenue 和披露/法律风险仍未闭合；
+- <code>SANM / BELFB</code>：AI/cloud EMS 或 data-center power/connectivity 证据更真，但还是二阶 attribution；
+- <code>AAOI</code>：订单弹性高，但 proof-first；
+- <code>COHR / MTSI</code>：长期位置真，但单名执行/归因还要跟。</p>
+<h3 id="3-substrate">3. 为什么 substrate 是更适合继续找认知差的地方<a class="headerlink" href="#3-substrate" title="Permanent link">&para;</a></h3>
+<p>Substrate 的好处是：它更底层、更工程硬、更慢被完全定价。高端 ABF / FC-BGA 需要大尺寸、多层、细线宽线距、低翘曲、客户认证和良率爬坡。这个瓶颈不会因为买更多普通产能就立刻消失。</p>
+<p>但它的问题也正是慢：很多公司不会像 SNDK/LITE/FN 那样很快把 AI 增量直接写进 revenue guide。投资上需要看：
+- 新产能 ramp 是否顺；
+- AI server / ASIC / switch substrate 的客户是否清楚；
+- 高端 mix 是否改善毛利；
+- 市场折价是误判还是合理执行惩罚。</p>
+<p>当前 substrate 的分工：
+- <code>AT&amp;S</code>：最值得深挖的 hidden candidate，核心是 execution discount 是否收敛。
+- <code>Nan Ya PCB</code>：新增候选里证据最 serious，但已 rerate，等回调/确认。
+- <code>Unimicron</code>：旧 residue 里 business case 最强，需客户/产能/margin 证据。
+- <code>SEMCO / Ibiden</code>：最强 benchmark，不是 fresh alpha。
+- <code>Ajinomoto</code>：ABF moat reference，不是纯股票表达。
+- <code>Toppan / Kinsus / Daeduck / LG Innotek</code>：条件/期权/monitor，不能升太快。</p>
+<h2 id="_9">当前可执行结论<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>目标</th>
+<th>优先看</th>
+<th>暂不追</th>
+<th>核心原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>找最高近端动能</td>
+<td><a href="../../entities/SNDK%20Sandisk/">SNDK</a>、<a href="../../entities/LITE%20Lumentum/">LITE</a>、<a href="../../entities/FN%20Fabrinet/">FN</a>、<a href="../../entities/WDC%20Western%20Digital/">WDC</a></td>
+<td>不在高位 fresh buy</td>
+<td>财报已爆，但估值和 tape risk 同步上升。</td>
+</tr>
+<tr>
+<td>找 hidden alpha</td>
+<td>AT&amp;S、Nan Ya PCB、Unimicron；SMTC/MXL/ADTN；ASMPT/FORM/COHU</td>
+<td>SEMCO / Ibiden 高位 benchmark；LITE/FN/SNDK 高位</td>
+<td>AP/HBM stack 与 optical signal-chain 更可能还有证据闭合 payoff，但都要等 customer/revenue/margin proof。</td>
+</tr>
+<tr>
+<td>找回调买候选</td>
+<td>AT&amp;S、Nan Ya PCB、<a href="../../entities/FN%20Fabrinet/">FN</a>、<a href="../../entities/WDC%20Western%20Digital/">WDC</a>、Unimicron</td>
+<td><a href="../../entities/CRDO%20Credo%20Technology/">CRDO</a>、<a href="../../entities/SNDK%20Sandisk/">SNDK</a>、<a href="../../entities/LITE%20Lumentum/">LITE</a> 高位</td>
+<td>买的是回撤后 thesis 未坏，不是追 vertical rerating。</td>
+</tr>
+<tr>
+<td>做长期 reference</td>
+<td>Ibiden、Ajinomoto、<a href="../../entities/COHR%20Coherent/">COHR</a>、<a href="../../entities/WDC%20Western%20Digital/">WDC</a></td>
+<td>Toppan / LG Innotek 不宜过早核心化</td>
+<td>reference 负责证明链条，不等于最高赔率。</td>
+</tr>
+</tbody>
+</table>
+<p>一句话压缩：
+- <code>SNDK / LITE / FN / WDC</code> 是现在报表动能最强的四类表达。
+- <code>AT&amp;S / Nan Ya PCB / Unimicron</code> 是更值得继续找认知差的 substrate 表达。
+- <code>SEMCO / Ibiden / Ajinomoto / COHR</code> 更适合作为质量 reference。
+- 真正的错误是把“动能最高”误当成“现在最好买”，或把“substrate 财务兑现慢”误当成“瓶颈不硬”。</p>
+<h2 id="gates">后续验证 gates<a class="headerlink" href="#gates" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>链条</th>
+<th>升级信号</th>
+<th>降级信号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>光通信</td>
+<td>LITE/FN 后续 guide 继续上修；CRDO/AAOI 客户扩散而非单客户放量；COHR/MTSI 的 AI optics revenue attribution 更清楚</td>
+<td>订单集中、价格战、gross margin 下滑、客户 capex digestion</td>
+</tr>
+<tr>
+<td>存储</td>
+<td>SNDK NBM commitment 毛利质量和价格机制清楚；WDC nearline pricing / hyperscale qualification / FCF 持续</td>
+<td>NAND/HDD pricing 正常化、客户承诺降温、gross margin 回落、库存消化</td>
+</tr>
+<tr>
+<td>substrate</td>
+<td>AT&amp;S Kulim/Leoben ramp 顺；Nan Ya/Unimicron AI server / ASIC / switch substrate 订单和 margin 明确；SEMCO/Ibiden 继续验证高端需求</td>
+<td>仍停留在 product roadmap，客户/产能/毛利不兑现；高位 rerating 后没有新 proof</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_10">相关页面<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../%E8%BF%91%E6%9C%9F%E7%A0%94%E7%A9%B6%E4%B8%BB%E7%BA%BF%E4%B8%8E%E5%A4%9A%E7%BB%B4%E5%9B%BE%E8%A1%A8/">近期研究主线与多维图表</a></li>
+<li><a href="../../concepts/%E4%BA%92%E8%BF%9E%E3%80%81%E5%85%89%E5%99%A8%E4%BB%B6%E4%B8%8E%E7%94%B5%E6%BA%90%E5%99%A8%E4%BB%B6/">互连、光器件与电源器件</a></li>
+<li><a href="../../concepts/%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%B8%8E%E5%9F%BA%E7%A1%80%E7%AE%97%E5%8A%9B/">半导体与基础算力</a></li>
+<li><a href="../../concepts/%E5%88%B6%E9%80%A0%E3%80%81%E5%B0%81%E8%A3%85%E4%B8%8E%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90/">制造、封装与系统集成</a></li>
+<li>Agentic AI硬瓶颈与二级放大瓶颈-hidden treasure候选（内部维护页，未公开）</li>
+<li><a href="../../queries/AI%E7%A1%AC%E4%BB%B6%E7%93%B6%E9%A2%88-CPU%E6%98%AF%E5%90%A6%E5%83%8F%E5%86%85%E5%AD%98%E4%B8%80%E6%A0%B7%E8%BF%AB%E5%88%87/">AI硬件瓶颈-CPU是否像内存一样迫切</a></li>
+<li>什么值得买（内部维护页，未公开）</li>
+<li><a href="../../concepts/%E6%96%B9%E6%B3%95%E4%B8%8E%E6%9D%A5%E6%BA%90/">方法与来源</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

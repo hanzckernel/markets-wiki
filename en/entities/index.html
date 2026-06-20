@@ -1,121 +1,4819 @@
-<!DOCTYPE html>
-<html lang="en-US" dir="ltr"><head><title>Folder: en/entities</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans SC:wght@400;700&amp;family=Noto Sans SC:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Han Market Wiki"/><meta property="og:title" content="Folder: en/entities"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Folder: en/entities"/><meta name="twitter:description" content="No description provided"/><meta property="og:description" content="No description provided"/><meta property="og:image:alt" content="No description provided"/><meta property="og:image" content="https://hanzckernel.github.io/markets-wiki/static/og-image.png"/><meta property="og:image:url" content="https://hanzckernel.github.io/markets-wiki/static/og-image.png"/><meta name="twitter:image" content="https://hanzckernel.github.io/markets-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="hanzckernel.github.io/markets-wiki"/><meta property="og:url" content="https://hanzckernel.github.io/markets-wiki/en/entities/index"/><meta property="twitter:url" content="https://hanzckernel.github.io/markets-wiki/en/entities/index"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="No description provided"/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
-  position: absolute;
-  display: flex;
-  float: right;
-  padding: 0.4rem;
-  margin: 0.3rem;
-  right: 0;
-  color: var(--gray);
-  border-color: var(--dark);
-  background-color: var(--light);
-  border: 1px solid;
-  border-radius: 5px;
-  opacity: 0;
-  transition: 0.2s;
-}
-.expand-button > svg {
-  fill: var(--light);
-  filter: contrast(0.3);
-}
-.expand-button:hover {
-  cursor: pointer;
-  border-color: var(--secondary);
-}
-.expand-button:focus {
-  outline: 0;
-}
 
-pre:hover > .expand-button {
-  opacity: 1;
-  transition: 0.2s;
-}
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://hanzckernel.github.io/markets-wiki/en/entities/">
+      
+      
+        <link rel="prev" href="../concepts/Semiconductors%20and%20Foundational%20Compute/">
+      
+      
+        <link rel="next" href="1810%20Xiaomi/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Entities - Han Market Wiki (English)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
 
-#mermaid-container {
-  position: fixed;
-  contain: layout;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  display: none;
-  backdrop-filter: blur(4px);
-  background: rgba(0, 0, 0, 0.5);
-}
-#mermaid-container.active {
-  display: inline-block;
-}
-#mermaid-container > #mermaid-space {
-  border: 1px solid var(--lightgray);
-  background-color: var(--light);
-  border-radius: 5px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 80vh;
-  width: 80vw;
-  overflow: hidden;
-}
-#mermaid-container > #mermaid-space > .mermaid-content {
-  padding: 2rem;
-  position: relative;
-  transform-origin: 0 0;
-  transition: transform 0.1s ease;
-  overflow: visible;
-  min-height: 200px;
-  min-width: 200px;
-}
-#mermaid-container > #mermaid-space > .mermaid-content pre {
-  margin: 0;
-  border: none;
-}
-#mermaid-container > #mermaid-space > .mermaid-content svg {
-  max-width: none;
-  height: auto;
-}
-#mermaid-container > #mermaid-space > .mermaid-controls {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  gap: 8px;
-  padding: 8px;
-  background: var(--light);
-  border: 1px solid var(--lightgray);
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 2;
-}
-#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  border: 1px solid var(--lightgray);
-  background: var(--light);
-  color: var(--dark);
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  font-family: var(--bodyFont);
-  transition: all 0.2s ease;
-}
-#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
-  background: var(--lightgray);
-}
-#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
-  transform: translateY(1px);
-}
-#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
-  width: auto;
-  padding: 0 12px;
-  font-size: 14px;
-}
-</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://hanzckernel.github.io/markets-wiki/index.xml"/></head><body data-slug="en/entities/index"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Han Market Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-17" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-3"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../en/">Han Market Wiki (English)</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>entities</a></div></nav><h1 class="article-title">Folder: en/entities</h1></div></div><div class="popover-hint"><article class></article><div class="page-listing"><p>103 items under this folder.</p><div><ul class="section-ul"><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-29T00:00:00.000Z">May 29, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ADBE-Adobe" class="internal">ADBE Adobe</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-28T00:00:00.000Z">May 28, 2026</time></p><div class="desc"><h3><a href="../../en/entities/SNOW-Snowflake" class="internal">SNOW — Snowflake</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-14T00:00:00.000Z">May 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ADTN-ADTRAN-Holdings" class="internal">ADTN — ADTRAN Holdings</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-14T00:00:00.000Z">May 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/BELFB-Bel-Fuse-Class-B" class="internal">BELFB Bel Fuse Class B</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-14T00:00:00.000Z">May 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/CBRS-Cerebras-Systems" class="internal">CBRS — Cerebras Systems</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-14T00:00:00.000Z">May 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/FORM-FormFactor" class="internal">FORM — FormFactor</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-14T00:00:00.000Z">May 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/MXL-MaxLinear" class="internal">MXL MaxLinear</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-14T00:00:00.000Z">May 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/SANM-Sanmina" class="internal">SANM Sanmina</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/systems-integration">systems-integration</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-14T00:00:00.000Z">May 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/SMTC-Semtech" class="internal">SMTC Semtech</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-13T00:00:00.000Z">May 13, 2026</time></p><div class="desc"><h3><a href="../../en/entities/IBM-International-Business-Machines" class="internal">IBM — International Business Machines</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-13T00:00:00.000Z">May 13, 2026</time></p><div class="desc"><h3><a href="../../en/entities/SHOP-Shopify" class="internal">SHOP — Shopify</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-09T00:00:00.000Z">May 09, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ETN-Eaton" class="internal">ETN Eaton</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/cooling">cooling</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-09T00:00:00.000Z">May 09, 2026</time></p><div class="desc"><h3><a href="../../en/entities/PWR-Quanta-Services" class="internal">PWR Quanta Services</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-07T00:00:00.000Z">May 07, 2026</time></p><div class="desc"><h3><a href="../../en/entities/HUBB-Hubbell" class="internal">HUBB Hubbell</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-05-01T00:00:00.000Z">May 01, 2026</time></p><div class="desc"><h3><a href="../../en/entities/NOK-Nokia-Oyj" class="internal">NOK Nokia Oyj</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/watchlist">watchlist</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-28T00:00:00.000Z">Apr 28, 2026</time></p><div class="desc"><h3><a href="../../en/entities/1810-Xiaomi" class="internal">1810 Xiaomi</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-28T00:00:00.000Z">Apr 28, 2026</time></p><div class="desc"><h3><a href="../../en/entities/700-Tencent-Holdings" class="internal">700 Tencent Holdings</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-28T00:00:00.000Z">Apr 28, 2026</time></p><div class="desc"><h3><a href="../../en/entities/9618-JD.com" class="internal">9618 JD.com</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-28T00:00:00.000Z">Apr 28, 2026</time></p><div class="desc"><h3><a href="../../en/entities/9888-Baidu" class="internal">9888 Baidu</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-28T00:00:00.000Z">Apr 28, 2026</time></p><div class="desc"><h3><a href="../../en/entities/9988-Alibaba" class="internal">9988 Alibaba</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-28T00:00:00.000Z">Apr 28, 2026</time></p><div class="desc"><h3><a href="../../en/entities/PDD-PDD-Holdings" class="internal">PDD PDD Holdings</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/valuation">valuation</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-22T00:00:00.000Z">Apr 22, 2026</time></p><div class="desc"><h3><a href="../../en/entities/CEG-Constellation-Energy" class="internal">CEG Constellation Energy</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/power-generation">power-generation</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-22T00:00:00.000Z">Apr 22, 2026</time></p><div class="desc"><h3><a href="../../en/entities/VST-Vistra" class="internal">VST Vistra</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/power-generation">power-generation</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-20T00:00:00.000Z">Apr 20, 2026</time></p><div class="desc"><h3><a href="../../en/entities/HIMS-Hims--and--Hers-Health" class="internal">HIMS Hims &amp; Hers Health</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-20T00:00:00.000Z">Apr 20, 2026</time></p><div class="desc"><h3><a href="../../en/entities/JNJ-Johnson--and--Johnson" class="internal">JNJ Johnson &amp; Johnson</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/pharma">pharma</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-20T00:00:00.000Z">Apr 20, 2026</time></p><div class="desc"><h3><a href="../../en/entities/NVO-Novo-Nordisk" class="internal">NVO Novo Nordisk</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/pharma">pharma</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-20T00:00:00.000Z">Apr 20, 2026</time></p><div class="desc"><h3><a href="../../en/entities/PFE-Pfizer" class="internal">PFE Pfizer</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/pharma">pharma</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-20T00:00:00.000Z">Apr 20, 2026</time></p><div class="desc"><h3><a href="../../en/entities/TEM-Tempus-AI" class="internal">TEM Tempus AI</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-20T00:00:00.000Z">Apr 20, 2026</time></p><div class="desc"><h3><a href="../../en/entities/UNH-UnitedHealth-Group" class="internal">UNH UnitedHealth Group</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/CAMT-Camtek" class="internal">CAMT Camtek</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/DELL-Dell-Technologies" class="internal">DELL Dell Technologies</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/systems-integration">systems-integration</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/EME-EMCOR-Group" class="internal">EME EMCOR Group</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ENTG-Entegris" class="internal">ENTG Entegris</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/JCI-Johnson-Controls" class="internal">JCI Johnson Controls</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/cooling">cooling</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/NVT-nVent" class="internal">NVT nVent</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/cooling">cooling</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ONTO-Onto-Innovation" class="internal">ONTO Onto Innovation</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/POWL-Powell-Industries" class="internal">POWL Powell Industries</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/RMBS-Rambus" class="internal">RMBS Rambus</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/storage">storage</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/TER-Teradyne" class="internal">TER Teradyne</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-19T00:00:00.000Z">Apr 19, 2026</time></p><div class="desc"><h3><a href="../../en/entities/WDC-Western-Digital" class="internal">WDC Western Digital</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/storage">storage</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AAPL-Apple" class="internal">AAPL — Apple</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AFRM-Affirm-Holdings" class="internal">AFRM — Affirm Holdings</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/fintech">fintech</a></li><li><a class="internal tag-link" href="../../tags/consumer-credit">consumer-credit</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AMD-Advanced-Micro-Devices" class="internal">AMD — Advanced Micro Devices</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AMZN-Amazon" class="internal">AMZN — Amazon</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/APO-Apollo-Global-Management" class="internal">APO — Apollo Global Management</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/capital-markets">capital-markets</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ARM-Arm-Holdings" class="internal">ARM — Arm Holdings</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AVGO-Broadcom" class="internal">AVGO — Broadcom</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/BAC-Bank-of-America" class="internal">BAC — Bank of America</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/banking">banking</a></li><li><a class="internal tag-link" href="../../tags/capital-markets">capital-markets</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/BX-Blackstone" class="internal">BX — Blackstone</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/capital-markets">capital-markets</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/CVS-CVS-Health" class="internal">CVS — CVS Health</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/GOOG-Alphabet" class="internal">GOOG — Alphabet</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/GS-Goldman-Sachs" class="internal">GS — Goldman Sachs</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/banking">banking</a></li><li><a class="internal tag-link" href="../../tags/capital-markets">capital-markets</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/GSK-GSK" class="internal">GSK — GSK</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/pharma">pharma</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/HOOD-Robinhood-Markets" class="internal">HOOD — Robinhood Markets</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/fintech">fintech</a></li><li><a class="internal tag-link" href="../../tags/capital-markets">capital-markets</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/HSBC-HSBC-Holdings" class="internal">HSBC — HSBC Holdings</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/banking">banking</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/INTC-Intel" class="internal">INTC — Intel</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/JPM-JPMorgan-Chase" class="internal">JPM — JPMorgan Chase</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/banking">banking</a></li><li><a class="internal tag-link" href="../../tags/capital-markets">capital-markets</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/KLAR-Klarna-Group" class="internal">KLAR — Klarna Group</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/fintech">fintech</a></li><li><a class="internal tag-link" href="../../tags/consumer-credit">consumer-credit</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/LLY-Eli-Lilly" class="internal">LLY — Eli Lilly</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/pharma">pharma</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/META-Meta-Platforms" class="internal">META — Meta Platforms</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/internet">internet</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/MRK-Merck" class="internal">MRK — Merck</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/pharma">pharma</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/MRVL-Marvell-Technology" class="internal">MRVL — Marvell Technology</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/MSFT-Microsoft" class="internal">MSFT — Microsoft</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/MU-Micron-Technology" class="internal">MU — Micron Technology</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/NVDA-NVIDIA" class="internal">NVDA — NVIDIA</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/PGY-Pagaya-Technologies" class="internal">PGY — Pagaya Technologies</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/fintech">fintech</a></li><li><a class="internal tag-link" href="../../tags/consumer-credit">consumer-credit</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/QCOM-Qualcomm" class="internal">QCOM — Qualcomm</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li><li><a class="internal tag-link" href="../../tags/edge">edge</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/REGN-Regeneron" class="internal">REGN — Regeneron</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/healthcare">healthcare</a></li><li><a class="internal tag-link" href="../../tags/biotech">biotech</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/SNDK-Sandisk" class="internal">SNDK — Sandisk</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/SOFI-SoFi-Technologies" class="internal">SOFI — SoFi Technologies</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/fintech">fintech</a></li><li><a class="internal tag-link" href="../../tags/consumer-credit">consumer-credit</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/TSLA-Tesla" class="internal">TSLA — Tesla</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/platform-tech">platform-tech</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/TSM-Taiwan-Semiconductor-Manufacturing" class="internal">TSM — Taiwan Semiconductor Manufacturing</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/compute">compute</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/TXN-Texas-Instruments" class="internal">TXN — Texas Instruments</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/semiconductor">semiconductor</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/UPST-Upstart-Holdings" class="internal">UPST — Upstart Holdings</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/fintech">fintech</a></li><li><a class="internal tag-link" href="../../tags/consumer-credit">consumer-credit</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-16T00:00:00.000Z">Apr 16, 2026</time></p><div class="desc"><h3><a href="../../en/entities/V-Visa" class="internal">V — Visa</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/payments">payments</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AAOI-Applied-Optoelectronics" class="internal">AAOI — Applied Optoelectronics</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AEIS-Advanced-Energy-Industries" class="internal">AEIS — Advanced Energy Industries</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/AMKR-Amkor" class="internal">AMKR — Amkor</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/systems-integration">systems-integration</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ASTK-Asetek" class="internal">ASTK — Asetek</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/cooling">cooling</a></li><li><a class="internal tag-link" href="../../tags/edge">edge</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ASX-ASE-Technology" class="internal">ASX — ASE Technology</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/systems-integration">systems-integration</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/BE-Bloom-Energy" class="internal">BE — Bloom Energy</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/BLDP-Ballard-Power" class="internal">BLDP — Ballard Power</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/edge">edge</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/CAT-Caterpillar" class="internal">CAT — Caterpillar</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/CLS-Celestica" class="internal">CLS — Celestica</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/systems-integration">systems-integration</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/COHR-Coherent" class="internal">COHR — Coherent</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/CRDO-Credo-Technology" class="internal">CRDO — Credo Technology</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/FLNC-Fluence-Energy" class="internal">FLNC — Fluence Energy</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li><li><a class="internal tag-link" href="../../tags/edge">edge</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/FN-Fabrinet" class="internal">FN — Fabrinet</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/manufacturing">manufacturing</a></li><li><a class="internal tag-link" href="../../tags/packaging">packaging</a></li><li><a class="internal tag-link" href="../../tags/systems-integration">systems-integration</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/GLW-Corning" class="internal">GLW — Corning</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/GNRC-Generac" class="internal">GNRC — Generac</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/HPS.A-Hammond-Power-Solutions" class="internal">HPS.A — Hammond Power Solutions</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/cooling">cooling</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/LEU-Centrus-Energy" class="internal">LEU — Centrus Energy</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/power-generation">power-generation</a></li><li><a class="internal tag-link" href="../../tags/fuel-supply">fuel-supply</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/LITE-Lumentum" class="internal">LITE — Lumentum</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/MTSI-MACOM" class="internal">MTSI — MACOM</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/NVTS-Navitas" class="internal">NVTS — Navitas</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/OKLO-Oklo" class="internal">OKLO — Oklo</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/power-generation">power-generation</a></li><li><a class="internal tag-link" href="../../tags/fuel-supply">fuel-supply</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/ORCL-Oracle" class="internal">ORCL — Oracle</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/demand-anchor">demand-anchor</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/PLUG-Plug-Power" class="internal">PLUG — Plug Power</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/edge">edge</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/PSIX-Power-Solutions-International" class="internal">PSIX — Power Solutions International</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/STEM-Stem" class="internal">STEM — Stem</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/onsite-power">onsite-power</a></li><li><a class="internal tag-link" href="../../tags/backup-power">backup-power</a></li><li><a class="internal tag-link" href="../../tags/edge">edge</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/TLN-Talen-Energy" class="internal">TLN — Talen Energy</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/power-generation">power-generation</a></li><li><a class="internal tag-link" href="../../tags/fuel-supply">fuel-supply</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/VICR-Vicor" class="internal">VICR — Vicor</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/interconnect">interconnect</a></li><li><a class="internal tag-link" href="../../tags/optics">optics</a></li><li><a class="internal tag-link" href="../../tags/power-component">power-component</a></li><li><a class="internal tag-link" href="../../tags/conditional">conditional</a></li></ul></div></li><li class="section-li"><div class="section"><p class="meta"><time datetime="2026-04-14T00:00:00.000Z">Apr 14, 2026</time></p><div class="desc"><h3><a href="../../en/entities/VRT-Vertiv" class="internal">VRT — Vertiv</a></h3></div><ul class="tags"><li><a class="internal tag-link" href="../../tags/company">company</a></li><li><a class="internal tag-link" href="../../tags/infrastructure">infrastructure</a></li><li><a class="internal tag-link" href="../../tags/distribution">distribution</a></li><li><a class="internal tag-link" href="../../tags/cooling">cooling</a></li><li><a class="internal tag-link" href="../../tags/direct">direct</a></li></ul></div></li></ul></div></div></div><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
-</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}container;content;isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
-</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#entities" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Han Market Wiki (English)" class="md-header__button md-logo" aria-label="Han Market Wiki (English)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Han Market Wiki (English)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Entities
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Han Market Wiki (English)" class="md-nav__button md-logo" aria-label="Han Market Wiki (English)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Han Market Wiki (English)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../comparisons/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Comparisons
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Comparisons
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Cross-Sector%20Watchlist%20Master%20Scorecard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cross-Sector Watchlist Master Scorecard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Financial%20Institutions%20and%20Capital%20Markets%20-%20Comparison%20and%20Scores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Financial Institutions and Capital Markets - Comparison and Scores
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Fintech%20and%20Consumer%20Credit%20-%20Comparison%20and%20Scores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fintech and Consumer Credit - Comparison and Scores
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Optical%20Interconnect%2C%20Storage%2C%20and%20Substrate%20Bottleneck%20Comparison/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Optical Interconnect, Storage, and Substrate Bottleneck Comparison
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Pharma%20and%20Biotechnology%20-%20Comparison%20and%20Scores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pharma and Biotechnology - Comparison and Scores
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Platform%20Technology%20and%20Internet%20-%20Comparison%20and%20Scores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Platform Technology and Internet - Comparison and Scores
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Recent%20Research%20Threads%20and%20Multi-Dimensional%20Charts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recent Research Threads and Multi-Dimensional Charts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Semiconductors%20and%20Foundational%20Compute%20-%20Comparison%20and%20Scores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semiconductors and Foundational Compute - Comparison and Scores
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../concepts/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Concepts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Cloud%20and%20Compute%20Demand/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cloud and Compute Demand
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Cross-Sector%20Watchlist%20Home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cross-Sector Watchlist Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Data%20Center%20Buildout%20Home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Center Buildout Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Data%20Center%20Infrastructure%2C%20Power%20Distribution%2C%20and%20Cooling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Center Infrastructure, Power Distribution, and Cooling
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Financial%20Institutions%20and%20Capital%20Markets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Financial Institutions and Capital Markets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Fintech%20and%20Consumer%20Credit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fintech and Consumer Credit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Interconnect%2C%20Optics%2C%20and%20Power%20Components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interconnect, Optics, and Power Components
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Manufacturing%2C%20Packaging%2C%20and%20Systems%20Integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manufacturing, Packaging, and Systems Integration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Market%20Research%20Home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Market Research Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Methods%20and%20Sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Methods and Sources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Onsite%20Power%2C%20Storage%2C%20and%20Backup%20Power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Onsite Power, Storage, and Backup Power
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Pharma%20and%20Biotechnology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pharma and Biotechnology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Platform%20Technology%20and%20Internet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Platform Technology and Internet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Power%20Generation%20and%20Fuel%20Supply/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Power Generation and Fuel Supply
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Semiconductors%20and%20Foundational%20Compute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semiconductors and Foundational Compute
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    Entities
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Entities
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="1810%20Xiaomi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1810 Xiaomi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="700%20Tencent%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    700 Tencent Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="9618%20JD.com/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9618 JD.com
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="9888%20Baidu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9888 Baidu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="9988%20Alibaba/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9988 Alibaba
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AAOI%20Applied%20Optoelectronics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AAOI — Applied Optoelectronics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AAPL%20Apple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AAPL — Apple
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ADBE%20Adobe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ADBE Adobe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ADTN%20ADTRAN%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ADTN — ADTRAN Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AEIS%20Advanced%20Energy%20Industries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AEIS — Advanced Energy Industries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AFRM%20Affirm%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AFRM — Affirm Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AMD%20Advanced%20Micro%20Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AMD — Advanced Micro Devices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AMKR%20Amkor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AMKR — Amkor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AMZN%20Amazon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AMZN — Amazon
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="APO%20Apollo%20Global%20Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    APO — Apollo Global Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ARM%20Arm%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ARM — Arm Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ASTK%20Asetek/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ASTK — Asetek
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ASX%20ASE%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ASX — ASE Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AVGO%20Broadcom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AVGO — Broadcom
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="BAC%20Bank%20of%20America/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BAC — Bank of America
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="BE%20Bloom%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BE — Bloom Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="BELFB%20Bel%20Fuse%20Class%20B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BELFB Bel Fuse Class B
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="BLDP%20Ballard%20Power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BLDP — Ballard Power
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="BLZE%20Backblaze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BLZE — Backblaze
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="BOX%20Box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BOX — Box
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="BX%20Blackstone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BX — Blackstone
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CAMT%20Camtek/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CAMT Camtek
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CAT%20Caterpillar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CAT — Caterpillar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CBRS%20Cerebras%20Systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CBRS — Cerebras Systems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CEG%20Constellation%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CEG Constellation Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CLS%20Celestica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CLS — Celestica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="COHR%20Coherent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    COHR — Coherent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CRDO%20Credo%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CRDO — Credo Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CVLT%20Commvault/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CVLT — Commvault
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CVS%20CVS%20Health/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CVS — CVS Health
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DELL%20Dell%20Technologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DELL Dell Technologies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DOCN%20DigitalOcean/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DOCN DigitalOcean
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EME%20EMCOR%20Group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EME EMCOR Group
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ENTG%20Entegris/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ENTG Entegris
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ETN%20Eaton/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ETN Eaton
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EXLS%20EXLService/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EXLS — EXLService
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="FLNC%20Fluence%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FLNC — Fluence Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="FN%20Fabrinet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FN — Fabrinet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="FORM%20FormFactor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FORM — FormFactor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="G%20Genpact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    G — Genpact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GDYN%20Grid%20Dynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GDYN — Grid Dynamics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GEV%20GE%20Vernova/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GEV GE Vernova
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GLW%20Corning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GLW — Corning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GNRC%20Generac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GNRC — Generac
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GOOG%20Alphabet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GOOG — Alphabet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GS%20Goldman%20Sachs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GS — Goldman Sachs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GSK%20GSK/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GSK — GSK
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HIMS%20Hims%20%26%20Hers%20Health/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HIMS Hims & Hers Health
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HOOD%20Robinhood%20Markets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HOOD — Robinhood Markets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HPS.A%20Hammond%20Power%20Solutions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HPS.A — Hammond Power Solutions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HSBC%20HSBC%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HSBC — HSBC Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HUBB%20Hubbell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HUBB Hubbell
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="IBM%20International%20Business%20Machines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    IBM — International Business Machines
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="INOD%20Innodata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    INOD Innodata
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="INTC%20Intel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    INTC — Intel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="JCI%20Johnson%20Controls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JCI Johnson Controls
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="JNJ%20Johnson%20%26%20Johnson/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JNJ Johnson & Johnson
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="JPM%20JPMorgan%20Chase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JPM — JPMorgan Chase
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KLAR%20Klarna%20Group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    KLAR — Klarna Group
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="LEU%20Centrus%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LEU — Centrus Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="LITE%20Lumentum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LITE — Lumentum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="LLY%20Eli%20Lilly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LLY — Eli Lilly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="META%20Meta%20Platforms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    META — Meta Platforms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MRK%20Merck/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MRK — Merck
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MRVL%20Marvell%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MRVL — Marvell Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MSFT%20Microsoft/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MSFT — Microsoft
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MTSI%20MACOM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MTSI — MACOM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MU%20Micron%20Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MU — Micron Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MXL%20MaxLinear/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MXL MaxLinear
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="NOK%20Nokia%20Oyj/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NOK Nokia Oyj
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="NVDA%20NVIDIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVDA — NVIDIA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="NVO%20Novo%20Nordisk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVO Novo Nordisk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="NVT%20nVent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVT nVent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="NVTS%20Navitas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NVTS — Navitas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="OKLO%20Oklo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OKLO — Oklo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ONTO%20Onto%20Innovation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ONTO Onto Innovation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ORCL%20Oracle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ORCL — Oracle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PDD%20PDD%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PDD PDD Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PEGA%20Pegasystems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PEGA — Pegasystems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PFE%20Pfizer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PFE Pfizer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PGY%20Pagaya%20Technologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PGY — Pagaya Technologies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PLUG%20Plug%20Power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PLUG — Plug Power
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="POWL%20Powell%20Industries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    POWL Powell Industries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PSIX%20Power%20Solutions%20International/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PSIX — Power Solutions International
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PWR%20Quanta%20Services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PWR Quanta Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="QCOM%20Qualcomm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QCOM — Qualcomm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="REGN%20Regeneron/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    REGN — Regeneron
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="RMBS%20Rambus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    RMBS Rambus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SANM%20Sanmina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SANM Sanmina
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SHOP%20Shopify/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SHOP — Shopify
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SMTC%20Semtech/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SMTC Semtech
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SNDK%20Sandisk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SNDK — Sandisk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SNOW%20Snowflake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SNOW — Snowflake
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SOFI%20SoFi%20Technologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SOFI — SoFi Technologies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="STEM%20Stem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    STEM — Stem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TASK%20TaskUs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TASK — TaskUs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TEM%20Tempus%20AI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TEM Tempus AI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TER%20Teradyne/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TER Teradyne
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TLN%20Talen%20Energy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TLN — Talen Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TSLA%20Tesla/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TSLA — Tesla
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TSM%20Taiwan%20Semiconductor%20Manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TSM — Taiwan Semiconductor Manufacturing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TXN%20Texas%20Instruments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TXN — Texas Instruments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="UNH%20UnitedHealth%20Group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UNH UnitedHealth Group
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="UPST%20Upstart%20Holdings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UPST — Upstart Holdings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="V%20Visa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    V — Visa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VICR%20Vicor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VICR — Vicor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VRNS%20Varonis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VRNS — Varonis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VRT%20Vertiv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VRT — Vertiv
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VST%20Vistra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VST Vistra
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="WDC%20Western%20Digital/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    WDC Western Digital
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../queries/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Queries
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Queries
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/AI%20Custom%20ASIC%20Relative%20Valuation%20and%20Action%20Conclusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Custom ASIC Relative Valuation and Action Conclusion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/AI%20Hardware%20Bottleneck%20-%20Is%20CPU%20as%20Urgent%20as%20Memory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Hardware Bottleneck - Is CPU as Urgent as Memory
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/AI%20Networking%20and%20Custom%20ASIC%20Follow-up%20Tracking%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Networking and Custom ASIC Follow-up Tracking Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/AI%20Optical%20Interconnect%20and%20DCI%20Hidden%20Treasure%20Monitoring%20Metrics%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Optical Interconnect and DCI Hidden Treasure Monitoring Metrics Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/AI%20Optical%20Interconnect%20and%20DCI%20Hidden%20Treasure%20Second-Round%20Deep%20Dive%20Conclusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Optical Interconnect and DCI Hidden Treasure Second-Round Deep Dive Conclusion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/ANET%20and%20Nokia%20Current%20Live%20Execution%20Zones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ANET and Nokia Current Live Execution Zones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Advanced%20Packaging%20and%20HBM%20Bottleneck%20Evidence%20Closure%20Table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Packaging and HBM Bottleneck Evidence Closure Table
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Advanced%20Packaging%20and%20HBM%20Follow-up%20Tracking%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Packaging and HBM Follow-up Tracking Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/CBRS%20Cerebras%20Deep%20Market%20Research%20and%20Upstream-Downstream%20Beneficiary%20Survey/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CBRS Cerebras Deep Market Research and Upstream-Downstream Beneficiary Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/CSCO%20Q3%20FY2026%20AI%20Networking%20Read-Through%20and%20Execution-Zone%20Impact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CSCO Q3 FY2026 AI Networking Read-Through and Execution-Zone Impact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/China%20Macro%20Discount%20and%20Platform-Stock%20Accumulation%20Discipline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    China Macro Discount and Platform-Stock Accumulation Discipline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/China%20Tech%20Megacaps%20Six-Company%20Deep%20Dive%20Conclusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    China Tech Megacaps Six-Company Deep Dive Conclusion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Event-Driven%20and%20Non-Tech%20Basket%20Follow-up%20Tracking%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Event-Driven and Non-Tech Basket Follow-up Tracking Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/FLNC%20and%20Nokia%20Current%20Live%20Deep%20Dive%20Conclusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FLNC and Nokia Current Live Deep Dive Conclusion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Full-Wiki%20Deep%20Research%20Follow-up%20Tracking%20Entry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Full-Wiki Deep Research Follow-up Tracking Entry
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Full-Wiki%20Ticker%20Post-Earnings%20Buy-Hold-Sell%20Review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Full-Wiki Ticker Post-Earnings Buy-Hold-Sell Review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/HUBB%2C%20ETN%2C%20NVT%2C%20and%20PWR%20Electrical%20Infrastructure%20Comparison/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HUBB, ETN, NVT, and PWR Electrical Infrastructure Comparison
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Platform%20and%20China%20Tech%20Current-Live%20Follow-up%20Tracking%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Platform and China Tech Current-Live Follow-up Tracking Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Power%20and%20Electrical%20Infrastructure%20Follow-up%20Tracking%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Power and Electrical Infrastructure Follow-up Tracking Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Space%20and%20Satellite%20Follow-up%20Tracking%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Space and Satellite Follow-up Tracking Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Storage%2C%20Memory%2C%20and%20CPU-Adjacent%20Bottleneck%20Follow-up%20Tracking%20Ledger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Storage, Memory, and CPU-Adjacent Bottleneck Follow-up Tracking Ledger
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Tech%20Theme%20Research%20Alignment%20with%20Trade%20Tracker%20-%20Current%20Scope%20and%20Three-Layer%20Scheme/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tech Theme Research Alignment with Trade Tracker - Current Scope and Three-Layer Scheme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Tech%20Theme%20Research%20Alignment%20with%20Trade%20Tracker%20-%20Roles%20and%20Feedback%20Loop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tech Theme Research Alignment with Trade Tracker - Roles and Feedback Loop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/Tech%20Theme%20Research%20Alignment%20with%20Trade%20Tracker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tech Theme Research Alignment with Trade Tracker
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/TradingView%20Universe%20Coverage%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TradingView Universe Coverage Report
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../queries/US-Iran%20War%20Mispriced%20Mid-Cap%20Research%20Conclusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    US-Iran War Mispriced Mid-Cap Research Conclusion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="entities">Entities<a class="headerlink" href="#entities" title="Permanent link">&para;</a></h1>
+<ul>
+<li><a href="1810%20Xiaomi/">1810 Xiaomi</a></li>
+<li><a href="700%20Tencent%20Holdings/">700 Tencent Holdings</a></li>
+<li><a href="9618%20JD.com/">9618 JD.com</a></li>
+<li><a href="9888%20Baidu/">9888 Baidu</a></li>
+<li><a href="9988%20Alibaba/">9988 Alibaba</a></li>
+<li><a href="AAOI%20Applied%20Optoelectronics/">AAOI — Applied Optoelectronics</a></li>
+<li><a href="AAPL%20Apple/">AAPL — Apple</a></li>
+<li><a href="ADBE%20Adobe/">ADBE Adobe</a></li>
+<li><a href="ADTN%20ADTRAN%20Holdings/">ADTN — ADTRAN Holdings</a></li>
+<li><a href="AEIS%20Advanced%20Energy%20Industries/">AEIS — Advanced Energy Industries</a></li>
+<li><a href="AFRM%20Affirm%20Holdings/">AFRM — Affirm Holdings</a></li>
+<li><a href="AMD%20Advanced%20Micro%20Devices/">AMD — Advanced Micro Devices</a></li>
+<li><a href="AMKR%20Amkor/">AMKR — Amkor</a></li>
+<li><a href="AMZN%20Amazon/">AMZN — Amazon</a></li>
+<li><a href="APO%20Apollo%20Global%20Management/">APO — Apollo Global Management</a></li>
+<li><a href="ARM%20Arm%20Holdings/">ARM — Arm Holdings</a></li>
+<li><a href="ASTK%20Asetek/">ASTK — Asetek</a></li>
+<li><a href="ASX%20ASE%20Technology/">ASX — ASE Technology</a></li>
+<li><a href="AVGO%20Broadcom/">AVGO — Broadcom</a></li>
+<li><a href="BAC%20Bank%20of%20America/">BAC — Bank of America</a></li>
+<li><a href="BE%20Bloom%20Energy/">BE — Bloom Energy</a></li>
+<li><a href="BELFB%20Bel%20Fuse%20Class%20B/">BELFB Bel Fuse Class B</a></li>
+<li><a href="BLDP%20Ballard%20Power/">BLDP — Ballard Power</a></li>
+<li><a href="BLZE%20Backblaze/">BLZE — Backblaze</a></li>
+<li><a href="BOX%20Box/">BOX — Box</a></li>
+<li><a href="BX%20Blackstone/">BX — Blackstone</a></li>
+<li><a href="CAMT%20Camtek/">CAMT Camtek</a></li>
+<li><a href="CAT%20Caterpillar/">CAT — Caterpillar</a></li>
+<li><a href="CBRS%20Cerebras%20Systems/">CBRS — Cerebras Systems</a></li>
+<li><a href="CEG%20Constellation%20Energy/">CEG Constellation Energy</a></li>
+<li><a href="CLS%20Celestica/">CLS — Celestica</a></li>
+<li><a href="COHR%20Coherent/">COHR — Coherent</a></li>
+<li><a href="CRDO%20Credo%20Technology/">CRDO — Credo Technology</a></li>
+<li><a href="CVLT%20Commvault/">CVLT — Commvault</a></li>
+<li><a href="CVS%20CVS%20Health/">CVS — CVS Health</a></li>
+<li><a href="DELL%20Dell%20Technologies/">DELL Dell Technologies</a></li>
+<li><a href="DOCN%20DigitalOcean/">DOCN DigitalOcean</a></li>
+<li><a href="EME%20EMCOR%20Group/">EME EMCOR Group</a></li>
+<li><a href="ENTG%20Entegris/">ENTG Entegris</a></li>
+<li><a href="ETN%20Eaton/">ETN Eaton</a></li>
+<li><a href="EXLS%20EXLService/">EXLS — EXLService</a></li>
+<li><a href="FLNC%20Fluence%20Energy/">FLNC — Fluence Energy</a></li>
+<li><a href="FN%20Fabrinet/">FN — Fabrinet</a></li>
+<li><a href="FORM%20FormFactor/">FORM — FormFactor</a></li>
+<li><a href="G%20Genpact/">G — Genpact</a></li>
+<li><a href="GDYN%20Grid%20Dynamics/">GDYN — Grid Dynamics</a></li>
+<li><a href="GEV%20GE%20Vernova/">GEV GE Vernova</a></li>
+<li><a href="GLW%20Corning/">GLW — Corning</a></li>
+<li><a href="GNRC%20Generac/">GNRC — Generac</a></li>
+<li><a href="GOOG%20Alphabet/">GOOG — Alphabet</a></li>
+<li><a href="GS%20Goldman%20Sachs/">GS — Goldman Sachs</a></li>
+<li><a href="GSK%20GSK/">GSK — GSK</a></li>
+<li><a href="HIMS%20Hims%20%26%20Hers%20Health/">HIMS Hims &amp; Hers Health</a></li>
+<li><a href="HOOD%20Robinhood%20Markets/">HOOD — Robinhood Markets</a></li>
+<li><a href="HPS.A%20Hammond%20Power%20Solutions/">HPS.A — Hammond Power Solutions</a></li>
+<li><a href="HSBC%20HSBC%20Holdings/">HSBC — HSBC Holdings</a></li>
+<li><a href="HUBB%20Hubbell/">HUBB Hubbell</a></li>
+<li><a href="IBM%20International%20Business%20Machines/">IBM — International Business Machines</a></li>
+<li><a href="INOD%20Innodata/">INOD Innodata</a></li>
+<li><a href="INTC%20Intel/">INTC — Intel</a></li>
+<li><a href="JCI%20Johnson%20Controls/">JCI Johnson Controls</a></li>
+<li><a href="JNJ%20Johnson%20%26%20Johnson/">JNJ Johnson &amp; Johnson</a></li>
+<li><a href="JPM%20JPMorgan%20Chase/">JPM — JPMorgan Chase</a></li>
+<li><a href="KLAR%20Klarna%20Group/">KLAR — Klarna Group</a></li>
+<li><a href="LEU%20Centrus%20Energy/">LEU — Centrus Energy</a></li>
+<li><a href="LITE%20Lumentum/">LITE — Lumentum</a></li>
+<li><a href="LLY%20Eli%20Lilly/">LLY — Eli Lilly</a></li>
+<li><a href="META%20Meta%20Platforms/">META — Meta Platforms</a></li>
+<li><a href="MRK%20Merck/">MRK — Merck</a></li>
+<li><a href="MRVL%20Marvell%20Technology/">MRVL — Marvell Technology</a></li>
+<li><a href="MSFT%20Microsoft/">MSFT — Microsoft</a></li>
+<li><a href="MTSI%20MACOM/">MTSI — MACOM</a></li>
+<li><a href="MU%20Micron%20Technology/">MU — Micron Technology</a></li>
+<li><a href="MXL%20MaxLinear/">MXL MaxLinear</a></li>
+<li><a href="NOK%20Nokia%20Oyj/">NOK Nokia Oyj</a></li>
+<li><a href="NVDA%20NVIDIA/">NVDA — NVIDIA</a></li>
+<li><a href="NVO%20Novo%20Nordisk/">NVO Novo Nordisk</a></li>
+<li><a href="NVT%20nVent/">NVT nVent</a></li>
+<li><a href="NVTS%20Navitas/">NVTS — Navitas</a></li>
+<li><a href="OKLO%20Oklo/">OKLO — Oklo</a></li>
+<li><a href="ONTO%20Onto%20Innovation/">ONTO Onto Innovation</a></li>
+<li><a href="ORCL%20Oracle/">ORCL — Oracle</a></li>
+<li><a href="PDD%20PDD%20Holdings/">PDD PDD Holdings</a></li>
+<li><a href="PEGA%20Pegasystems/">PEGA — Pegasystems</a></li>
+<li><a href="PFE%20Pfizer/">PFE Pfizer</a></li>
+<li><a href="PGY%20Pagaya%20Technologies/">PGY — Pagaya Technologies</a></li>
+<li><a href="PLUG%20Plug%20Power/">PLUG — Plug Power</a></li>
+<li><a href="POWL%20Powell%20Industries/">POWL Powell Industries</a></li>
+<li><a href="PSIX%20Power%20Solutions%20International/">PSIX — Power Solutions International</a></li>
+<li><a href="PWR%20Quanta%20Services/">PWR Quanta Services</a></li>
+<li><a href="QCOM%20Qualcomm/">QCOM — Qualcomm</a></li>
+<li><a href="REGN%20Regeneron/">REGN — Regeneron</a></li>
+<li><a href="RMBS%20Rambus/">RMBS Rambus</a></li>
+<li><a href="SANM%20Sanmina/">SANM Sanmina</a></li>
+<li><a href="SHOP%20Shopify/">SHOP — Shopify</a></li>
+<li><a href="SMTC%20Semtech/">SMTC Semtech</a></li>
+<li><a href="SNDK%20Sandisk/">SNDK — Sandisk</a></li>
+<li><a href="SNOW%20Snowflake/">SNOW — Snowflake</a></li>
+<li><a href="SOFI%20SoFi%20Technologies/">SOFI — SoFi Technologies</a></li>
+<li><a href="STEM%20Stem/">STEM — Stem</a></li>
+<li><a href="TASK%20TaskUs/">TASK — TaskUs</a></li>
+<li><a href="TEM%20Tempus%20AI/">TEM Tempus AI</a></li>
+<li><a href="TER%20Teradyne/">TER Teradyne</a></li>
+<li><a href="TLN%20Talen%20Energy/">TLN — Talen Energy</a></li>
+<li><a href="TSLA%20Tesla/">TSLA — Tesla</a></li>
+<li><a href="TSM%20Taiwan%20Semiconductor%20Manufacturing/">TSM — Taiwan Semiconductor Manufacturing</a></li>
+<li><a href="TXN%20Texas%20Instruments/">TXN — Texas Instruments</a></li>
+<li><a href="UNH%20UnitedHealth%20Group/">UNH UnitedHealth Group</a></li>
+<li><a href="UPST%20Upstart%20Holdings/">UPST — Upstart Holdings</a></li>
+<li><a href="V%20Visa/">V — Visa</a></li>
+<li><a href="VICR%20Vicor/">VICR — Vicor</a></li>
+<li><a href="VRNS%20Varonis/">VRNS — Varonis</a></li>
+<li><a href="VRT%20Vertiv/">VRT — Vertiv</a></li>
+<li><a href="VST%20Vistra/">VST Vistra</a></li>
+<li><a href="WDC%20Western%20Digital/">WDC Western Digital</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

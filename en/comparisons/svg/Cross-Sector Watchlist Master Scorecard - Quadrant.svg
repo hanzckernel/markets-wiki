@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980" role="img" aria-labelledby="title desc">
+  <title id="title">Cross-Sector Watchlist Master Scorecard · Four-Quadrant</title>
+  <desc id="desc">X axis = advantage strength = (quality_moat + growth_driver) / 2; Y axis = cost control = (valuation_setup + risk_control) / 2. The all-market chart is for cross-theme navigation only; valuation is still compared within each sector basket.</desc>
+  <rect width="100%" height="100%" fill="#020617"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.6"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="calc(100% - 48px)" height="calc(100% - 48px)" rx="22" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" filter="url(#softShadow)"/>
+  <text x="120" y="64" fill="#e2e8f0" font-size="34" font-family="Inter, system-ui, sans-serif" font-weight="700">Cross-Sector Watchlist Master Scorecard · Four-Quadrant</text>
+  <text x="120" y="92" fill="#94a3b8" font-size="16" font-family="Inter, system-ui, sans-serif">X = Advantage strength = (quality + growth) / 2    ·    Y = Cost control = (valuation + risk) / 2</text>
+  <text x="120" y="118" fill="#fbbf24" font-size="13" font-family="Inter, system-ui, sans-serif">Note: the all-market chart is for cross-theme navigation only. Use sector charts below for company-level judgments.</text>
+  <rect x="120" y="150" width="1300" height="680" fill="url(#grid)" stroke="#334155" stroke-width="1.2" rx="18"/>
+  <rect x="120" y="150" width="650.0" height="340.0" fill="rgba(51, 65, 85, 0.28)" rx="18"/>
+  <rect x="770.0" y="150" width="650.0" height="340.0" fill="rgba(6, 78, 59, 0.28)" rx="18"/>
+  <rect x="120" y="490.0" width="650.0" height="340.0" fill="rgba(127, 29, 29, 0.24)" rx="18"/>
+  <rect x="770.0" y="490.0" width="650.0" height="340.0" fill="rgba(120, 53, 15, 0.24)" rx="18"/>
+  <line x1="120.00" y1="150" x2="120.00" y2="830" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="120" y1="830.00" x2="1420" y2="830.00" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="282.50" y1="150" x2="282.50" y2="830" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="120" y1="745.00" x2="1420" y2="745.00" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="445.00" y1="150" x2="445.00" y2="830" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="120" y1="660.00" x2="1420" y2="660.00" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="607.50" y1="150" x2="607.50" y2="830" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="120" y1="575.00" x2="1420" y2="575.00" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="770.00" y1="150" x2="770.00" y2="830" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="120" y1="490.00" x2="1420" y2="490.00" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="932.50" y1="150" x2="932.50" y2="830" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="120" y1="405.00" x2="1420" y2="405.00" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="1095.00" y1="150" x2="1095.00" y2="830" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="120" y1="320.00" x2="1420" y2="320.00" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="1257.50" y1="150" x2="1257.50" y2="830" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="120" y1="235.00" x2="1420" y2="235.00" stroke="#334155" stroke-width="0.8" opacity="0.32"/>
+  <line x1="1420.00" y1="150" x2="1420.00" y2="830" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="120" y1="150.00" x2="1420" y2="150.00" stroke="#64748b" stroke-width="1.5" opacity="0.95"/>
+  <line x1="770.00" y1="150" x2="770.00" y2="830" stroke="#f8fafc" stroke-width="2.3" opacity="0.98"/>
+  <line x1="120" y1="490.00" x2="1420" y2="490.00" stroke="#f8fafc" stroke-width="2.3" opacity="0.98"/>
+  <text x="120.00" y="858" fill="#e2e8f0" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">1</text>
+  <text x="102" y="835.00" fill="#e2e8f0" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">1</text>
+  <text x="445.00" y="858" fill="#e2e8f0" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">2</text>
+  <text x="102" y="665.00" fill="#e2e8f0" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">2</text>
+  <text x="770.00" y="858" fill="#e2e8f0" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">3</text>
+  <text x="102" y="495.00" fill="#e2e8f0" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">3</text>
+  <text x="1095.00" y="858" fill="#e2e8f0" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">4</text>
+  <text x="102" y="325.00" fill="#e2e8f0" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">4</text>
+  <text x="1420.00" y="858" fill="#e2e8f0" font-size="13" text-anchor="middle" font-family="JetBrains Mono, monospace">5</text>
+  <text x="102" y="155.00" fill="#e2e8f0" font-size="13" text-anchor="end" font-family="JetBrains Mono, monospace">5</text>
+  <text x="770.00" y="922" fill="#e2e8f0" font-size="18" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Advantage strength (quality + growth) / 2</text>
+  <text x="48" y="490.00" fill="#e2e8f0" font-size="18" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" transform="rotate(-90 48 490.00)">Cost control (sector-relative valuation + risk) / 2</text>
+  <text x="1095.00" y="178.00" fill="#bbf7d0" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Strong conviction</text>
+  <text x="1095.00" y="196.00" fill="#bbf7d0" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Costs controlled</text>
+  <text x="445.00" y="178.00" fill="#cbd5e1" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Moderate conviction</text>
+  <text x="445.00" y="196.00" fill="#cbd5e1" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Costs controlled</text>
+  <text x="1095.00" y="790.00" fill="#fed7aa" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Strong conviction</text>
+  <text x="1095.00" y="808.00" fill="#fed7aa" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Costs elevated</text>
+  <text x="445.00" y="790.00" fill="#fecaca" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Weak conviction</text>
+  <text x="445.00" y="808.00" fill="#fecaca" font-size="14" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600">Costs elevated</text>
+  <g transform="translate(1060,54)">
+    <rect x="0" y="0" width="336" height="116" rx="14" fill="#111827" stroke="#334155" stroke-width="1.2" opacity="0.95"/>
+    <text x="16" y="22" fill="#e2e8f0" font-size="14" font-family="Inter, system-ui, sans-serif" font-weight="700">Action</text>
+    <text x="118" y="22" fill="#e2e8f0" font-size="14" font-family="Inter, system-ui, sans-serif" font-weight="700">Series / Sector</text>
+    <circle cx="126" cy="40" r="4.5" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
+    <text x="138" y="44" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Company</text>
+    <circle cx="192" cy="40" r="8" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="192" cy="40" r="3" fill="#94a3b8" opacity="0.95"/>
+    <text x="206" y="44" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Sector center</text>
+    <circle cx="22" cy="58" r="5" fill="#34d399" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="38" y="62" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Buy</text>
+    <circle cx="22" cy="74" r="5" fill="#fbbf24" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="38" y="78" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Hold</text>
+    <circle cx="22" cy="90" r="5" fill="#fb7185" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="38" y="94" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Sell</text>
+    <circle cx="126" cy="60" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <text x="142" y="64" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Platform</text>
+    <circle cx="126" cy="72" r="6" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
+    <text x="142" y="76" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Semis / Compute</text>
+    <circle cx="126" cy="84" r="6" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+    <text x="142" y="88" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Finance</text>
+    <circle cx="126" cy="96" r="6" fill="#0f172a" stroke="#f97316" stroke-width="2"/>
+    <text x="142" y="100" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Fintech</text>
+    <circle cx="126" cy="108" r="6" fill="#0f172a" stroke="#22c55e" stroke-width="2"/>
+    <text x="142" y="112" fill="#cbd5e1" font-size="12" font-family="Inter, system-ui, sans-serif">Pharma / Bio</text>
+  </g>
+  <g>
+    <title>MSFT — Microsoft
+Platform Technology and Internet
+Buy | Total score 21
+Advantage strength 5 / Cost control 3.5
+Enterprise distribution control and Azure AI monetization path are the clearest; although premium, it remains the high-conviction core position in the platform basket.</title>
+    <circle cx="1420.00" cy="405.00" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>NVDA — NVIDIA
+Semiconductors and Foundational Compute
+Buy | Total score 20
+Advantage strength 5 / Cost control 3
+Platform position is the strongest, and even if it is not cheap it remains the hardest-to-replace core thesis in this group.</title>
+    <circle cx="1420.00" cy="490.00" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>APO — Apollo Global Management
+Financial Institutions and Capital Markets
+Buy | Total score 20
+Advantage strength 4 / Cost control 3.5
+The permanent capital + private credit engine is the most complete, and current valuation has not yet become distorted.</title>
+    <circle cx="1095.00" cy="405.00" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>AMZN — Amazon
+Platform Technology and Internet
+Buy | Total score 19
+Advantage strength 4.5 / Cost control 4
+The AWS + ads + retail triple-engine is still working, and on the platform basket basis this valuation is not the tightest.</title>
+    <circle cx="1257.50" cy="320.00" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>GOOG — Alphabet
+Platform Technology and Internet
+Buy | Total score 19
+Advantage strength 4.5 / Cost control 3.5
+Search cash flow gives enough cushion, and Cloud AI continues to improve growth structure, making value alignment relatively balanced.</title>
+    <circle cx="1257.50" cy="405.00" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>META — Meta Platforms
+Platform Technology and Internet
+Buy | Total score 19
+Advantage strength 4.5 / Cost control 3.5
+The ad engine and AI efficiency gains are both working, but high CapEx and regulatory pressure keep it slightly below the most stable platform position.</title>
+    <circle cx="1263.50" cy="400.20" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>TSM — Taiwan Semiconductor Manufacturing
+Semiconductors and Foundational Compute
+Buy | Total score 19
+Advantage strength 4.5 / Cost control 3.5
+Advanced manufacturing and advanced packaging infrastructure are scarce, and current valuation can still be partially offset by geographic discounting.</title>
+    <circle cx="1251.50" cy="409.80" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>AVGO — Broadcom
+Semiconductors and Foundational Compute
+Hold / staged pullback-buy only | Total score 19
+Advantage strength 4.5 / Cost control 3
+Custom XPU + networking duration remains strong; no fresh chase after rerating, wait for pullback and transcript/replay caveat closure.</title>
+    <circle cx="1257.50" cy="490.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>V — Visa
+Financial Institutions and Capital Markets
+Buy | Total score 19
+Advantage strength 4.5 / Cost control 3.5
+The best quality and hardest business model, despite not being cheap, is still the long-term top pick in this financial basket.</title>
+    <circle cx="1263.50" cy="409.80" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>SOFI — SoFi Technologies
+Fintech and Consumer Credit
+Buy | Total score 19
+Advantage strength 4 / Cost control 3.5
+In this high-risk fintech basket, balance among platform breadth, bank license, and monetization path is the best.</title>
+    <circle cx="1101.00" cy="400.20" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>REGN — Regeneron
+Pharma and Biotechnology
+Buy | Total score 19
+Advantage strength 4 / Cost control 3.5
+Platform biotech quality is high, valuation is not extreme, and risk-adjusted reward is better than high-expectation large pharma.</title>
+    <circle cx="1089.00" cy="409.80" r="4.4" fill="#34d399" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>AAPL — Apple
+Platform Technology and Internet
+Hold | Total score 18
+Advantage strength 4 / Cost control 3
+Quality is exceptional, but it currently behaves more like a mature platform defensive position; AI-driven re-acceleration remains to be confirmed.</title>
+    <circle cx="1095.00" cy="490.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>MU — Micron Technology
+Semiconductors and Foundational Compute
+Hold | Total score 18
+Advantage strength 4 / Cost control 4
+HBM tailwind is most clear, but strong cyclical nature of memory means this is a high-quality cyclical holding rather than a long-horizon best solution.</title>
+    <circle cx="1095.00" cy="320.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>JPM — JPMorgan Chase
+Financial Institutions and Capital Markets
+Hold | Total score 18
+Advantage strength 4 / Cost control 4
+Most stable large-bank sample, but regulatory discount means it is more of a quality anchor than strongest elastic buy point.</title>
+    <circle cx="1101.00" cy="315.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>BAC — Bank of America
+Financial Institutions and Capital Markets
+Hold | Total score 18
+Advantage strength 3.5 / Cost control 4
+Valuation is cheap, but quality and earnings elasticity still trail JPM slightly.</title>
+    <circle cx="932.50" cy="320.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>QCOM — Qualcomm
+Semiconductors and Foundational Compute
+Hold / no-chase | Total score 17
+Advantage strength 4 / Cost control 3
+Physical AI + data-center inference evidence has improved, but financial proof is still missing and the current price is already in the no-chase zone.</title>
+    <circle cx="1101.00" cy="485.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>GSK — GSK
+Pharma and Biotechnology
+Hold | Total score 17
+Advantage strength 3.5 / Cost control 4
+Value re-rating and pipeline progress are underway, but execution is still needed before upgrading to Buy.</title>
+    <circle cx="938.50" cy="315.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>AMD — Advanced Micro Devices
+Semiconductors and Foundational Compute
+Hold | Total score 16
+Advantage strength 4 / Cost control 2.5
+The second-position story is valid, but software ecosystem and scaling realization still need further proof.</title>
+    <circle cx="1095.00" cy="575.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>BX — Blackstone
+Financial Institutions and Capital Markets
+Hold | Total score 16
+Advantage strength 4 / Cost control 2
+Platform breadth is strong, but when exit and fundraising cycles turn, volatility can be more direct.</title>
+    <circle cx="1095.00" cy="660.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>PGY — Pagaya Technologies
+Fintech and Consumer Credit
+Hold | Total score 16
+Advantage strength 3 / Cost control 3.5
+Valuation and funding tailwind gives a good setup, but partner and funding concentration are still too high.</title>
+    <circle cx="770.00" cy="405.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>LLY — Eli Lilly
+Pharma and Biotechnology
+Hold | Total score 16
+Advantage strength 5 / Cost control 1.5
+Growth is strongest, but high expectations plus policy/supply sensitivity make current odds less comfortable than they seem.</title>
+    <circle cx="1420.00" cy="745.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>TXN — Texas Instruments
+Semiconductors and Foundational Compute
+Hold | Total score 15
+Advantage strength 3 / Cost control 3.5
+Quality is solid but AI resilience is limited, making it more a base holding than this group’s lead entry.</title>
+    <circle cx="776.00" cy="400.20" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>GS — Goldman Sachs
+Financial Institutions and Capital Markets
+Hold | Total score 15
+Advantage strength 3.5 / Cost control 3
+Cyclical elasticity is clear, but dependence on market activity revival is higher.</title>
+    <circle cx="932.50" cy="490.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>HOOD — Robinhood Markets
+Fintech and Consumer Credit
+Hold | Total score 15
+Advantage strength 4 / Cost control 1.5
+User entry is strong, but current price already factors in too much trading sentiment and adjacency optionality.</title>
+    <circle cx="1095.00" cy="745.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>MRK — Merck
+Pharma and Biotechnology
+Hold | Total score 15
+Advantage strength 3.5 / Cost control 2.5
+Cash flow is still strong, but succession pace after patent cliffs keeps it at a middle ranking.</title>
+    <circle cx="932.50" cy="575.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>MRVL — Marvell Technology
+Semiconductors and Foundational Compute
+Hold | Total score 14
+Advantage strength 3.5 / Cost control 2
+Good elasticity but high concentration; odds are decent but value still lags leaders and infrastructure layer.</title>
+    <circle cx="932.50" cy="660.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>AFRM — Affirm Holdings
+Fintech and Consumer Credit
+Hold | Total score 14
+Advantage strength 3 / Cost control 2.5
+BNPL positioning remains, but funding costs and credit performance keep it from the first tier.</title>
+    <circle cx="770.00" cy="575.00" r="4.4" fill="#fbbf24" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>ARM — Arm Holdings
+Semiconductors and Foundational Compute
+Sell | Total score 13
+Advantage strength 4 / Cost control 1.5
+Scarcity is strong, but valuation has already priced in too much good news in advance, leaving little safety margin.</title>
+    <circle cx="1101.00" cy="740.20" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>UPST — Upstart Holdings
+Fintech and Consumer Credit
+Sell | Total score 13
+Advantage strength 2.5 / Cost control 2.5
+Short-term sentiment is hottest, but funding supply and credit risk still outweigh the technology story.</title>
+    <circle cx="607.50" cy="575.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>TSLA — Tesla
+Platform Technology and Internet
+Sell | Total score 12
+Advantage strength 3 / Cost control 1
+Long optionality is large, but mismatch between auto cash flow and extreme valuation remains the hardest risk here.</title>
+    <circle cx="770.00" cy="830.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>HSBC — HSBC Holdings
+Financial Institutions and Capital Markets
+Sell | Total score 12
+Advantage strength 2.5 / Cost control 2.5
+Too many geography and restructuring variables, and even at modest valuation there is no best risk/reward.</title>
+    <circle cx="613.50" cy="570.20" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#f59e0b" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>CVS — CVS Health
+Pharma and Biotechnology
+Sell | Total score 12
+Advantage strength 2.5 / Cost control 3
+It appears cheap, but policy, loss ratio, and PBM risk make it the weakest risk-adjusted setup in this group.</title>
+    <circle cx="607.50" cy="490.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#22c55e" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>INTC — Intel
+Semiconductors and Foundational Compute
+Sell | Total score 11
+Advantage strength 2.5 / Cost control 1
+Transformation odds are large, but triple execution risk across product, manufacturing, and capex is highest.</title>
+    <circle cx="607.50" cy="830.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>KLAR — Klarna Group
+Fintech and Consumer Credit
+Sell | Total score 11
+Advantage strength 3 / Cost control 1.5
+Brand awareness is good, but earnings visibility and valuation matching remain weak.</title>
+    <circle cx="770.00" cy="745.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#f97316" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>SNDK — Sandisk
+Semiconductors and Foundational Compute
+Sell | Total score 9
+Advantage strength 2 / Cost control 2
+More like a NAND cycle ticket than an AI core thesis, and standalone sample period remains too short.</title>
+    <circle cx="445.00" cy="660.00" r="4.4" fill="#fb7185" fill-opacity="0.58" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="1.3"/>
+  </g>
+  <g>
+    <title>Platform Technology and Internet
+Sector center: 6 companies
+Avg advantage 4.25 / Avg cost control 3.08 / Avg total 18.00</title>
+    <line x1="1176.25" y1="475.83" x2="1347.08" y2="451.83" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="1176.25" cy="475.83" r="21.80" fill="#0f172a" stroke="#38bdf8" stroke-width="3.2"/>
+    <circle cx="1176.25" cy="475.83" r="5.5" fill="#38bdf8" opacity="0.95"/>
+    <rect x="1218.25" y="433.83" width="257.66" height="36.00" rx="10" fill="#0b1220" stroke="#38bdf8" stroke-width="1.15" opacity="0.95"/>
+    <text x="1347.08" y="447.83" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">Platform</text>
+    <text x="1347.08" y="460.83" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6companies / Avg total 18.0</text>
+  </g>
+  <g>
+    <title>Semiconductors and Foundational Compute
+Sector center: 11 companies
+Avg advantage 3.73 / Avg cost control 2.64 / Avg total 15.55</title>
+    <line x1="1006.36" y1="551.82" x2="831.24" y2="527.82" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="1006.36" cy="551.82" r="25.80" fill="#0f172a" stroke="#a78bfa" stroke-width="3.2"/>
+    <circle cx="1006.36" cy="551.82" r="5.5" fill="#a78bfa" opacity="0.95"/>
+    <rect x="698.12" y="509.82" width="266.24" height="36.00" rx="10" fill="#0b1220" stroke="#a78bfa" stroke-width="1.15" opacity="0.95"/>
+    <text x="831.24" y="523.82" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">Semis / Compute</text>
+    <text x="831.24" y="536.82" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">11companies / Avg total 15.5</text>
+  </g>
+  <g>
+    <title>Financial Institutions and Capital Markets
+Sector center: 7 companies
+Avg advantage 3.71 / Avg cost control 3.21 / Avg total 16.86</title>
+    <line x1="1002.14" y1="453.57" x2="831.31" y2="429.57" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="1002.14" cy="453.57" r="22.60" fill="#0f172a" stroke="#f59e0b" stroke-width="3.2"/>
+    <circle cx="1002.14" cy="453.57" r="5.5" fill="#f59e0b" opacity="0.95"/>
+    <rect x="702.48" y="411.57" width="257.66" height="36.00" rx="10" fill="#0b1220" stroke="#f59e0b" stroke-width="1.15" opacity="0.95"/>
+    <text x="831.31" y="425.57" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">Finance</text>
+    <text x="831.31" y="438.57" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">7companies / Avg total 16.9</text>
+  </g>
+  <g>
+    <title>Fintech and Consumer Credit
+Sector center: 6 companies
+Avg advantage 3.25 / Avg cost control 2.50 / Avg total 14.67</title>
+    <line x1="851.25" y1="575.00" x2="1022.08" y2="605.00" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="851.25" cy="575.00" r="21.80" fill="#0f172a" stroke="#f97316" stroke-width="3.2"/>
+    <circle cx="851.25" cy="575.00" r="5.5" fill="#f97316" opacity="0.95"/>
+    <rect x="893.25" y="587.00" width="257.66" height="36.00" rx="10" fill="#0b1220" stroke="#f97316" stroke-width="1.15" opacity="0.95"/>
+    <text x="1022.08" y="601.00" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">Fintech</text>
+    <text x="1022.08" y="614.00" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">6companies / Avg total 14.7</text>
+  </g>
+  <g>
+    <title>Pharma and Biotechnology
+Sector center: 5 companies
+Avg advantage 3.70 / Avg cost control 2.90 / Avg total 15.80</title>
+    <line x1="977.00" y1="501.14" x2="1147.83" y2="531.14" stroke="#94a3b8" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="977.00" cy="501.14" r="21.00" fill="#0f172a" stroke="#22c55e" stroke-width="3.2"/>
+    <circle cx="977.00" cy="501.14" r="5.5" fill="#22c55e" opacity="0.95"/>
+    <rect x="1019.00" y="513.14" width="257.66" height="36.00" rx="10" fill="#0b1220" stroke="#22c55e" stroke-width="1.15" opacity="0.95"/>
+    <text x="1147.83" y="527.14" fill="#f8fafc" font-size="13" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="700">Pharma / Bio</text>
+    <text x="1147.83" y="540.14" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="Inter, system-ui, sans-serif">5companies / Avg total 15.8</text>
+  </g>
+</svg>
