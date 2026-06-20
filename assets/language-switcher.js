@@ -49,10 +49,12 @@
       return;
     }
     var link = document.createElement('a');
-    link.className = 'md-header__button market-lang-switch';
+    link.className = 'md-header__button md-icon market-lang-switch';
     link.href = href;
-    link.setAttribute('aria-label', target.label === 'EN' ? 'Switch to English' : '切换到中文');
-    link.textContent = target.label;
+    var ariaLabel = target.label === 'EN' ? 'Switch to English' : '切换到中文';
+    link.setAttribute('aria-label', ariaLabel);
+    link.setAttribute('title', ariaLabel);
+    link.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.87 15.07 10.33 12.56l.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17A15.73 15.73 0 0 1 9 11.35 15.57 15.57 0 0 1 6.69 8H4.69A17.7 17.7 0 0 0 7.67 12.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>';
     header.appendChild(link);
   }
 

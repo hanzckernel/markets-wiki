@@ -1,22 +1,17 @@
 .market-lang-switch {
-  align-items: center;
-  border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 999px;
-  display: inline-flex;
-  font-size: .68rem;
-  font-weight: 700;
-  height: 1.55rem;
-  justify-content: center;
-  letter-spacing: .04em;
-  margin-left: .25rem;
-  min-width: 2.2rem;
-  padding: 0 .45rem;
+  opacity: .72;
 }
 
-.market-lang-switch:hover {
-  background: var(--md-accent-fg-color--transparent);
-  border-color: var(--md-accent-fg-color);
-  color: var(--md-accent-fg-color);
+.market-lang-switch:hover,
+.market-lang-switch:focus {
+  opacity: 1;
+}
+
+.market-lang-switch svg {
+  display: block;
+  fill: currentColor;
+  height: 1.2rem;
+  width: 1.2rem;
 }
 
 .market-related-graph {
