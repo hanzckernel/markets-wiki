@@ -2,678 +2,810 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/AI%20and%20Agent%20Economy%20US%20Equity%20Shortlist%20-%20Valuation%20Rerank/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Cross-Sector%20Watchlist%20Master%20Scorecard/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Financial%20Institutions%20and%20Capital%20Markets%20-%20Comparison%20and%20Scores/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Fintech%20and%20Consumer%20Credit%20-%20Comparison%20and%20Scores/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Optical%20Interconnect%2C%20Storage%2C%20and%20Substrate%20Bottleneck%20Comparison/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Pharma%20and%20Biotechnology%20-%20Comparison%20and%20Scores/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Platform%20Technology%20and%20Internet%20-%20Comparison%20and%20Scores/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Recent%20Research%20Threads%20and%20Multi-Dimensional%20Charts/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/comparisons/Semiconductors%20and%20Foundational%20Compute%20-%20Comparison%20and%20Scores/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/AI%20Application%20Production%20and%20Data%20Lifecycle/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Cloud%20and%20Compute%20Demand/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Cross-Sector%20Watchlist%20Home/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Data%20Center%20Buildout%20Home/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Data%20Center%20Infrastructure%2C%20Power%20Distribution%2C%20and%20Cooling/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Financial%20Institutions%20and%20Capital%20Markets/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Fintech%20and%20Consumer%20Credit/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Interconnect%2C%20Optics%2C%20and%20Power%20Components/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Manufacturing%2C%20Packaging%2C%20and%20Systems%20Integration/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Market%20Research%20Home/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Memory%2C%20Storage%2C%20and%20In-System%20Data%20Movement/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Methods%20and%20Sources/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Onsite%20Power%2C%20Storage%2C%20and%20Backup%20Power/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Pharma%20and%20Biotechnology/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Platform%20Technology%20and%20Internet/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Power%20Generation%20and%20Fuel%20Supply/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Semiconductors%20and%20Foundational%20Compute/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/Systems%2C%20Racks%2C%20and%20Complex%20Manufacturing/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/concepts/What%20Is%20Worth%20Buying/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/1810%20Xiaomi/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/700%20Tencent%20Holdings/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/9618%20JD.com/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/9888%20Baidu/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/9988%20Alibaba/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AAOI%20Applied%20Optoelectronics/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AAPL%20Apple/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ADBE%20Adobe/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ADTN%20ADTRAN%20Holdings/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AEIS%20Advanced%20Energy%20Industries/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AFRM%20Affirm%20Holdings/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AMD%20Advanced%20Micro%20Devices/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AMKR%20Amkor/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AMZN%20Amazon/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ANET%20Arista%20Networks/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/APO%20Apollo%20Global%20Management/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ARM%20Arm%20Holdings/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ASTK%20Asetek/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ASX%20ASE%20Technology/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AVGO%20Broadcom/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/AXTI%20AXT/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BAC%20Bank%20of%20America/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BE%20Bloom%20Energy/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BELFB%20Bel%20Fuse%20Class%20B/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BESI%20BE%20Semiconductor%20Industries/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BLDP%20Ballard%20Power/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BLZE%20Backblaze/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BOX%20Box/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/BX%20Blackstone/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CAMT%20Camtek/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CAT%20Caterpillar/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CBRS%20Cerebras%20Systems/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CEG%20Constellation%20Energy/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CLS%20Celestica/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/COHR%20Coherent/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CRDO%20Credo%20Technology/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CRM%20Salesforce/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CRWD%20CrowdStrike/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CVLT%20Commvault/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/CVS%20CVS%20Health/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/DDOG%20Datadog/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/DELL%20Dell%20Technologies/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/DOCN%20DigitalOcean/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/EME%20EMCOR%20Group/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ENTG%20Entegris/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ETN%20Eaton/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/EXLS%20EXLService/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/FLNC%20Fluence%20Energy/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/FN%20Fabrinet/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/FORM%20FormFactor/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/G%20Genpact/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/GDYN%20Grid%20Dynamics/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/GEV%20GE%20Vernova/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/GLW%20Corning/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/GNRC%20Generac/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/GOOG%20Alphabet/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/GS%20Goldman%20Sachs/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/GSK%20GSK/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/HIMS%20Hims%20%26%20Hers%20Health/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/HOOD%20Robinhood%20Markets/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/HPS.A%20Hammond%20Power%20Solutions/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/HSBC%20HSBC%20Holdings/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/HUBB%20Hubbell/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/IBM%20International%20Business%20Machines/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/INOD%20Innodata/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/INTC%20Intel/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/JCI%20Johnson%20Controls/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/JNJ%20Johnson%20%26%20Johnson/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/JPM%20JPMorgan%20Chase/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/KLAR%20Klarna%20Group/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/LEU%20Centrus%20Energy/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/LITE%20Lumentum/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/LLY%20Eli%20Lilly/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/META%20Meta%20Platforms/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/MRK%20Merck/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/MRVL%20Marvell%20Technology/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/MSFT%20Microsoft/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/MTSI%20MACOM/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/MU%20Micron%20Technology/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/MXL%20MaxLinear/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/NET%20Cloudflare/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/NOK%20Nokia%20Oyj/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/NOW%20ServiceNow/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/NVDA%20NVIDIA/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/NVO%20Novo%20Nordisk/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/NVT%20nVent/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/NVTS%20Navitas/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/OKLO%20Oklo/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ONTO%20Onto%20Innovation/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/ORCL%20Oracle/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PDD%20PDD%20Holdings/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PDFS%20PDF%20Solutions/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PEGA%20Pegasystems/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PFE%20Pfizer/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PGY%20Pagaya%20Technologies/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PLTR%20Palantir/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PLUG%20Plug%20Power/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/POWL%20Powell%20Industries/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PSIX%20Power%20Solutions%20International/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/PWR%20Quanta%20Services/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/QCOM%20Qualcomm/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/REGN%20Regeneron/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/RMBS%20Rambus/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/SANM%20Sanmina/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/SHOP%20Shopify/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/SMHN%20SUSS%20MicroTec/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/SMTC%20Semtech/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/SNDK%20Sandisk/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/SNOW%20Snowflake/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/SOFI%20SoFi%20Technologies/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://hanzckernel.github.io/markets-wiki/en/entities/STEM%20Stem/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/TASK%20TaskUs/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/TEM%20Tempus%20AI/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/TER%20Teradyne/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/TLN%20Talen%20Energy/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/TSLA%20Tesla/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/TSM%20Taiwan%20Semiconductor%20Manufacturing/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/TXN%20Texas%20Instruments/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/UNH%20UnitedHealth%20Group/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/UPST%20Upstart%20Holdings/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/V%20Visa/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/VICR%20Vicor/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/VRNS%20Varonis/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/VRT%20Vertiv/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/VST%20Vistra/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/entities/WDC%20Western%20Digital/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/AI%20Custom%20ASIC%20Relative%20Valuation%20and%20Action%20Conclusion/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/AI%20Hardware%20Bottleneck%20-%20Is%20CPU%20as%20Urgent%20as%20Memory/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/AI%20Networking%20and%20Custom%20ASIC%20Follow-up%20Tracking%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/AI%20Optical%20Interconnect%20and%20DCI%20Hidden%20Treasure%20Monitoring%20Metrics%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/AI%20Optical%20Interconnect%20and%20DCI%20Hidden%20Treasure%20Second-Round%20Deep%20Dive%20Conclusion/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/ANET%20and%20Nokia%20Current%20Live%20Execution%20Zones/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/AT%26S%20and%20BESI%20Phase%202%20Research%20Packet%20Summary/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Advanced%20Packaging%20Upstream-Downstream%20Hidden-Treasure%20Rescreen%202026-07-02/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Advanced%20Packaging%20and%20HBM%20Bottleneck%20Evidence%20Closure%20Table/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Advanced%20Packaging%20and%20HBM%20Follow-up%20Tracking%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Ajinomoto%20and%20MKSI%20Exact%20Packet%20Research%20Summary/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/CAMT%2C%20ENTG%2C%20and%20POWL%20Phase%203%20Research%20Packet%20Summary/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/CBRS%20Cerebras%20Deep%20Market%20Research%20and%20Upstream-Downstream%20Beneficiary%20Survey/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/CSCO%20Q3%20FY2026%20AI%20Networking%20Read-Through%20and%20Execution-Zone%20Impact/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/China%20Macro%20Discount%20and%20Platform-Stock%20Accumulation%20Discipline/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/China%20Tech%20Megacaps%20Six-Company%20Deep%20Dive%20Conclusion/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Current%20Main-Attack%20Bucket%20High-Signal%20Deep-Dive%20Priorities/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/DELL%2C%20AT%26S%2C%20and%20JCI%20Undervaluation%20Research%20Packet%20Summary/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/DOCN%20and%20INOD%20AI%20Application%20Infrastructure%20Second-Order%20Rerating%20Research%20Line/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Enterprise%20Software%20Platform%20Current-Live%20Two-Batch%20Writeback%20Ledger/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Event-Driven%20and%20Non-Tech%20Basket%20Follow-up%20Tracking%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/FLNC%20and%20Nokia%20Current%20Live%20Deep%20Dive%20Conclusion/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/FORM%2C%20ENTG%2C%20and%20AMKR%20Advanced%20Packaging%20Current-Live%20Deep%20Dive/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Full-Wiki%20Deep%20Research%20Follow-up%20Tracking%20Entry/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Full-Wiki%20Facts%20Evidence%20Logs%20Currentness%20Overhaul%202026-06-27/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Full-Wiki%20Ticker%20Post-Earnings%20Buy-Hold-Sell%20Review/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/GEV%20GE%20Vernova%20Current%20Live%20Deep%20Dive%20Conclusion/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/HUBB%20Hubbell%20Current%20Live%20Deep%20Dive%20Conclusion/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/HUBB%2C%20ETN%2C%20NVT%2C%20and%20PWR%20Electrical%20Infrastructure%20Comparison/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Ibiden%2C%20Toppan%2C%20and%20Unimicron%20Exact%20Packet%20Research%20Summary/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Phase%203%20AI%20Productionization%20Current-Live%20Deep%20Dive%20and%20TV%20Execution%20Zones/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Phase%203%20AI%20Productionization%20and%20Agentic%20Ecosystem%20P0%20Deep%20Dive/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Platform%20and%20China%20Tech%20Current-Live%20Follow-up%20Tracking%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Power%20and%20Electrical%20Infrastructure%20Follow-up%20Tracking%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/SHOP%20and%20IBM%20Current%20Live%20Deep%20Dive%20Conclusion/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/SPCX%20SpaceX%20Post-IPO%20Current-Live%20Deep%20Dive%20and%20TV%20Execution%20Zones/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/SUSS%2C%20GLW%2C%20and%20PDFS%20Advanced%20Packaging%20Current-Live%20Deep%20Dive/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Seven%20Hidden%20Seeds%20Current-Live%20Deep%20Dive%20and%20TV%20Execution%20Zones/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Space%20Theme%20Unified%20Ticker%20Ledger/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Space%20and%20Satellite%20Follow-up%20Tracking%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Storage%2C%20Memory%2C%20and%20CPU-Adjacent%20Bottleneck%20Follow-up%20Tracking%20Ledger/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
-         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Tech%20Theme%20Research%20Alignment%20with%20Trade%20Tracker%20-%20Current%20Scope%20and%20Three-Layer%20Scheme/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Tech%20Theme%20Research%20Alignment%20with%20Trade%20Tracker%20-%20Roles%20and%20Feedback%20Loop/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Tech%20Theme%20Research%20Alignment%20with%20Trade%20Tracker/</loc>
-         <lastmod>2026-06-20</lastmod>
-    </url>
-    <url>
-         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/TradingView%20Universe%20Coverage%20Report/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/Tech%20Mainline%20Research%20Unified%20Ticker%20Ledger/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
     <url>
          <loc>https://hanzckernel.github.io/markets-wiki/en/queries/US-Iran%20War%20Mispriced%20Mid-Cap%20Research%20Conclusion/</loc>
-         <lastmod>2026-06-20</lastmod>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/VST%2C%20CEG%2C%20and%20TLN%20Current%20Live%20Research%20Conclusion/</loc>
+         <lastmod>2026-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://hanzckernel.github.io/markets-wiki/en/queries/What%20Is%20Worth%20Buying%20Dated%20Action%20Compendium/</loc>
+         <lastmod>2026-08-02</lastmod>
     </url>
 </urlset>
