@@ -5263,7 +5263,7 @@
 <h2 id="current-sot-routing">Current SOT routing<a class="headerlink" href="#current-sot-routing" title="Permanent link">&para;</a></h2>
 <ul>
 <li>proof gaps：<a href="../../queries/%E4%BE%9B%E7%94%B5%E4%B8%8E%E7%94%B5%E6%B0%94%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%20follow-up%20tracking%E5%8F%B0%E8%B4%A6/">供电与电气基础设施 follow-up tracking台账</a>。</li>
-<li>company mechanism 与 dated action：mechanism 留 entity/evidence，动作只看 <a href="../../queries/%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E7%A0%94%E7%A9%B6ticker%E7%BB%9F%E4%B8%80%E5%8F%B0%E8%B4%A6/">科技主线研究ticker统一台账</a> 的唯一 cluster pointer；若为 <code>none</code>，先补 fresh source。本页不维护 price bands、仓位或 TradingView hlines。</li>
+<li>截至 2026-10-04，以下行情为2026-10-02收盘观察：HUBB（USD475.52，约28.1x/21.9x）、ETN（USD436.11，约44.4x/28.9x）和 NVT（USD169.56，约47.1x/29.2x）保留第2组条件；PWR（USD676.56，约77.5x/36.7x）和 VRT（USD252.18，约57.1x/32.0x）为第3组。订单必须转成毛利与 FCF，PWR 还须承担 labor/claims 风险。HUBB 只由 selected SOT 重审；其他名称不从本页复制数值权限或仓位。</li>
 </ul>
 <h2 id="_2">相关页面<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
@@ -5277,55 +5277,55 @@
 <h2 id="_3">相关主题<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>graph LR
   P0["机房电气、rack power、散热与交付"]
-  P1["NVTS — Navitas"]
+  P1["发电、电网与燃料供给"]
   P0 --&gt; P1
-  click P1 "../../entities/NVTS Navitas/" "NVTS — Navitas"
-  P2["BELFB Bel Fuse Class B"]
+  click P1 "../发电与燃料供给/" "发电、电网与燃料供给"
+  P2["NVT — nVent"]
   P0 --&gt; P2
-  click P2 "../../entities/BELFB Bel Fuse Class B/" "BELFB Bel Fuse Class B"
-  P3["科技主线研究ticker统一台账"]
+  click P2 "../../entities/NVT nVent/" "NVT — nVent"
+  P3["股票研究首页"]
   P0 --&gt; P3
-  click P3 "../../queries/科技主线研究ticker统一台账/" "科技主线研究ticker统一台账"
-  P4["PWR — Quanta Services"]
+  click P3 "../股票研究首页/" "股票研究首页"
+  P4["NVTS — Navitas"]
   P0 --&gt; P4
-  click P4 "../../entities/PWR Quanta Services/" "PWR — Quanta Services"
-  P5["数据中心上下游首页"]
+  click P4 "../../entities/NVTS Navitas/" "NVTS — Navitas"
+  P5["BELFB Bel Fuse Class B"]
   P0 --&gt; P5
-  click P5 "../数据中心上下游首页/" "数据中心上下游首页"
-  P6["现场 bridge power、储能与备用电"]
+  click P5 "../../entities/BELFB Bel Fuse Class B/" "BELFB Bel Fuse Class B"
+  P6["EME — EMCOR Group"]
   P0 --&gt; P6
-  click P6 "../现场电源、储能与备用电/" "现场 bridge power、储能与备用电"
-  P7["EME — EMCOR Group"]
+  click P6 "../../entities/EME EMCOR Group/" "EME — EMCOR Group"
+  P7["系统、机架与复杂制造"]
   P0 --&gt; P7
-  click P7 "../../entities/EME EMCOR Group/" "EME — EMCOR Group"
-  P8["POWL — Powell Industries"]
+  click P7 "../系统、机架与复杂制造/" "系统、机架与复杂制造"
+  P8["现场 bridge power、储能与备用电"]
   P0 --&gt; P8
-  click P8 "../../entities/POWL Powell Industries/" "POWL — Powell Industries"
-  P9["VRT — Vertiv"]
+  click P8 "../现场电源、储能与备用电/" "现场 bridge power、储能与备用电"
+  P9["ETN — Eaton"]
   P0 --&gt; P9
-  click P9 "../../entities/VRT Vertiv/" "VRT — Vertiv"
-  P10["AEIS — Advanced Energy Industries"]
+  click P9 "../../entities/ETN Eaton/" "ETN — Eaton"
+  P10["数据中心上下游首页"]
   P0 --&gt; P10
-  click P10 "../../entities/AEIS Advanced Energy Industries/" "AEIS — Advanced Energy Industries"
-  P11["发电、电网与燃料供给"]
+  click P10 "../数据中心上下游首页/" "数据中心上下游首页"
+  P11["JCI — Johnson Controls"]
   P0 --&gt; P11
-  click P11 "../发电与燃料供给/" "发电、电网与燃料供给"
-  P12["供电与电气基础设施 follow-up tracking台账"]
+  click P11 "../../entities/JCI Johnson Controls/" "JCI — Johnson Controls"
+  P12["PWR — Quanta Services"]
   P0 --&gt; P12
-  click P12 "../../queries/供电与电气基础设施 follow-up tracking台账/" "供电与电气基础设施 follow-up tracking台账"</code></pre>
+  click P12 "../../entities/PWR Quanta Services/" "PWR — Quanta Services"</code></pre>
 <ul class="market-related-list">
+  <li><a href="../发电与燃料供给/">发电、电网与燃料供给</a></li>
+  <li><a href="../../entities/NVT nVent/">NVT — nVent</a></li>
+  <li><a href="../股票研究首页/">股票研究首页</a></li>
   <li><a href="../../entities/NVTS Navitas/">NVTS — Navitas</a></li>
   <li><a href="../../entities/BELFB Bel Fuse Class B/">BELFB Bel Fuse Class B</a></li>
-  <li><a href="../../queries/科技主线研究ticker统一台账/">科技主线研究ticker统一台账</a></li>
-  <li><a href="../../entities/PWR Quanta Services/">PWR — Quanta Services</a></li>
-  <li><a href="../数据中心上下游首页/">数据中心上下游首页</a></li>
-  <li><a href="../现场电源、储能与备用电/">现场 bridge power、储能与备用电</a></li>
   <li><a href="../../entities/EME EMCOR Group/">EME — EMCOR Group</a></li>
-  <li><a href="../../entities/POWL Powell Industries/">POWL — Powell Industries</a></li>
-  <li><a href="../../entities/VRT Vertiv/">VRT — Vertiv</a></li>
-  <li><a href="../../entities/AEIS Advanced Energy Industries/">AEIS — Advanced Energy Industries</a></li>
-  <li><a href="../发电与燃料供给/">发电、电网与燃料供给</a></li>
-  <li><a href="../../queries/供电与电气基础设施 follow-up tracking台账/">供电与电气基础设施 follow-up tracking台账</a></li>
+  <li><a href="../系统、机架与复杂制造/">系统、机架与复杂制造</a></li>
+  <li><a href="../现场电源、储能与备用电/">现场 bridge power、储能与备用电</a></li>
+  <li><a href="../../entities/ETN Eaton/">ETN — Eaton</a></li>
+  <li><a href="../数据中心上下游首页/">数据中心上下游首页</a></li>
+  <li><a href="../../entities/JCI Johnson Controls/">JCI — Johnson Controls</a></li>
+  <li><a href="../../entities/PWR Quanta Services/">PWR — Quanta Services</a></li>
 </ul>
 
 

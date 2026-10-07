@@ -4850,6 +4850,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#2026-10-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      本轮交付入口（2026-10-05）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       阅读顺序
@@ -5094,6 +5103,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#2026-10-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      本轮交付入口（2026-10-05）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       阅读顺序
@@ -5197,10 +5215,12 @@
 
 
 <h1 id="wiki-deep-research-follow-up-tracking">全wiki deep research follow-up tracking总入口<a class="headerlink" href="#wiki-deep-research-follow-up-tracking" title="Permanent link">&para;</a></h1>
+<h2 id="2026-10-05">本轮交付入口（2026-10-05）<a class="headerlink" href="#2026-10-05" title="Permanent link">&para;</a></h2>
+<p>冻结范围的逐公司判断已汇入<a href="../../concepts/%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0/">什么值得买</a>：1家日期价格下值得加仓、71家等待明确条件、74家当前不加仓、13家证据/研究不足暂不加仓。研究截止仍为2026-10-04；本页继续维护证据问题或研究优先级，不复制加仓排序与点位。第四组明确留缺口，不计作完成负面投资判断；本轮不自动启动后续研究。</p>
 <blockquote>
 <p>Authority boundary（2026-07-14）：本页不是主registry选中的current action SOT，只保留proof/evidence、research checkpoint或dated provenance。正文任何 Buy/Hold/Sell、action、price band、仓位、no-chase/trim 或 hline 文字均为historical reference，不得据此执行或维护。Current action只由<a href="../%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E7%A0%94%E7%A9%B6ticker%E7%BB%9F%E4%B8%80%E5%8F%B0%E8%B4%A6/">科技主线研究ticker统一台账</a>的selected SOT承担；对应row为<code>none</code>时即无current wiki action。</p>
 </blockquote>
-<p>更新时间：2026-08-02 CEST</p>
+<p>更新时间：2026-10-04 Asia/Shanghai</p>
 <p>角色：<code>research-program portfolio / proof-gap router</code>。本页用 <code>6 core + 2 satellite</code> 控制研究资源与 active navigation，再路由到底层 ledger；它不复制 current action、price bands、仓位或 TradingView/HERMES mechanics。唯一 action-SOT pointer 仍由 <a href="../%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E7%A0%94%E7%A9%B6ticker%E7%BB%9F%E4%B8%80%E5%8F%B0%E8%B4%A6/">科技主线研究ticker统一台账</a> 维护。</p>
 <h2 id="_1">阅读顺序<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ol>
@@ -5237,12 +5257,14 @@
 </ul>
 <h2 id="capacity-and-promotion-gate">Capacity and promotion gate<a class="headerlink" href="#capacity-and-promotion-gate" title="Permanent link">&para;</a></h2>
 <ul>
-<li>全局 active research 容量：最多 <code>4</code> 个 P0、<code>8</code> 个 P1；两个 satellite 合计最多并发 <code>2</code> 个。<a href="../%E5%BD%93%E5%89%8D%E4%B8%BB%E6%94%BB%E6%A1%B6%E9%AB%98%E4%BF%A1%E5%8F%B7%E6%B7%B1%E6%8C%96%E4%BC%98%E5%85%88%E7%BA%A7/">12 名 payoff queue</a> 是研究边际价值排序，不自动等于 P0/P1 占槽。</li>
+<li>全局 active research 容量：最多 <code>4</code> 个 P0、<code>8</code> 个 P1；两个 satellite 合计最多并发 <code>2</code> 个。<a href="../%E5%BD%93%E5%89%8D%E4%B8%BB%E6%94%BB%E6%A1%B6%E9%AB%98%E4%BF%A1%E5%8F%B7%E6%B7%B1%E6%8C%96%E4%BC%98%E5%85%88%E7%BA%A7/">四个优先研究问题</a> 是研究边际价值排序，不自动等于 P0/P1 占槽。</li>
 <li>P0/P1 必须同时有：唯一 primary causal lane、本地 issuer-primary/filing route、可量化 monetization proof gap、fresh market/valuation snapshot、一个 review cycle 内可能改变 role/action、<code>not-high-price</code> 或明确 reset setup，以及无重复 authority。</li>
 <li>active query navigation 由三张 controller、上述 proof ledgers 与 registry 动态选中的 action SOT 取并集；上限为 <code>24</code>，不按物理 query 文件总数计。</li>
 <li>新 research wave 默认先进入 raw + dated packet。只有稳定 analytical delta 才写回现有 program/ledger/SOT；新增 active query 前必须吸收或显式 supersede 同线旧入口，禁止净扩张。</li>
 <li>event/special 页面在创建时必须写明 expiry trigger；触发后经复核回到 evidence/history，不长期占用 active slot。</li>
 </ul>
+<p>研究资源继续围绕存储利润持续性、高多层基板价格与现金、InP合同到交付、通电到云收入；原有准入条件和容量上限不变。具体加仓判断回到 <a href="../../concepts/%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0/">什么值得买</a>，不由研究优先级推导。</p>
+<p>ORCL 09-10 FY27 Q1 财报及10-Q已经发布并完成证据读取，不再是待发布事件：经营现金流包含大额客户预付，capex 后报告FCF仍为负，ATM增发属于融资。10-02 Point Beach安排仍待监管批准，不是已付现金，也不能与既有供电承诺或未起租租约机械相加。下一步检验是预付、融资与建设如何转化为持续收入和归属股东现金，而不是再次等待已发生的财报。</p>
 <h2 id="ledger-contract">Ledger contract<a class="headerlink" href="#ledger-contract" title="Permanent link">&para;</a></h2>
 <p>每张底层 ledger 只维护：</p>
 <ul>
@@ -5274,55 +5296,55 @@
 <h2 id="_3">相关主题<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>graph LR
   P0["全wiki deep research follow-up tracking总入口"]
-  P1["跨行业股票观察首页"]
+  P1["发电、电网与燃料供给"]
   P0 --&gt; P1
-  click P1 "../../concepts/跨行业股票观察首页/" "跨行业股票观察首页"
-  P2["太空与卫星 follow-up tracking台账"]
+  click P1 "../../concepts/发电与燃料供给/" "发电、电网与燃料供给"
+  P2["平台科技、互联网与分发"]
   P0 --&gt; P2
-  click P2 "../太空与卫星 follow-up tracking台账/" "太空与卫星 follow-up tracking台账"
-  P3["科技主线研究ticker统一台账"]
+  click P2 "../../concepts/平台科技与互联网/" "平台科技、互联网与分发"
+  P3["太空与卫星 follow-up tracking台账"]
   P0 --&gt; P3
-  click P3 "../科技主线研究ticker统一台账/" "科技主线研究ticker统一台账"
-  P4["AI网络与定制ASIC follow-up tracking台账"]
+  click P3 "../太空与卫星 follow-up tracking台账/" "太空与卫星 follow-up tracking台账"
+  P4["机房电气、rack power、散热与交付"]
   P0 --&gt; P4
-  click P4 "../AI网络与定制ASIC follow-up tracking台账/" "AI网络与定制ASIC follow-up tracking台账"
-  P5["数据中心上下游首页"]
+  click P4 "../../concepts/机房基础设施与配电散热/" "机房电气、rack power、散热与交付"
+  P5["股票研究首页"]
   P0 --&gt; P5
-  click P5 "../../concepts/数据中心上下游首页/" "数据中心上下游首页"
-  P6["内存、存储与数据移动"]
+  click P5 "../../concepts/股票研究首页/" "股票研究首页"
+  P6["云与算力需求方"]
   P0 --&gt; P6
-  click P6 "../../concepts/内存、存储与数据移动/" "内存、存储与数据移动"
-  P7["云与算力需求方"]
+  click P6 "../../concepts/云与算力需求方/" "云与算力需求方"
+  P7["AI网络与定制ASIC follow-up tracking台账"]
   P0 --&gt; P7
-  click P7 "../../concepts/云与算力需求方/" "云与算力需求方"
-  P8["现场 bridge power、储能与备用电"]
+  click P7 "../AI网络与定制ASIC follow-up tracking台账/" "AI网络与定制ASIC follow-up tracking台账"
+  P8["半导体制造、先进封装、测试与材料"]
   P0 --&gt; P8
-  click P8 "../../concepts/现场电源、储能与备用电/" "现场 bridge power、储能与备用电"
-  P9["当前主攻桶高信号研究 payoff queue"]
+  click P8 "../../concepts/制造、封装与系统集成/" "半导体制造、先进封装、测试与材料"
+  P9["平台与中国科技 current-live follow-up tracking台账"]
   P0 --&gt; P9
-  click P9 "../当前主攻桶高信号深挖优先级/" "当前主攻桶高信号研究 payoff queue"
-  P10["先进封装与HBM瓶颈证据闭合表"]
+  click P9 "../平台与中国科技 current-live follow-up tracking台账/" "平台与中国科技 current-live follow-up tracking台账"
+  P10["系统、机架与复杂制造"]
   P0 --&gt; P10
-  click P10 "../先进封装与HBM瓶颈证据闭合表/" "先进封装与HBM瓶颈证据闭合表"
-  P11["半导体制造、先进封装、测试与材料"]
+  click P10 "../../concepts/系统、机架与复杂制造/" "系统、机架与复杂制造"
+  P11["现场 bridge power、储能与备用电"]
   P0 --&gt; P11
-  click P11 "../../concepts/制造、封装与系统集成/" "半导体制造、先进封装、测试与材料"
-  P12["企业软件平台 current-live 两批写回台账"]
+  click P11 "../../concepts/现场电源、储能与备用电/" "现场 bridge power、储能与备用电"
+  P12["数据中心上下游首页"]
   P0 --&gt; P12
-  click P12 "../企业软件平台 current-live 两批写回台账/" "企业软件平台 current-live 两批写回台账"</code></pre>
+  click P12 "../../concepts/数据中心上下游首页/" "数据中心上下游首页"</code></pre>
 <ul class="market-related-list">
-  <li><a href="../../concepts/跨行业股票观察首页/">跨行业股票观察首页</a></li>
+  <li><a href="../../concepts/发电与燃料供给/">发电、电网与燃料供给</a></li>
+  <li><a href="../../concepts/平台科技与互联网/">平台科技、互联网与分发</a></li>
   <li><a href="../太空与卫星 follow-up tracking台账/">太空与卫星 follow-up tracking台账</a></li>
-  <li><a href="../科技主线研究ticker统一台账/">科技主线研究ticker统一台账</a></li>
-  <li><a href="../AI网络与定制ASIC follow-up tracking台账/">AI网络与定制ASIC follow-up tracking台账</a></li>
-  <li><a href="../../concepts/数据中心上下游首页/">数据中心上下游首页</a></li>
-  <li><a href="../../concepts/内存、存储与数据移动/">内存、存储与数据移动</a></li>
+  <li><a href="../../concepts/机房基础设施与配电散热/">机房电气、rack power、散热与交付</a></li>
+  <li><a href="../../concepts/股票研究首页/">股票研究首页</a></li>
   <li><a href="../../concepts/云与算力需求方/">云与算力需求方</a></li>
-  <li><a href="../../concepts/现场电源、储能与备用电/">现场 bridge power、储能与备用电</a></li>
-  <li><a href="../当前主攻桶高信号深挖优先级/">当前主攻桶高信号研究 payoff queue</a></li>
-  <li><a href="../先进封装与HBM瓶颈证据闭合表/">先进封装与HBM瓶颈证据闭合表</a></li>
+  <li><a href="../AI网络与定制ASIC follow-up tracking台账/">AI网络与定制ASIC follow-up tracking台账</a></li>
   <li><a href="../../concepts/制造、封装与系统集成/">半导体制造、先进封装、测试与材料</a></li>
-  <li><a href="../企业软件平台 current-live 两批写回台账/">企业软件平台 current-live 两批写回台账</a></li>
+  <li><a href="../平台与中国科技 current-live follow-up tracking台账/">平台与中国科技 current-live follow-up tracking台账</a></li>
+  <li><a href="../../concepts/系统、机架与复杂制造/">系统、机架与复杂制造</a></li>
+  <li><a href="../../concepts/现场电源、储能与备用电/">现场 bridge power、储能与备用电</a></li>
+  <li><a href="../../concepts/数据中心上下游首页/">数据中心上下游首页</a></li>
 </ul>
 
 
